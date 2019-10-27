@@ -1,1 +1,23 @@
-var _0xe0e0=["\x62\x6F\x64\x79","\x70\x61\x72\x73\x65","\x78\x79\x5F\x76\x69\x70\x5F\x65\x78\x70\x69\x72\x65","\x72\x65\x73\x75\x6C\x74","\x69\x73\x5F\x76\x69\x70","\x76\x69\x70\x5F\x65\x78\x70\x69\x72\x65\x64\x5F\x61\x74","\x69\x73\x5F\x78\x79\x5F\x76\x69\x70","\x73\x74\x72\x69\x6E\x67\x69\x66\x79"];var body=$response[_0xe0e0[0]];var obj=JSON[_0xe0e0[1]](body);obj[_0xe0e0[3]][_0xe0e0[2]]= 4096483190;obj[_0xe0e0[3]][_0xe0e0[4]]= true;obj[_0xe0e0[3]][_0xe0e0[5]]= 4096483190;obj[_0xe0e0[3]][_0xe0e0[6]]= true;body= JSON[_0xe0e0[7]](obj);$done(body)
+var body = $response.body;
+var url = $request.url;
+
+const path1 = '/api/subscriptions/2.1/user-subscriptions/';
+
+let obj = JSON.parse(body);
+
+if (url.indexOf(path1) != -1) {
+	obj.user_subscription["expires_on_sec"] = 1655536094;
+	obj.user_subscription["expired"] = false;
+	obj.user_subscription["payment_type"] = 2;
+	obj.user_subscription["is_trial_period"] = true;
+	obj.user_subscription["starts_on_sec"] = 1560831070;
+	obj.user_subscription["is_active"] = true;
+	obj.user_subscription["auto_renew"] = true;
+	obj.user_subscription["last_verified_sec"] = 1560831070;
+	obj.user_subscription["subscription_code"] = "VSCOANNUAL";
+	obj.user_subscription["user_id"] = 54624336;
+	obj.user_subscription["source"] = 1;
+	body = JSON.stringify(obj);  
+ }
+
+$done({body});
