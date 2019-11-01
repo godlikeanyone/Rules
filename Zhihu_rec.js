@@ -1,3 +1,6 @@
+/**
+ * @supported 82AC21D8
+ */
 let body = $response.body
 body=JSON.parse(body)
 body['data'].forEach((element, index)=> {
