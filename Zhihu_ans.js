@@ -1,5 +1,5 @@
 /**
- * @supported xxxxxxx
+ * @supported 82AC21D8
  */
 let body = $response.body
 body=JSON.parse(body)
