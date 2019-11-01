@@ -1,3 +1,6 @@
+/**
+ * @supported 82AC21D8
+ */
 var body = $response.body;
 var url = $request.url;
 
