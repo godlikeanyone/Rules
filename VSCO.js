@@ -1,5 +1,5 @@
 /**
- * @supported 82AC21D8,13635BDB
+ * @supported 13635BDB
  */
 var body = $response.body;
 var url = $request.url;
