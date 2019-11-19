@@ -13,7 +13,7 @@ dns:
   ipv6: false
 
   nameserver:
-    - 1.1.1.1
+    - tls://dns.google
 Proxy:
 - { name: "自建Oracle",type: vmess,server: 140.238.56.188,port: 2333,uuid: e4baf4cc-efba-4317-b6a9-e233d3c2d83e,alterId: 233,cipher: auto}
 
