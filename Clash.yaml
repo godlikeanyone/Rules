@@ -18,7 +18,7 @@ Proxy:
 - { name: "自建Oracle",type: vmess,server: 140.238.56.188,port: 2333,uuid: e4baf4cc-efba-4317-b6a9-e233d3c2d83e,alterId: 233,cipher: auto}
 
 Proxy Group:
-- { name: Pro F, type: select, proxies: ["自建Oracle"]}
+- { name: Clash, type: select, proxies: ["自建Oracle"]}
 
 Rule:
 - DOMAIN-SUFFIX,google.com,Clash
