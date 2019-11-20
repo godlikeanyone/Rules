@@ -1,3 +1,5 @@
+DOMAIN,ocsp.apple.com,REJECT
+
 
 # Yahoo Weather
 DOMAIN,m.yap.yahoo.com,REJECT
