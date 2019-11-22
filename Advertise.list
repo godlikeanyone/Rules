@@ -8495,7 +8495,6 @@ HOST,iyes.youku.com,REJECT
 # > ZOL
 HOST,apppv.zol.com.cn,REJECT
 HOST,pvnapp.zol.com.cn,REJECT
-HOST-KEYWORD,inmobi
 HOST,app.adjust.com
 HOST-KEYWORD,adsystem
 HOST-KEYWORD,appsflyer
