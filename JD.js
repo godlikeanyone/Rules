@@ -1,5 +1,5 @@
 /**
- * @supported 82AC21D8
+ * @supported 82AC21D89933
  */
 const path1 = "serverConfig";
 const path2 = "wareBusiness";
