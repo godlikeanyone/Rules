@@ -1,6 +1,3 @@
- /**
- * @supported 82AC21D89933
- */
 let body = $response.body 
 body=JSON.parse(body)
 body['sub_webs'].splice(0,1)

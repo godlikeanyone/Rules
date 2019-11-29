@@ -1,6 +1,3 @@
- /**
- * @supported 82AC21D89933
- */
 let body = $response.body
 body=JSON.parse(body)
 delete body['ad_info']
