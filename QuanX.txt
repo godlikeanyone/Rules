@@ -1,2 +1,0 @@
-shadowsocks=140.238.62.241:2333, method=none, password=788, ssr-protocol=auth_chain_a, obfs=http_simple, tag=Oracle-1
-vmess=140.238.56.188:2333, method=none, password=e4baf4cc-efba-4317-b6a9-e233d3c2d83e, fast-open=false, udp-relay=false, tag=Oracle-2
