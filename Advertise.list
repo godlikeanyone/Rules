@@ -1,3 +1,7 @@
+# Fix AMP Webpages
+HOST-KEYWORD, amp, PROXY
+
+# Reject Certificate Verification
 HOST,ocsp.apple.com,REJECT
 
 # Yahoo Weather
