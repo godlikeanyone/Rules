@@ -16,9 +16,10 @@ dns:
     - tls://dns.google
 Proxy:
 - { name: "自建Oracle",type: vmess,server: 140.238.56.188,port: 2333,uuid: e4baf4cc-efba-4317-b6a9-e233d3c2d83e,alterId: 233,cipher: auto}
+- { name: "Amazon",type: vmess,server: 52.193.171.179,port: 1314,uuid: c677ad4c-b50b-47b8-a4ff-8b4d3df5faa3,alterId: 233,cipher: auto}
 
 Proxy Group:
-- { name: Clash, type: select, proxies: ["自建Oracle"]}
+- { name: Clash, type: select, proxies: ["自建Oracle", "Amazon"]}
 
 Rule:
 - DOMAIN-SUFFIX,google.com,Clash
