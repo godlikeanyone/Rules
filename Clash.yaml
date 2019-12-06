@@ -15,12 +15,13 @@ dns:
   nameserver:
     - tls://dns.google
 Proxy:
-- { name: "自建Oracle",type: vmess,server: 140.238.56.188,port: 2333,uuid: e4baf4cc-efba-4317-b6a9-e233d3c2d83e,alterId: 233,cipher: auto}
-- { name: "Amazon",type: vmess,server: 52.193.171.179,port: 1314,uuid: c677ad4c-b50b-47b8-a4ff-8b4d3df5faa3,alterId: 233,cipher: auto}
+- { name: "垃圾服务器",type: vmess,server: 140.238.56.188,port: 2333,uuid: e4baf4cc-efba-4317-b6a9-e233d3c2d83e,alterId: 233,cipher: auto}
+- { name: "毁我钱财",type: vmess,server: 140.238.54.31,port: 2333,uuid: 00200cba-fd10-49a9-a4cc-8805a7efe0b4,alterId: 233,cipher: auto}
+- { name: "耗我精力",type: vmess,server: 13.115.124.88,port: 2333,uuid: bbd94ed5-8bcd-4c0e-974b-ea52e6c1f52d,alterId: 233,cipher: auto}
 
 Proxy Group:
-- { name: Clash, type: select, proxies: ["自建Oracle", "Amazon"]}
-
+- { name: Clash, type: select, proxies: ["垃圾服务器"]}
+- { name: 选这个就完事儿了, type: url-test, proxies: [ "垃圾服务器", "毁我钱财", "耗我精力" ], url: http://www.gstatic.com/generate_204, interval: 30} }
 Rule:
 - DOMAIN-SUFFIX,google.com,Clash
 - DOMAIN-KEYWORD,google,Clash
