@@ -20,7 +20,7 @@ Proxy:
 - { name: "耗我精力",type: vmess,server: 13.115.124.88,port: 2333,uuid: bbd94ed5-8bcd-4c0e-974b-ea52e6c1f52d,alterId: 233,cipher: auto}
 
 Proxy Group:
-- { name: Clash, type: select, proxies: ["垃圾服务器"]}
+- { name: Clash, type: select, proxies: ["垃圾服务器", "选这个就完事儿了"]}
 - { name: 选这个就完事儿了, type: url-test, proxies: [ "垃圾服务器", "毁我钱财", "耗我精力" ], url: http://www.gstatic.com/generate_204, interval: 30} }
 Rule:
 - DOMAIN-SUFFIX,google.com,Clash
