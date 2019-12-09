@@ -19,10 +19,11 @@ Proxy:
 - { name: "毁我钱财",type: vmess,server: 140.238.54.31,port: 2333,uuid: 00200cba-fd10-49a9-a4cc-8805a7efe0b4,alterId: 233,cipher: auto}
 - { name: "耗我精力",type: vmess,server: 13.115.124.88,port: 2333,uuid: bbd94ed5-8bcd-4c0e-974b-ea52e6c1f52d,alterId: 233,cipher: auto}
 - { name: "呕呕呕",type: vmess,server: 13.112.70.28,port: 1314,uuid: 73156df6-0153-4bee-a979-64838c380a0c,alterId: 233,cipher: auto}
+- { name: "测试",type: vmess,server: 13.112.70.28,port: 1314,uuid: 74b72689-47c4-4492-94d9-a1b1b498c32c,alterId: 233,cipher: auto, network: ws, path: /v2ray, ws-headers: { Host: miaoiaomiao.ml }, tls: true}
 
 Proxy Group:
-- { name: Clash, type: select, proxies: ["辣鸡服务器","毁我钱财","耗我精力","呕呕呕","选这个就完事儿了"]}
-- { name: "选这个就完事儿了", type: url-test, proxies: [ "辣鸡服务器", "毁我钱财", "耗我精力", "呕呕呕"], url: http://www.gstatic.com/generate_204, interval: 30}
+- { name: Clash, type: select, proxies: ["辣鸡服务器","毁我钱财","耗我精力","呕呕呕","选这个就完事儿了","测试"]}
+- { name: "选这个就完事儿了", type: url-test, proxies: [ "辣鸡服务器", "毁我钱财", "耗我精力", "呕呕呕","测试"], url: http://www.gstatic.com/generate_204, interval: 30}
 Rule:
 - DOMAIN-SUFFIX,google.com,Clash
 - DOMAIN-KEYWORD,google,Clash
