@@ -18,10 +18,13 @@ Proxy:
 - { name: "辣鸡服务器",type: vmess,server: 140.238.56.188,port: 2333,uuid: e4baf4cc-efba-4317-b6a9-e233d3c2d83e,alterId: 233,cipher: auto}
 - { name: "毁我钱财",type: vmess,server: 140.238.54.31,port: 2333,uuid: 00200cba-fd10-49a9-a4cc-8805a7efe0b4,alterId: 233,cipher: auto}
 - { name: "耗我精力",type: vmess,server: 13.115.124.88,port: 2333,uuid: bbd94ed5-8bcd-4c0e-974b-ea52e6c1f52d,alterId: 233,cipher: auto}
+- { name: "国内BPG-日本",type: vmess,server: bgp.jiyou.fun,port: 10080,uuid: C8405508-981D-0E9A-FA08-925B6651224D,alterId: 0,cipher: auto, network: ws, ws-headers: { Host: fjp.zhileshu.com }}
+- { name: "香港1",type: vmess,server: bgp.jiyou.fun,port: 10443,uuid: C8405508-981D-0E9A-FA08-925B6651224D,alterId: 0,cipher: auto, network: ws, ws-headers: { Host: jp-a.caipin.pro }, tls: true}
+- { name: "香港2",type: vmess,server: bgp.jiyou.fun,port: 10443,uuid: C8405508-981D-0E9A-FA08-925B6651224D,alterId: 0,cipher: auto, network: ws, ws-headers: { Host: itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt06.zhileshu.com }, tls: true}
 
 Proxy Group:
-- { name: Clash, type: select, proxies: ["辣鸡服务器","毁我钱财","耗我精力","选这个就完事儿了"]}
-- { name: "选这个就完事儿了", type: url-test, proxies: [ "辣鸡服务器", "毁我钱财", "耗我精力"], url: http://www.gstatic.com/generate_204, interval: 30}
+- { name: Clash, type: select, proxies: ["辣鸡服务器","毁我钱财","耗我精力","选这个就完事儿了","香港2","香港1","国内BPG-日本"]}
+- { name: "选这个就完事儿了", type: url-test, proxies: [ "辣鸡服务器", "毁我钱财", "耗我精力","香港2","香港1","国内BPG-日本"], url: http://www.gstatic.com/generate_204, interval: 30}
 Rule:
 - DOMAIN-SUFFIX,google.com,Clash
 - DOMAIN-KEYWORD,google,Clash
