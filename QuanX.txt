@@ -1,3 +1,6 @@
 vmess=140.238.54.31:2333, method=none, password=00200cba-fd10-49a9-a4cc-8805a7efe0b4, fast-open=false, udp-relay=false, tag=Oracle-1
 vmess=140.238.56.188:2333, method=none, password=e4baf4cc-efba-4317-b6a9-e233d3c2d83e, fast-open=false, udp-relay=false, tag=Oracle-2
 vmess=13.115.124.88:2333, method=none, password=bbd94ed5-8bcd-4c0e-974b-ea52e6c1f52d, fast-open=false, udp-relay=false, tag=Amazon
+vmess=bgp.jiyou.fun:10080, method=none, password=C8405508-981D-0E9A-FA08-925B6651224D, obfs-host=fjp.zhileshu.com, obfs=ws, fast-open=false, udp-relay=false, tag=国内BGP-日本
+vmess=bgp.jiyou.fun:10443, method=none, password=C8405508-981D-0E9A-FA08-925B6651224D, obfs-host=jp-a.caipin.pro, obfs=wss, fast-open=false, udp-relay=false, tag=国内BGP-香港1
+vmess=bgp.jiyou.fun:10443, method=none, password=C8405508-981D-0E9A-FA08-925B6651224D, obfs-host=itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt06.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=国内BGP-香港2
