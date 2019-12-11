@@ -1,7 +1,7 @@
 var body = $response.body;
 var url = $request.url;
-var myarray = obj.message.result.priority;
 let obj = JSON.parse(body);
+var myarray = obj.message.result.priority;
 for (var p in myarray) {
     myarray[p].purchased = true;
   }
