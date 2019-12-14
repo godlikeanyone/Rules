@@ -4,4 +4,4 @@ vmess=13.115.124.88:2333, method=none, password=bbd94ed5-8bcd-4c0e-974b-ea52e6c1
 vmess=bgp.jiyou.fun:10080, method=none, password=C8405508-981D-0E9A-FA08-925B6651224D, obfs-host=fjp.zhileshu.com, obfs=ws, fast-open=false, udp-relay=false, tag=国内BGP-日本
 vmess=bgp.jiyou.fun:10443, method=none, password=C8405508-981D-0E9A-FA08-925B6651224D, obfs-host=jp-a.caipin.pro, obfs=wss, fast-open=false, udp-relay=false, tag=国内BGP-香港1
 vmess=bgp.jiyou.fun:10443, method=none, password=C8405508-981D-0E9A-FA08-925B6651224D, obfs-host=itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt06.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=国内BGP-香港2
-vmess=jp-a.caipin.pro:443, method=none, password=4B94776D-5132-B78E-E9D1-BE59EFA47C16, obfs-host=jp-a.caipin.pro, obfs=wss, fast-open=false, udp-relay=false, tag=湖北联通-日本
+vmess=jp-a.caipin.pro:443, method=none, password=4B94776D-5132-B78E-E9D1-BE59EFA47C16, obfs=ws, obfs-host=jp-a.caipin.pro, tls-verification=true, fast-open=false, udp-relay=false, tag=湖北联通-日本
