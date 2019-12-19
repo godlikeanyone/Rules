@@ -10,7 +10,7 @@ if (url.indexOf(path1) != -1) {
     delete obj.serverConfig.dnsvip;
     delete obj.serverConfig.dnsvip_v6;
     $done({ body: JSON.stringify(obj) });
-    if (console_log) console.log("httpdns closed");
+    if (console_log) $notify("JD", "", "httpdns closed");
 }
 
 if (url.indexOf(path2) != -1) {
@@ -100,6 +100,7 @@ function history_price_msg(data) {
 
 function request_hsitory_price(share_url, callback) {
     const options = {
+        method: "POST",
         url: "https://apapia-history.manmanbuy.com/ChromeWidgetServices/WidgetServices.ashx",
         headers: {
             "Content-Type": "application/x-www-form-urlencoded;charset=utf-8",
@@ -107,15 +108,15 @@ function request_hsitory_price(share_url, callback) {
         },
         body: "methodName=getBiJiaInfo_wxsmall&p_url=" + encodeURIComponent(share_url)
     }
-    $task.fetch(options, function (error, response, data) {
-        if (!error) {
-            callback(JSON.parse(data));
-            if (console_log) console.log("Data:\n" + data);
-        } else {
-            callback(null, null);
-            if (console_log) console.log("Error:\n" + error);
-        }
-    })
+    $task.fetch(options).then(response => {
+        // response.statusCode, response.headers, response.body
+        callback(JSON.parse(response.body));
+        if (console_log) $notify("Body", "", response.body); // Success!
+    }, reason => {
+        // reason.error
+        callback(null, null);
+        if (console_log) $notify("Error", "", reason.error); // Error!
+    });
 }
 
 function changeDateFormat(cellval) {
