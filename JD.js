@@ -107,7 +107,7 @@ function request_hsitory_price(share_url, callback) {
         },
         body: "methodName=getBiJiaInfo_wxsmall&p_url=" + encodeURIComponent(share_url)
     }
-    $httpClient.post(options, function (error, response, data) {
+    $task.fetch(options, function (error, response, data) {
         if (!error) {
             callback(JSON.parse(data));
             if (console_log) console.log("Data:\n" + data);
