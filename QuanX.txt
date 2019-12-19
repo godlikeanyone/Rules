@@ -5,3 +5,4 @@ vmess=fjp.zhileshu.com:80, method=none, password=4B94776D-5132-B78E-E9D1-BE59EFA
 vmess=jp-a.caipin.pro:443, method=none, password=4B94776D-5132-B78E-E9D1-BE59EFA47C16, obfs-host=jp-a.caipin.pro, obfs=wss, fast-open=false, udp-relay=false, tag=HK-Aliyun
 vmess=itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt06.zhileshu.com:443, method=none, password=4B94776D-5132-B78E-E9D1-BE59EFA47C16, obfs-host=itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt06.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=HK2
 vmess=122.190.3.88:80, method=none, password=BDD81F76-BAFE-9BA4-6E31-948215C181E6, obfs=ws, obfs-host=lc.caipin.pro, fast-open=false, udp-relay=false, tag=日本🇯🇵
+shadowsocks=120.78.154.241:11010, method=chacha20-ietf, password=1oXaJR, ssr-protocol=auth_aes128_md5, ssr-protocol-param=3:xqyhi4, fast-open=false, udp-relay=false, tag=阿里云香港测试
