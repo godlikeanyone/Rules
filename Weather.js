@@ -1,5 +1,5 @@
 var lang = "zh"
-var lat_lon = "auto_ip"
+var lat_lon = "116.313047,39.984454"
 var api = "1b124f0977c0042eaf10e48ff0bc33a1"
 var wurl = {
     //url: "https://free-api.heweather.net/s6/weather/now?&location=" + coordinate + "&key=" + key,
