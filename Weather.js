@@ -1,6 +1,6 @@
 var lang = "zh"
 var lat_lon = "auto_ip"
-var api = "0d39adb88ee72011898ab6346ccc823b"
+var api = "1b124f0977c0042eaf10e48ff0bc33a1"
 var wurl = {
     //url: "https://free-api.heweather.net/s6/weather/now?&location=" + coordinate + "&key=" + key,
     url: "https://api.darksky.net/forecast/" + api + "/" + lat_lon + "?lang=" + lang + "&units=si&exclude=currently,minutely",
