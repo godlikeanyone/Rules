@@ -1,7 +1,7 @@
 vmess=140.238.54.31:2333, method=none, password=00200cba-fd10-49a9-a4cc-8805a7efe0b4, fast-open=false, udp-relay=false, tag=Oracle-1
 vmess=140.238.35.79:2333, method=none, password=e4baf4cc-efba-4317-b6a9-e233d3c2d83e, fast-open=false, udp-relay=false, tag=Oracle-2
 vmess=13.115.124.88:2333, method=none, password=bbd94ed5-8bcd-4c0e-974b-ea52e6c1f52d, fast-open=false, udp-relay=false, tag=Amazon
-vmess=fjp.zhileshu.com:80, method=none, password=4B94776D-5132-B78E-E9D1-BE59EFA47C16, obfs-host=fjp.zhileshu.com, obfs=ws, fast-open=false, udp-relay=false, tag=JP-Linode
+vmess=fjp.zhileshu.com:80, method=none, password=4B94776D-5132-B78E-E9D1-BE59EFA47C16, obfs-host=fjp.zhileshu.com, obfs=ws, fast-open=false, udp-relay=false, tag=JP-Linode移动优化
 vmess=jp-a.caipin.pro:443, method=none, password=4B94776D-5132-B78E-E9D1-BE59EFA47C16, obfs-host=jp-a.caipin.pro, obfs=wss, fast-open=false, udp-relay=false, tag=HK-Aliyun
 vmess=itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt06.zhileshu.com:443, method=none, password=4B94776D-5132-B78E-E9D1-BE59EFA47C16, obfs-host=itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt06.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=HK2
 vmess=122.190.3.88:80, method=none, password=BDD81F76-BAFE-9BA4-6E31-948215C181E6, obfs=ws, obfs-host=lc.caipin.pro, fast-open=false, udp-relay=false, tag=日本🇯🇵
