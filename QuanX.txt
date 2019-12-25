@@ -9,3 +9,4 @@ shadowsocks=120.78.154.241:11010, method=chacha20-ietf, password=1oXaJR, ssr-pro
 vmess=ejp1.zhileshu.com:443, method=none, password=1E82B4A1-F3B7-6436-D18E-79FB1F50E048, obfs-host=ejp1.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=武汉联通-日本1
 vmess=ejp2.zhileshu.com:443, method=none, password=1E82B4A1-F3B7-6436-D18E-79FB1F50E048, obfs-host=ejp2.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=武汉联通-日本2
 vmess=itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt05.zhileshu.com:443, method=none, password=1E82B4A1-F3B7-6436-D18E-79FB1F50E048, obfs-host=, obfs=wss, fast-open=false, udp-relay=false, tag=百度云移动-香港
+vmess= 47.75.127.116:50000, method=none, password=c668237d-ef26-3396-a0b5-7db994c872a2, obfs-host= download.windowsupdate.com, obfs=ws, obfs-uri=/v2ray, fast-open=false, udp-relay=false, tag=香港Netflix
