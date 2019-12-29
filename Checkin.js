@@ -74,6 +74,7 @@ function log(signinfo) {
     detail = `PC: ${signinfo.pc.success ? '成功' : '失败'}, APP: ${signinfo.app.success ? '成功' : '失败'}, 详见日志!`
   }
   $notify(cookieVal, title, subTitle, detail)
+  console.log(cookieVal)
 }
 
 sign()
