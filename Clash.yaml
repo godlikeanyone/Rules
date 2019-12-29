@@ -17,10 +17,11 @@ dns:
 Proxy:
 - { name: "Linode移动优化",type: vmess,server: fjp.zhileshu.com,port: 80,uuid: 4B94776D-5132-B78E-E9D1-BE59EFA47C16,alterId: 0,cipher: auto, network: ws, ws-headers: { Host: fjp.zhileshu.com }}
 - { name: "移动香港",type: vmess,server: itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt05.zhileshu.com,port: 443,uuid: 1E82B4A1-F3B7-6436-D18E-79FB1F50E048,alterId: 0,cipher: auto, network: ws, ws-headers: { Host: itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt05.zhileshu.com }, tls: true}
-- { name: "移动香港2",type: vmess,server: itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt06.zhileshu.com,port: 443,uuid: 1D56ED76-6EFB-5742-4F0A-3587E3AF978B,alterId: 0,cipher: auto, network: ws, ws-headers: { Host: itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt06.zhileshu.com }, tls: true}
+- { name: "武汉联通-日本1",type: vmess,server: ejp1.zhileshu.com,port: 443,uuid: 1E82B4A1-F3B7-6436-D18E-79FB1F50E048,alterId: 0,cipher: auto, network: ws, ws-headers: { Host: ejp1.zhileshu.com }, tls: true}
+- { name: "武汉联通-日本2",type: vmess,server: ejp2.zhileshu.com,port: 443,uuid: 1E82B4A1-F3B7-6436-D18E-79FB1F50E048,alterId: 0,cipher: auto, network: ws, ws-headers: { Host: ejp2.zhileshu.com }, tls: true}
 
 Proxy Group:
-- { name: Clash, type: select, proxies: ["Linode移动优化", "移动香港", "移动香港2"]}
+- { name: Clash, type: select, proxies: ["Linode移动优化", "移动香港", "武汉联通-日本1", "武汉联通-日本2"]}
 #- { name: "选这个就完事儿了", type: url-test, proxies: ["Linode移动优化"], url: http://www.gstatic.com/generate_204, interval: 30}
 Rule:
 - DOMAIN-SUFFIX,google.com,Clash
