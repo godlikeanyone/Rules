@@ -73,7 +73,7 @@ function log(signinfo) {
     subTitle = ``
     detail = `PC: ${signinfo.pc.success ? '成功' : '失败'}, APP: ${signinfo.app.success ? '成功' : '失败'}, 详见日志!`
   }
-  $notify(title, subTitle, detail)
+  $notify(cookieVal, title, subTitle, detail)
 }
 
 sign()
