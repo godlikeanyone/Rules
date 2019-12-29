@@ -21,7 +21,7 @@ Proxy:
 
 Proxy Group:
 - { name: Clash, type: select, proxies: ["选这个就完事儿了", "Linode移动优化", "移动香港", "移动香港2"]}
-- { name: "选这个就完事儿了", type: url-test, proxies: ["香港2","香港1","国内BPG-日本","美国测试","Linode移动优化"], url: http://www.gstatic.com/generate_204, interval: 30}
+#- { name: "选这个就完事儿了", type: url-test, proxies: ["Linode移动优化"], url: http://www.gstatic.com/generate_204, interval: 30}
 Rule:
 - DOMAIN-SUFFIX,google.com,Clash
 - DOMAIN-KEYWORD,google,Clash
