@@ -1,4 +1,5 @@
-vmess=122.190.3.88:80, method=none, password=BDD81F76-BAFE-9BA4-6E31-948215C181E6, obfs=ws, obfs-host=lc.caipin.pro, fast-open=false, udp-relay=false, tag=日本🇯🇵MOON
+vmess=moonjp.zhileshu.com:443, method=none, password=BDD81F76-BAFE-9BA4-6E31-948215C181E6, obfs=wss, obfs-host=moonjp.zhileshu.com, fast-open=false, udp-relay=false, tag=日本🇯🇵MOON
+vmess=f.zhileshu.com:443, method=none, password=BDD81F76-BAFE-9BA4-6E31-948215C181E6, obfs=wss, obfs-host=f.zhileshu.com, fast-open=false, udp-relay=false, tag=香港MOON
 vmess=ejp1.zhileshu.com:443, method=none, password=1E82B4A1-F3B7-6436-D18E-79FB1F50E048, obfs-host=ejp1.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=武汉联通-日本1
 vmess=ejp2.zhileshu.com:443, method=none, password=1E82B4A1-F3B7-6436-D18E-79FB1F50E048, obfs-host=ejp2.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=武汉联通-日本2
 vmess=itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt05.zhileshu.com:443, method=none, password=1E82B4A1-F3B7-6436-D18E-79FB1F50E048, obfs-host=itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt05.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=百度云移动-香港
