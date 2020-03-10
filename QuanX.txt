@@ -1,14 +1,1 @@
-vmess=moonjp.zhileshu.com:443, method=none, password=BDD81F76-BAFE-9BA4-6E31-948215C181E6, obfs=wss, obfs-host=moonjp.zhileshu.com, fast-open=false, udp-relay=false, tag=日本🇯🇵MOON
-vmess=f.zhileshu.com:443, method=none, password=BDD81F76-BAFE-9BA4-6E31-948215C181E6, obfs=wss, obfs-host=f.zhileshu.com, fast-open=false, udp-relay=false, tag=香港MOON
-vmess=e.zhileshu.com:443, method=none, password=BDD81F76-BAFE-9BA4-6E31-948215C181E6, obfs=wss, obfs-host=e.zhileshu.com, fast-open=false, udp-relay=false, tag=台湾MOON
-vmess=usm.zhileshu.com:443, method=none, password=BDD81F76-BAFE-9BA4-6E31-948215C181E6, obfs=wss, obfs-host=usm.zhileshu.com, fast-open=false, udp-relay=false, tag=美国TLS
-vmess=ejp1.zhileshu.com:443, method=none, password=1E82B4A1-F3B7-6436-D18E-79FB1F50E048, obfs-host=ejp1.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=武汉联通-日本1
-vmess=ejp2.zhileshu.com:443, method=none, password=1E82B4A1-F3B7-6436-D18E-79FB1F50E048, obfs-host=ejp2.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=武汉联通-日本2
-vmess=itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt05.zhileshu.com:443, method=none, password=1E82B4A1-F3B7-6436-D18E-79FB1F50E048, obfs-host=itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt05.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=百度云移动-香港
-vmess=ain.zhileshu.com:443, method=none, password=C611F914-36AD-3E1E-2087-0C5BD379F664, obfs-host=ain.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=测试A-IN
-vmess=ajpa.zhileshu.com:443, method=none, password=C611F914-36AD-3E1E-2087-0C5BD379F664, obfs-host=ajpa.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=测试A-JP-I
-vmess=ajpb.zhileshu.com:443, method=none, password=C611F914-36AD-3E1E-2087-0C5BD379F664, obfs-host=ajpb.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=测试A-JP-II
-vmess=ajpc.zhileshu.com:443, method=none, password=C611F914-36AD-3E1E-2087-0C5BD379F664, obfs-host=ajpc.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=测试A-JP-III
-vmess=itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt01.zhileshu.com:443, method=none, password=C611F914-36AD-3E1E-2087-0C5BD379F664, obfs-host=itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt01.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=测试A-HK-I
-vmess=itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt02.zhileshu.com:443, method=none, password=C611F914-36AD-3E1E-2087-0C5BD379F664, obfs-host=itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt02.zhileshu.com, obfs=wss, fast-open=false, udp-relay=false, tag=测试A-HK-II
-vmess=itunes.apple.com.ajax.microsoft.com.www.bing.com.iplc.zhileshu.com:20000, method=none, password=C611F914-36AD-3E1E-2087-0C5BD379F664, fast-open=false, udp-relay=false, tag=测试A-30倍超高流量消耗-IPLC
+vmess=test-godlikeanyone.cloud.okteto.net:443, method=aes-128-gcm, password=fc784596-c17d-46da-bbb4-7d5142b8866a, obfs=wss, obfs-uri=/elecV2, fast-open=false, udp-relay=false, tag=OKTETO
