@@ -1,2 +1,3 @@
 vmess=test-godlikeanyone.cloud.okteto.net:443, method=aes-128-gcm, password=fc784596-c17d-46da-bbb4-7d5142b8866a, obfs=wss, obfs-uri=/elecV2, fast-open=false, udp-relay=false, tag=OKTETO-TEST
 vmess=v2ray-godlikeanyone.cloud.okteto.net:443, method=aes-128-gcm, password=fc784596-c17d-46da-bbb4-7d5142b8866a, obfs=wss, obfs-uri=/elecV2, fast-open=false, udp-relay=false, tag=OKTETO-MAIN
+vmess=v2ray.sadtodeath.cf:443, method=none, password=d8f9983a-e0c8-4811-9fb7-05d5ef3bbc67, obfs=wss, obfs-uri=/, fast-open=false, udp-relay=false, tag=test
