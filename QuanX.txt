@@ -1,1 +1,2 @@
 vmess=v2ray-godlikeanyone.cloud.okteto.net:443, method=aes-128-gcm, password=fc784596-c17d-46da-bbb4-7d5142b8866a, obfs=wss, obfs-uri=/elecV2, fast-open=false, udp-relay=false, tag=OKTETO-MAIN
+vmess=35.225.69.73:443, method=aes-128-gcm, password=fc784596-c17d-46da-bbb4-7d5142b8866a, obfs=wss, obfs-uri=/elecV2, fast-open=false, udp-relay=false, tag=OKTETO-MAIN2
