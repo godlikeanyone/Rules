@@ -1,3 +1,7 @@
+/*
+https://github.com/alpha87/QuantumultX-Profiles
+*/
+
 function indexAD(obj) {
   // 去除 IT 之家首页滚动板块广告
   let del_num = [];
