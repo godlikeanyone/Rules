@@ -5,8 +5,8 @@ delete body['ad_info']
 };
 if (body.data) {
 body['data'].forEach((element, index)=> {
-    if(element['author']['name']=="盐选推荐"){ 
-          body['data'].splice(index,1)  
+ if(element['author']['name']=="盐选推荐"||element['author']['name']=="盐选科普"){ 
+          body['data'].splice(index,1) 
      }
   })
  };
