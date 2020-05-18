@@ -1,3 +1,3 @@
 vmess=lovepxy.herokuapp.com:443, method=aes-128-gcm, password=ad806487-2d26-4636-98b6-ab85cc8521f7, obfs=wss, obfs-uri=/, fast-open=false, udp-relay=false, tag=Heroku
 shadowsocks=ss-3.googlehosts.org:2337, method=chacha20-ietf-poly1305, password=googlehosts, fast-open=false, udp-relay=false, tag=ShadowSocks
-
+vmess=149.28.213.155:8080, method=aes-128-gcm, password=13f3ca4e-7542-310f-be51-6f69015be4ae, obfs=ws, obfs-uri=/dr3yu, fast-open=false, udp-relay=false, tag=Heroku
