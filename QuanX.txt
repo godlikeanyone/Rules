@@ -2,3 +2,5 @@ vmess=lovepxy.herokuapp.com:443, method=aes-128-gcm, password=ad806487-2d26-4636
 shadowsocks=ss-3.googlehosts.org:2337, method=chacha20-ietf-poly1305, password=googlehosts, fast-open=false, udp-relay=false, tag=ShadowSocks
 vmess=149.28.213.155:8080, method=none, password=13f3ca4e-7542-310f-be51-6f69015be4ae, obfs=ws, obfs-uri=/dr3yu, fast-open=false, udp-relay=false, tag=美国限速30Mbps-1
 vmess=104.207.149.215:8080, method=none, password=13f3ca4e-7542-310f-be51-6f69015be4ae, obfs=ws, obfs-uri=/dr2yu, fast-open=false, udp-relay=false, tag=美国限速30Mbps-2
+vmess = asdas.monster:443, method=chacha20-ietf-poly1305, password=10804191-0e53-460b-b635-73a6728679d8, obfs=wss, obfs-host=asdas.monster, obfs-uri=/, tag=ailoli.icu-1
+vmess = zyk222.icu:443, method=chacha20-ietf-poly1305, password=97f9614e-9017-4426-85af-60f318f28278, obfs=wss, obfs-host=zyk222.icu, obfs-uri=/, tag=ailoli.icu-2
