@@ -4,3 +4,4 @@ vmess=149.28.213.155:8080, method=none, password=13f3ca4e-7542-310f-be51-6f69015
 vmess=104.207.149.215:8080, method=none, password=13f3ca4e-7542-310f-be51-6f69015be4ae, obfs=ws, obfs-uri=/dr2yu, fast-open=false, udp-relay=false, tag=美国限速30Mbps-2
 vmess = asdas.monster:443, method=chacha20-ietf-poly1305, password=10804191-0e53-460b-b635-73a6728679d8, obfs=wss, obfs-host=asdas.monster, obfs-uri=/, tag=ailoli.icu-1
 vmess = zyk222.icu:443, method=chacha20-ietf-poly1305, password=97f9614e-9017-4426-85af-60f318f28278, obfs=wss, obfs-host=zyk222.icu, obfs-uri=/, tag=ailoli.icu-2
+vmess = hk.1946.xyz:443, method=none, password=6B33A123-3A3D-1CF8-65A5-39C23328BE6F, obfs=ws, obfs-host=go.1946.xyz, tag=自用
