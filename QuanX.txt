@@ -5,3 +5,4 @@ vmess=104.207.149.215:8080, method=none, password=13f3ca4e-7542-310f-be51-6f6901
 vmess = asdas.monster:443, method=chacha20-ietf-poly1305, password=10804191-0e53-460b-b635-73a6728679d8, obfs=wss, obfs-host=asdas.monster, obfs-uri=/, tag=ailoli.icu-1
 vmess = zyk222.icu:443, method=chacha20-ietf-poly1305, password=97f9614e-9017-4426-85af-60f318f28278, obfs=wss, obfs-host=zyk222.icu, obfs-uri=/, tag=ailoli.icu-2
 vmess = hk.1946.xyz:443, method=none, password=6B33A123-3A3D-1CF8-65A5-39C23328BE6F, obfs=ws, obfs-host=go.1946.xyz, tag=自用
+vmess=ssrvps.org.23432343223423234321.xyz:995, method=auto, password=602caff0-8864-4e39-a35c-1b42a0ee1884, obfs=ws, obfs-host=ssrvps.org.23432343223423234321.xyz, obfs-uri=/ssrvps.org, tag=回国
