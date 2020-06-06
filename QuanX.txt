@@ -3,4 +3,4 @@ shadowsocks=ss-3.googlehosts.org:2337, method=chacha20-ietf-poly1305, password=g
 vmess=149.28.213.155:8080, method=none, password=13f3ca4e-7542-310f-be51-6f69015be4ae, obfs=ws, obfs-uri=/dr3yu, fast-open=false, udp-relay=false, tag=美国限速30Mbps-1
 vmess=104.207.149.215:8080, method=none, password=13f3ca4e-7542-310f-be51-6f69015be4ae, obfs=ws, obfs-uri=/dr2yu, fast-open=false, udp-relay=false, tag=美国限速30Mbps-2
 vmess = hk.1946.xyz:443, method=none, password=6B33A123-3A3D-1CF8-65A5-39C23328BE6F, obfs=ws, obfs-host=go.1946.xyz, tag=自用
-vmess=ssrvps.org.23432343223423234321.xyz:995, method=chacha20, password=602caff0-8864-4e39-a35c-1b42a0ee1884, obfs=ws, obfs-host=ssrvps.org.23432343223423234321.xyz, obfs-uri=/ssrvps.org, tag=回国
+vmess=ssrvps.org.23432343223423234321.xyz:995, method=chacha20-poly1305, password=602caff0-8864-4e39-a35c-1b42a0ee1884, obfs=ws, obfs-host=ssrvps.org.23432343223423234321.xyz, obfs-uri=/ssrvps.org, tag=回国
