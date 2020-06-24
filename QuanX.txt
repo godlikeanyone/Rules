@@ -2,3 +2,4 @@ vmess=lovepxy.herokuapp.com:443, method=aes-128-gcm, password=ad806487-2d26-4636
 shadowsocks=ss-3.googlehosts.org:2337, method=chacha20-ietf-poly1305, password=googlehosts, fast-open=false, udp-relay=false, tag=ShadowSocks
 vmess=hk1.vtr5.com:80, method=chacha20-ietf-poly1305, password=4036f7f2-c2e5-4a8a-91e9-8dd2d9126106, obfs=ws, obfs-host=hk5.v2aky.club.cntce.cn, obfs-uri=/pa, tag=🇭🇰 H-CDN郑州-香港（01）
 trojan=riben.52ajingzai01.xyz:443, password=b92123d3, over-tls=true, tls-host=riben.52ajingzai01.xyz, tag=🇯🇵 Trojan
+vmess=www.keylll.tk:443, method=chacha20-ietf-poly1305, password=d8ade723-7cb7-4455-96f3-f7453edde578, obfs=ws, obfs-uri=/eac4a83/, fast-open=false, udp-relay=false, tag=Russia
