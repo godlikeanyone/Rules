@@ -1,3 +1,4 @@
 vmess=lovepxy.herokuapp.com:443, method=aes-128-gcm, password=ad806487-2d26-4636-98b6-ab85cc8521f7, obfs=wss, obfs-uri=/, fast-open=false, udp-relay=false, tag=Heroku
 shadowsocks=ss-3.googlehosts.org:2337, method=chacha20-ietf-poly1305, password=googlehosts, fast-open=false, udp-relay=false, tag=ShadowSocks
 vmess=www.keylll.tk:443, method=chacha20-ietf-poly1305, password=d8ade723-7cb7-4455-96f3-f7453edde578, obfs=wss, obfs-uri=/eac4a83/, fast-open=false, udp-relay=false, tag=Russia
+vmess = cdn-hkt.lovegoogle.xyz:80, method=chacha20-ietf-poly1305, password=038a32bb-7213-3dd8-ae4a-ff412bb016bf, obfs=ws, obfs-host=360622400-hktgreen.ninefishpump.com, obfs-uri=/imga, tag=🇭🇰 NF
