@@ -1,3 +1,3 @@
 vmess=lovepxy.herokuapp.com:443, method=aes-128-gcm, password=ad806487-2d26-4636-98b6-ab85cc8521f7, obfs=wss, obfs-uri=/, fast-open=false, udp-relay=false, tag=Heroku
 shadowsocks=ss-3.googlehosts.org:2337, method=chacha20-ietf-poly1305, password=googlehosts, fast-open=false, udp-relay=false, tag=ShadowSocks
-vmess=ah.china-unicom.pw:10526, method=chacha20-ietf-poly1305, password=020980e8-769a-3ae4-b7a8-c3ea79d90b6e, obfs=ws, obfs-host=choopa-landing-d.china-unicom.pw, obfs-uri=/v2ray, tag=🇯🇵 D组-安徽联通中转-日本-台区Netflix解锁
+vmess = 54.169.251.20:80, method=chacha20-ietf-poly1305, password=5795c52e-d969-43e2-ec95-b3083063e8cb, tag=移动优化
