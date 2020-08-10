@@ -1,5 +1,7 @@
 vmess=lovepxy.herokuapp.com:443, method=aes-128-gcm, password=ad806487-2d26-4636-98b6-ab85cc8521f7, obfs=wss, obfs-uri=/, fast-open=false, udp-relay=false, tag=Heroku
 shadowsocks=ss-3.googlehosts.org:2337, method=chacha20-ietf-poly1305, password=googlehosts, fast-open=false, udp-relay=false, tag=ShadowSocks
+vmess = 34.80.202.158:13, method=chacha20-ietf-poly1305, password=bb8f1f8a-8e90-461a-b2a8-dcdc0b144153, tag=233v2.com_34.80.202.158
+shadowsocks = netease-hhht.wcc.best:58080, method=aes-256-gcm, password=T5ckndbLSXHQ, tag=🇨🇳 NeteaseUnblock-CN-HHHT
 vmess = 119.188.248.45:51455, method=chacha20-ietf-poly1305, password=f0f8b42f-f05e-3474-9d64-469913782285, obfs=ws, obfs-host=119.188.248.45, obfs-uri=/soda, tag=公益 • 苏打
 vmess = s368.snode.xyz:443, method=chacha20-ietf-poly1305, password=735001f8-f11b-3f90-bd67-0517c2eed3e6, obfs=wss, obfs-host=s368.snode.xyz, obfs-uri=/panel, tag=🇺🇸 美国#368|倍率0.6|等级1|在线2人|179G|v2.freeok.xyz|公益节点
 vmess = s267.snode.xyz:443, method=chacha20-ietf-poly1305, password=735001f8-f11b-3f90-bd67-0517c2eed3e6, obfs=wss, obfs-host=s267.snode.xyz, obfs-uri=/panel, tag=🇰🇷 韩国 #267|倍率1.1|等级1|在线3人|339G|v2.freeok.xyz|公益节点
