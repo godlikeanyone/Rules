@@ -1,4 +1,2 @@
-vmess=lovepxy.herokuapp.com:443, method=aes-128-gcm, password=ad806487-2d26-4636-98b6-ab85cc8521f7, obfs=wss, obfs-uri=/, fast-open=false, udp-relay=false, tag=Heroku
-shadowsocks=ss-3.googlehosts.org:2337, method=chacha20-ietf-poly1305, password=googlehosts, fast-open=false, udp-relay=false, tag=ShadowSocks
-vmess = 34.80.202.158:13, method=chacha20-ietf-poly1305, password=bb8f1f8a-8e90-461a-b2a8-dcdc0b144153, tag=233v2.com_34.80.202.158
 shadowsocks = zit4ip.mitsuha-node.com:56000, method=aes-256-gcm, password=hITmhb, tag=IPLC
+shadowsocks = dt36ah.mitsuha-node.com:443, method=aes-256-ctr, password=miaopasi, ssr-protocol=auth_aes128_md5, ssr-protocol-param=37560:hITmhb, obfs=tls1.2_ticket_auth, obfs-host=HK2SCH1304759837560.wns.windows.com, tag=IPLC 中港
