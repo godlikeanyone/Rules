@@ -1,1 +1,1 @@
-vmess = solitary-dew-ed9b.godlike.workers.dev:443, method=chacha20-ietf-poly1305, password=df8d4ec7-150e-40e6-8f30-bbe7aa580b21, obfs=wss, obfs-host=ibmyes.us-south.cf.appdomain.cloud, tag=ibmyes
+vmess = solitary-dew-ed9b.godlike.workers.dev:443, method=chacha20-ietf-poly1305, password=df8d4ec7-150e-40e6-8f30-bbe7aa580b21, obfs=wss, obfs-host=ibmyes.us-south.cf.appdomain.cloud, obfs-uri=OzPqu2fFjgvi6s23, tag=ibmyes
