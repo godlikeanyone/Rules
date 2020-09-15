@@ -1,33 +1,69 @@
 port: 7890
 socks-port: 7891
-redir-port: 0
 allow-lan: false
 mode: Rule
 log-level: info
-external-controller: '0.0.0.0:9090'
-secret: ''
-dns:
-
-  enable: true
-
-  ipv6: false
-
-  nameserver:
-    - tls://dns.google
-Proxy:
-- { name: "Linode移动优化",type: vmess,server: fjp.zhileshu.com,port: 80,uuid: 4B94776D-5132-B78E-E9D1-BE59EFA47C16,alterId: 0,cipher: auto, network: ws, ws-headers: { Host: fjp.zhileshu.com }}
-- { name: "移动香港",type: vmess,server: itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt05.zhileshu.com,port: 443,uuid: 1E82B4A1-F3B7-6436-D18E-79FB1F50E048,alterId: 0,cipher: auto, network: ws, ws-headers: { Host: itunes.apple.com.ajax.microsoft.com.www.bing.com.hkt05.zhileshu.com }, tls: true}
-- { name: "武汉联通-日本1",type: vmess,server: ejp1.zhileshu.com,port: 443,uuid: 1E82B4A1-F3B7-6436-D18E-79FB1F50E048,alterId: 0,cipher: auto, network: ws, ws-headers: { Host: ejp1.zhileshu.com }, tls: true}
-- { name: "武汉联通-日本2",type: vmess,server: ejp2.zhileshu.com,port: 443,uuid: 1E82B4A1-F3B7-6436-D18E-79FB1F50E048,alterId: 0,cipher: auto, network: ws, ws-headers: { Host: ejp2.zhileshu.com }, tls: true}
-
-Proxy Group:
-- { name: Clash, type: select, proxies: ["Linode移动优化", "移动香港", "武汉联通-日本1", "武汉联通-日本2"]}
-#- { name: "选这个就完事儿了", type: url-test, proxies: ["Linode移动优化"], url: http://www.gstatic.com/generate_204, interval: 30}
-Rule:
-- DOMAIN-SUFFIX,google.com,Clash
-- DOMAIN-KEYWORD,google,Clash
-- DOMAIN,google.com,Clash
-- DOMAIN-SUFFIX,ad.com,REJECT
-- IP-CIDR,127.0.0.0/8,DIRECT
-- GEOIP,CN,DIRECT
-- MATCH,Clash
+external-controller: :9090
+proxies:
+  - {name: "🇨🇳 [LV1] AHA-台湾#解锁全部流媒体丨徐州中转", server: 122.192.189.40, port: 10890, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: tw6.sbwx6.top}}
+  - {name: "🇮🇹 [LV1] AHA-意大利#解锁流媒体丨直连优化", server: ydl.sbwx6.top, port: 443, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 15.161.152.94}}
+  - {name: "🇮🇳 [LV1] BBF-印度#解锁全部流媒体丨上海CN2中转", server: xd.shcn2.xlddns.xyz, port: 26693, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: awsyd.sbwx6.top}}
+  - {name: "🇯🇵 [LV1] BGP-日本丨江苏BGP中转", server: 223.111.150.242, port: 37200, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: bgpjp.sbwx6.top}}
+  - {name: "🇫🇷 [LV1] BGP-法国丨江苏BGP中转", server: 223.111.150.242, port: 44704, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: faguo1.sbwx6.top}}
+  - {name: "🇨🇳 [LV1] BGP-纽约丨江苏BGP中转", server: 223.111.150.242, port: 37203, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: bgpny.sbwx6.top}}
+  - {name: "🇬🇧 [LV1] BGP-英国丨江苏BGP中转", server: 223.111.150.242, port: 44703, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: yingguo1.sbwx6.top}}
+  - {name: "🇳🇱 [LV1] BGP-荷兰丨江苏BGP中转", server: 223.111.150.242, port: 44702, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: helan1.sbwx6.top}}
+  - {name: "🇺🇲 [LV1] BGP-西雅图丨江苏BGP中转", server: 223.111.150.242, port: 37201, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: bgpxyt.sbwx6.top}}
+  - {name: "🇰🇷 [LV1] BGP-韩国丨江苏BGP中转", server: 223.111.150.242, port: 44701, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hanguo1.sbwx6.top}}
+  - {name: "🇭🇰 [LV1] IPLC-深港-维护中", server: iplc.com, port: 443, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇦🇨 [LV1] PHP-洛杉矶AC+CN2 GIA#解锁NF丨直连优化", server: dc2.sbwx6.top, port: 443, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 173.82.248.35}}
+  - {name: "🇵🇭 [LV1] PHP-洛杉矶S+CN2 GIA#解锁NF丨直连优化", server: dc1s.sbwx6.top, port: 443, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 128.14.138.11}}
+  - {name: "🇸🇬 [LV1] YPS-新加坡#解锁NF丨广移中转", server: 120.241.154.4, port: 58264, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: awsxjp.sbwx6.top}}
+  - {name: "🇷🇺 [LV1] YPS-莫斯科丨直连测试", server: msk6.sbwx6.top, port: 443, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 91.198.220.112}}
+  - {name: "🇭🇰 [LV1] YPS-香港#解锁NF丨广移中转", server: 120.241.154.4, port: 20508, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: awshk.sbwx6.top}}
+  - {name: "🇯🇵 [LV1] 日本原生IP丨解锁流媒体+解锁游戏丨禁下载", server: 122.192.189.40, port: 10887, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ccjp.sbwx6.top}}
+  - {name: "🇺🇲 [LV1] 美国原生IP丨解锁流媒体+解锁游戏丨禁下载", server: 122.192.189.40, port: 10888, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: nhnmg.sbwx6.top}}
+  - {name: "🇮🇳 [LV3] NET-AZ印度#解锁流媒体丨广移中转", server: 120.241.154.4, port: 37253, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: azyd.sbwx6.top}}
+  - {name: "🇸🇬 [LV3] NET-AZ新加坡-解锁NF丨广移中转", server: 120.241.154.4, port: 37253, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: azxjp.sbwx6.top}}
+  - {name: "🇭🇰 [LV3] NET-AZ香港-解锁NF丨广移中转", server: 120.241.154.4, port: 46807, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: azhk.sbwx6.top}}
+  - {name: "🇯🇵 [LV3] NET-WS日本#解锁NF丨宿迁中转", server: sqcu.hostmsu.ru, port: 26988, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: awsjp.sbwx6}}
+  - {name: "🇨🇳 [LV3] NET-台湾原生IP#解锁全部流媒体丨广移中转", server: 120.241.154.4, port: 13638, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: tw666.sbwx6.top}}
+  - {name: 🇺🇲 公益节点-洛杉矶CN2 GIA#解锁NF, server: dc1.sbwx6.top, port: 443, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 107.151.191.102}}
+  - {name: 🇺🇲 公益节点-洛杉矶丨直连优化, server: bgplsj.sbwx6.top, port: 443, type: vmess, uuid: bcfc1b2b-29a6-3608-9ffa-0ecc014d2cba, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 207.246.106.99}}
+proxy-groups:
+  - name: Proxies
+    type: select
+    proxies:
+      - 🇨🇳 [LV1] AHA-台湾#解锁全部流媒体丨徐州中转
+      - 🇮🇹 [LV1] AHA-意大利#解锁流媒体丨直连优化
+      - 🇮🇳 [LV1] BBF-印度#解锁全部流媒体丨上海CN2中转
+      - 🇯🇵 [LV1] BGP-日本丨江苏BGP中转
+      - 🇫🇷 [LV1] BGP-法国丨江苏BGP中转
+      - 🇨🇳 [LV1] BGP-纽约丨江苏BGP中转
+      - 🇬🇧 [LV1] BGP-英国丨江苏BGP中转
+      - 🇳🇱 [LV1] BGP-荷兰丨江苏BGP中转
+      - 🇺🇲 [LV1] BGP-西雅图丨江苏BGP中转
+      - 🇰🇷 [LV1] BGP-韩国丨江苏BGP中转
+      - 🇭🇰 [LV1] IPLC-深港-维护中
+      - 🇦🇨 [LV1] PHP-洛杉矶AC+CN2 GIA#解锁NF丨直连优化
+      - 🇵🇭 [LV1] PHP-洛杉矶S+CN2 GIA#解锁NF丨直连优化
+      - 🇸🇬 [LV1] YPS-新加坡#解锁NF丨广移中转
+      - 🇷🇺 [LV1] YPS-莫斯科丨直连测试
+      - 🇭🇰 [LV1] YPS-香港#解锁NF丨广移中转
+      - 🇯🇵 [LV1] 日本原生IP丨解锁流媒体+解锁游戏丨禁下载
+      - 🇺🇲 [LV1] 美国原生IP丨解锁流媒体+解锁游戏丨禁下载
+      - 🇮🇳 [LV3] NET-AZ印度#解锁流媒体丨广移中转
+      - 🇸🇬 [LV3] NET-AZ新加坡-解锁NF丨广移中转
+      - 🇭🇰 [LV3] NET-AZ香港-解锁NF丨广移中转
+      - 🇯🇵 [LV3] NET-WS日本#解锁NF丨宿迁中转
+      - 🇨🇳 [LV3] NET-台湾原生IP#解锁全部流媒体丨广移中转
+      - 🇺🇲 公益节点-洛杉矶CN2 GIA#解锁NF
+      - 🇺🇲 公益节点-洛杉矶丨直连优化
+  - name: Final
+    type: select
+    proxies:
+      - Proxies
+      - DIRECT
+rules:
+ - GEOIP,CN,DIRECT
+ - MATCH,Final
