@@ -1,1 +1,1 @@
-vmess = cloudflare.com:443, method=chacha20-ietf-poly1305, password=df8d4ec7-150e-40e6-8f30-bbe7aa580b21, obfs=wss, obfs-host=solitary-dew-ed9b.godlike.workers.dev, obfs-uri=OzPqu2fFjgvi6s23, tag=ibmyes
+trojan=tuitanggu.live:443, password=wangzuxian:wangzuxian, over-tls=true, tls-verification=true, tls13=true, tag=trojan
