@@ -1,1 +1,1 @@
-trojan=tuitanggu.live:443, password=wangzuxian, over-tls=true, tls-verification=true, tls13=true, tag=trojan
+trojan=tr.maocat.top:443, password=CFeWSMfM, over-tls=true, tls-verification=true, tls13=true, tag=trojan
