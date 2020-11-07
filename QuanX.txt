@@ -1,1 +1,2 @@
-trojan=tr.maocat.top:443, password=CFeWSMfM, over-tls=true, tls-verification=true, tls13=true, tag=trojan
+vmess=jmnt.speed17.club:51177, method=chacha20-ietf-poly1305, password=7fdb7686-43f6-4f15-af81-df91ed93b0e5, obfs=ws, obfs-host=v.qq.com, obfs-uri=/v1, fast-open=true, udp-relay=true, tag=🇺🇸[大流量4K]移动>香港>美国2
+vmess=tchk1.speed17.club:80, method=chacha20-ietf-poly1305, password=7fdb7686-43f6-4f15-af81-df91ed93b0e5, obfs=ws, obfs-host=tchk1.speed17.club, obfs-uri=/v1, fast-open=true, udp-relay=true, tag=🇭🇰[电信][低延迟]直连->香港
