@@ -1,0 +1,7 @@
+vmess=hk03.ronghuafugui.xyz:443, method=none, password=87be9ebf-e4e4-4f21-86a3-4f108d2ded83, obfs=wss, obfs-uri=/test, tls-verification=false, fast-open=true, udp-relay=true, tag=电信联通-香港10
+vmess=hk06.101justice.xyz:443, method=none, password=87be9ebf-e4e4-4f21-86a3-4f108d2ded83, obfs=wss, obfs-uri=/test, tls-verification=false, fast-open=true, udp-relay=true, tag=电信联通-香港2
+vmess=hk05.ronghuafugui.xyz:443, method=none, password=87be9ebf-e4e4-4f21-86a3-4f108d2ded83, obfs=wss, obfs-uri=/test, tls-verification=false, fast-open=true, udp-relay=true, tag=电信联通-香港12
+vmess=kr06.101justice.xyz:443, method=none, password=87be9ebf-e4e4-4f21-86a3-4f108d2ded83, obfs=wss, obfs-uri=/test, tls-verification=false, fast-open=true, udp-relay=true, tag=电信联通-韩国
+vmess=sg02.ronghuafugui.xyz:443, method=none, password=87be9ebf-e4e4-4f21-86a3-4f108d2ded83, obfs=wss, obfs-uri=/test, tls-verification=false, fast-open=true, udp-relay=true, tag=联通移动-新加坡11
+vmess=sg01.ronghuafugui.xyz:443, method=none, password=87be9ebf-e4e4-4f21-86a3-4f108d2ded83, obfs=wss, obfs-uri=/test, tls-verification=false, fast-open=true, udp-relay=true, tag=联通移动-新加坡10
+vmess=hk05.101justice.xyz:443, method=none, password=87be9ebf-e4e4-4f21-86a3-4f108d2ded83, obfs=wss, obfs-uri=/test, tls-verification=false, fast-open=true, udp-relay=true, tag=电信联通-香港1
