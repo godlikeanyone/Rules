@@ -1,0 +1,11 @@
+mixin:
+  log-level: silent
+  dns:
+    enable: true
+    listen: :53
+    enhanced-mode: fake-ip
+    default-nameserver:
+      - 223.5.5.5
+      - 223.6.6.6
+    nameserver:
+      - https://56285.alidns.com/dns-query
