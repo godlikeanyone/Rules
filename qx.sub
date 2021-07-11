@@ -1,0 +1,5 @@
+trojan = 0001.giant.gofast.run:443, password=ddc7993e-4b23-4e10-89f5-46261247bd9e, over-tls=true, tls-host=0001.giant.gofast.run, tls-verification=true, tag=🇺🇲 美国G01(1000M|1000G|1CPU)
+trojan = 0001.yedea.gofast.run:443, password=ddc7993e-4b23-4e10-89f5-46261247bd9e, over-tls=true, tls-host=0001.yedea.gofast.run, tls-verification=true, tag=🇺🇲 美国Y01(2000MB|2000G|1CPU)
+trojan = 0002.yedea.gofast.run:443, password=ddc7993e-4b23-4e10-89f5-46261247bd9e, over-tls=true, tls-host=0002.yedea.gofast.run, tls-verification=true, tag=🇺🇲 美国Y02(1000MB|1000G|1CPU)
+trojan = 0001.nio.gofast.run:443, password=ddc7993e-4b23-4e10-89f5-46261247bd9e, over-tls=true, tls-host=0001.nio.gofast.run, tls-verification=true, tag=🇺🇲 美国N01(500M|1000G|1CPU)
+trojan = 0002.giant.gofast.run:443, password=ddc7993e-4b23-4e10-89f5-46261247bd9e, over-tls=true, tls-host=0002.giant.gofast.run, tls-verification=true, tag=🇺🇲 美国G02(1000M|1000G|1CPU)
