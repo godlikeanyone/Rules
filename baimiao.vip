@@ -1,0 +1,3 @@
+hostname = baimiao.uzero.cn
+# 白描解锁黄金会员
+^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$ url script-response-body https://raw.githubusercontent.com/godlikeanyone/Rules/master/baimiao.js
