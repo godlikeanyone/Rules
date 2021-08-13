@@ -1,3 +1,0 @@
-hostname = api.maimemo.com
-^https\:\/\/api\.maimemo\.com\/api\/v1/users/info url script-response-body https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/e7e06a60b50f710b986ecaeadebd2ce09197d8a2/ZhiYi-N/memobdc.js
-https://api.maimemo.com/api/v1/system/check url reject
