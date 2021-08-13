@@ -5,7 +5,7 @@ mode: Rule
 log-level: silent
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇪🇺 AWS-EU, server: v2fly-test.herokuapp.com, port: 443, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2fly-test.herokuapp.com}}
+  - {name: 3元一个月高速中转机场：googo.in, server: v2fly-test.herokuapp.com, port: 443, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2fly-test.herokuapp.com}}
   - {name: 🇪🇺 AWS-EU-CDN, server: 104.19.1.204, port: 443, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eu.godlike.workers.dev}}
   - {name: 🇺🇲 AWS-US, server: v2fly-test-us.herokuapp.com, port: 443, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2fly-test-us.herokuapp.com}}
   - {name: 🇺🇲 AWS-US-CDN, server: 104.19.1.204, port: 443, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us.godlike.workers.dev}}
@@ -16,7 +16,6 @@ proxy-groups:
     type: select
     proxies:
       - 3元一个月高速中转机场：googo.in
-      - 🇪🇺 AWS-EU
       - 🇪🇺 AWS-EU-CDN
       - 🇺🇲 AWS-US
       - 🇺🇲 AWS-US-CDN
