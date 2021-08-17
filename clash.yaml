@@ -11,6 +11,8 @@ proxies:
   - {name: 🇺🇲 AWS-US-CDN, server: 104.19.1.204, port: 443, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us.godlike.workers.dev}}
   - {name: 🇪🇺 AWS-EU-HK, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 13417, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eu.godlike.workers.dev}}
   - {name: 🇭🇰 AWS-US-HK, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 13417, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us.godlike.workers.dev}}
+  - {name: 🇪🇺 HEROKU - CF-EU, server: eu-paid.godlike.workers.dev, port: 443, type: vmess, uuid: 51d9c982-0dee-4482-a9ed-f182f862f4a6, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eu-paid.godlike.workers.dev}}
+  - {name: 🇪🇺 HEROKU - RU CN2 -> EU, server: ru1.node.zeroteam.top, port: 443, type: vmess, uuid: 51d9c982-0dee-4482-a9ed-f182f862f4a6, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: hudaye-testku.herokuapp.com}}
 proxy-groups:
   - name: Proxies
     type: select
@@ -21,6 +23,8 @@ proxy-groups:
       - 🇺🇲 AWS-US-CDN
       - 🇪🇺 AWS-EU-HK
       - 🇭🇰 AWS-US-HK
+      - 🇪🇺 HEROKU - CF-EU
+      - 🇪🇺 HEROKU - RU CN2 -> EU
 rules:
  - DOMAIN-SUFFIX,1password.com,DIRECT
  - DOMAIN-SUFFIX,vultr.com,DIRECT
