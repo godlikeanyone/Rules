@@ -5,18 +5,18 @@ mode: Rule
 log-level: silent
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇪🇺 AWS-EU-CDN, server: 104.19.1.204, port: 443, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eu.godlike.workers.dev}}
-  - {name: 🇪🇺 AWS-EU-HK, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 13417, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eu.godlike.workers.dev}}
-  - {name: 🇪🇺 HEROKU - CF-EU, server: eu-paid.godlike.workers.dev, port: 443, type: vmess, uuid: 51d9c982-0dee-4482-a9ed-f182f862f4a6, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eu-paid.godlike.workers.dev}}
-  - {name: 🇪🇺 HEROKU - RU CN2 -> EU, server: ru1.node.zeroteam.top, port: 443, type: vmess, uuid: 51d9c982-0dee-4482-a9ed-f182f862f4a6, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: hudaye-testku.herokuapp.com}}
+  - {name: 🇪🇺 AWS-EU-CDN, server: www.gov.hk, port: 443, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eu.godlike.workers.dev}}
+  - {name: 🇪🇺 AWS-EU-CDN-HK, server: azure-f2s-hk.transfer-xray.tk, port: 33203, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eu.godlike.workers.dev}}
+  - {name: 🇪🇺 AWS-EU-HK, server: azure-f2s-hk.transfer-xray.tk, port: 35281, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2fly-test.herokuapp.com}}
+  - {name: 🇪🇺 AWS-EU, server: v2fly-test.herokuapp.com, port: 443, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2fly-test.herokuapp.com}}
 proxy-groups:
   - name: Proxies
     type: select
     proxies:
       - 🇪🇺 AWS-EU-CDN
+      - 🇪🇺 AWS-EU-CDN-HK
       - 🇪🇺 AWS-EU-HK
-      - 🇪🇺 HEROKU - CF-EU
-      - 🇪🇺 HEROKU - RU CN2 -> EU
+      - 🇪🇺 AWS-EU
 rules:
  - DOMAIN-SUFFIX,1password.com,DIRECT
  - DOMAIN-SUFFIX,vultr.com,DIRECT
