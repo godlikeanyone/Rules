@@ -9,6 +9,7 @@ proxies:
   - {name: 🇪🇺 AWS-EU-CDN-HK, server: azure-f2s-hk.transfer-xray.tk, port: 33203, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eu.godlike.workers.dev}}
   - {name: 🇪🇺 AWS-EU-HK, server: azure-f2s-hk.transfer-xray.tk, port: 35281, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2fly-test.herokuapp.com}}
   - {name: 🇪🇺 AWS-EU, server: v2fly-test.herokuapp.com, port: 443, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2fly-test.herokuapp.com}}
+  - {name: US-GCP, server: severlessacceleration-production.up.railway.app, port: 443, type: vmess, uuid: c206cb99-b4b7-4254-92e4-0c6f61d5a96a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: severlessacceleration-production.up.railway.app}}
 proxy-groups:
   - name: Proxies
     type: select
@@ -17,6 +18,7 @@ proxy-groups:
       - 🇪🇺 AWS-EU-CDN-HK
       - 🇪🇺 AWS-EU-HK
       - 🇪🇺 AWS-EU
+      - US-GCP
 rules:
  - DOMAIN-SUFFIX,1password.com,DIRECT
  - DOMAIN-SUFFIX,vultr.com,DIRECT
