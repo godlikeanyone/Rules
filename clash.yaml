@@ -12,7 +12,7 @@ proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - 🇪🇺 AWS-EU-CDN
+      - 🇪🇺 HKGOV-AWSEU
       - US-GCP
       - US-GCP
 rules:
