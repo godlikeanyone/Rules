@@ -14,7 +14,7 @@ proxy-groups:
     proxies:
       - 🇪🇺 HKGOV-AWSEU
       - US-GCP
-      - US-GCP
+      - US-GCP-CDN
 rules:
  - DOMAIN-SUFFIX,1password.com,DIRECT
  - DOMAIN-SUFFIX,vultr.com,DIRECT
