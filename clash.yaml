@@ -7,7 +7,7 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🇪🇺 HKGOV-AWSEU, server: www.gov.hk, port: 443, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eu.godlike.workers.dev}}
   - {name: US-GCP, server: acc.up.railway.app, port: 443, type: vmess, uuid: c206cb99-b4b7-4254-92e4-0c6f61d5a96a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: acc.up.railway.app}}
-  - {name: US-GCP-CDN, server: us.klee.ml, port: 443, type: vmess, uuid: c206cb99-b4b7-4254-92e4-0c6f61d5a96a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us.klee.ml}}
+  - {name: US-GCP-CDN, server: www.gov.hk, port: 443, type: vmess, uuid: c206cb99-b4b7-4254-92e4-0c6f61d5a96a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us.klee.ml}}
 proxy-groups:
   - name: Proxies
     type: select
