@@ -2,10 +2,10 @@
 // Developed by Hackl0us (https://github.com/hackl0us)
 
 const $ = new Env('AQI-US');
-$.token = '56298c6b7ccdb96809da18f0e4dd51163d84eca0';
+$.token = 'hackl0us_aqi_token';
 
 // STEP 1: 前往 https://aqicn.org/data-platform/token/ 注册账户，将申请的 API Token 填入下方或BoxJs
-const aqicnToken = '56298c6b7ccdb96809da18f0e4dd51163d84eca0';
+const aqicnToken = $.getdata($.token) || '56298c6b7ccdb96809da18f0e4dd51163d84eca0';
 
 // STEP 2: 参考下方配置片段，在代理工具的配置文件中添加对应的配置。注意：script-path 后应该替换为添加 apicnToken 值后的脚本路径
 /*
@@ -18,7 +18,7 @@ const aqicnToken = '56298c6b7ccdb96809da18f0e4dd51163d84eca0';
 
 const AirQualityStandard = {
 	CN: 'HJ6332012.2113',
-	US: 'EPA_NowCast.2113'
+	US: 'EPA_NowCast.2115'
 }
 
 const AirQualityLevel = {
