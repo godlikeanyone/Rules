@@ -1,5 +1,3 @@
+host, dns.weixin.qq.com, reject
 ip-cidr, 101.32.0.0/16, direct
-domain-suffix, cloud.zoom.us, direct
 domain-suffix, wechat.com, direct
-domain-suffix, gameloft.com, proxy
-domain-suffix, passcloud.xyz, direct
