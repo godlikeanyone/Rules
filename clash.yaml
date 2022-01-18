@@ -5,7 +5,7 @@ mode: Rule
 log-level: silent
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇪🇺 HKGOV-AWSEU, server: www.gov.hk, port: 443, type: vmess, uuid: 3ae0b85b-a980-4c63-b192-82a131e19d71, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /harry, headers: {Host: eu.klee.ml}}, udp: true}
+  - {name: 🇪🇺 HKGOV-AWSEU, server: eu.klee.ml, port: 443, type: vmess, uuid: d08d634c-26de-4ec3-ad75-6dc0181fc41f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /harry, headers: {Host: eu.klee.ml}}, udp: true}
 proxy-groups:
   - name: Proxies
     type: select
