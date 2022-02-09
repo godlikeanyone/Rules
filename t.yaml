@@ -5,18 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 免费节点资源有限有条件者请使用付费节点, server: free-jp01.starlink.cyou, port: 11177, type: vmess, uuid: 06714bd7-b208-4920-80c5-ac29f032e249, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: free-jp01.starlink.cyou}}, udp: true}
-  - {name: 星链公益|日本01, server: china-gzyd-1.forwardserver.xyz, port: 43593, type: vmess, uuid: 06714bd7-b208-4920-80c5-ac29f032e249, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: free-jp01.starlink.cyou}}, udp: true}
-  - {name: 星链公益|新加坡01, server: china-gzyd-1.forwardserver.xyz, port: 43287, type: vmess, uuid: 06714bd7-b208-4920-80c5-ac29f032e249, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: free-sg01.starlink.cyou}}, udp: true}
-  - {name: 星链公益|美国01, server: china-gzyd-1.forwardserver.xyz, port: 48010, type: vmess, uuid: 06714bd7-b208-4920-80c5-ac29f032e249, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: free-us01.starlink.cyou}}, udp: true}
+  - {name: Lv.1 新加坡A | 直连, server: china-zj-hz-1.forwardserver.xyz, port: 30542, type: vmess, uuid: 22409413-b8bf-418a-bbdd-e87790b918dd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/sg, headers: {Host: sgav2.ddns.tjiasu.xyz}}, udp: true}
+  - {name: Lv.1 美国A | 直连, server: china-gzyd-1.forwardserver.xyz, port: 37689, type: vmess, uuid: 22409413-b8bf-418a-bbdd-e87790b918dd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/common, headers: {Host: usav2.ddns.tjiasu.xyz}}, udp: true}
+  - {name: Lv.1 美国B | 中转, server: v2.369855.xyz, port: 11443, type: vmess, uuid: 22409413-b8bf-418a-bbdd-e87790b918dd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/rn, headers: {Host: usbv2.ddns.tjiasu.xyz}}, udp: true}
 proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - 免费节点资源有限有条件者请使用付费节点
-      - 星链公益|日本01
-      - 星链公益|新加坡01
-      - 星链公益|美国01
+      - Lv.1 新加坡A | 直连
+      - Lv.1 美国A | 直连
+      - Lv.1 美国B | 中转
 rules:
  - DOMAIN-SUFFIX,1password.com,DIRECT
  - DOMAIN-SUFFIX,vultr.com,DIRECT
