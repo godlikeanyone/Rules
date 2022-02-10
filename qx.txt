@@ -1,0 +1,1 @@
+vmess = 172.67.201.80:443, method=aes-256-gcm, password=4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, tls13=false, obfs=wss, obfs-host=sj1.ratzsuck.tk, obfs-uri=/, fast-open=false, udp-relay=true, tag=🏳️‍🌈 圣何塞-CDN优化-无限流量
