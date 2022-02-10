@@ -5,9 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Lv.1 新加坡A | 直连, server: china-gzyd-1.forwardserver.xyz, port: 47677, type: vmess, uuid: 22409413-b8bf-418a-bbdd-e87790b918dd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/sg, headers: {Host: sgav2.ddns.tjiasu.xyz}}, udp: true}
-  - {name: Lv.1 美国A | 直连, server: china-gzyd-1.forwardserver.xyz, port: 37689, type: vmess, uuid: 22409413-b8bf-418a-bbdd-e87790b918dd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/common, headers: {Host: usav2.ddns.tjiasu.xyz}}, udp: true}
-  - {name: Lv.1 美国B | 中转, server: china-gzyd-1.forwardserver.xyz, port: 35066, type: vmess, uuid: 22409413-b8bf-418a-bbdd-e87790b918dd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/rn, headers: {Host: usbv2.ddns.tjiasu.xyz}}, udp: true}
+  - {name: Lv.1 新加坡A | 直连, server: china-zj-hz-1.forwardserver.xyz, port: 36859, type: vmess, uuid: 22409413-b8bf-418a-bbdd-e87790b918dd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/sg, headers: {Host: sgav2.ddns.tjiasu.xyz}}, udp: true}
+  - {name: Lv.1 美国A | 直连, server: china-zj-hz-1.forwardserver.xyz, port: 35241, type: vmess, uuid: 22409413-b8bf-418a-bbdd-e87790b918dd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/common, headers: {Host: usav2.ddns.tjiasu.xyz}}, udp: true}
+  - {name: Lv.1 美国B | 中转, server: china-zj-hz-1.forwardserver.xyz, port: 36567, type: vmess, uuid: 22409413-b8bf-418a-bbdd-e87790b918dd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/rn, headers: {Host: usbv2.ddns.tjiasu.xyz}}, udp: true}
 proxy-groups:
   - name: Proxies
     type: select
