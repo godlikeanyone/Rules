@@ -1,5 +1,0 @@
-vmess = 172.67.152.244:443, method=none, password=4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, tls13=false, obfs=wss, obfs-host=sj1.ratzsuck.tk, obfs-uri=/, fast-open=false, udp-relay=true, tag=优选最新 none
-vmess = github.klee.ml:443, method=aes-128-gcm, password=4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, tls13=false, obfs=wss, obfs-host=sj1.ratzsuck.tk, obfs-uri=/, fast-open=false, udp-relay=true, tag=github.klee.ml aes
-vmess = 172.67.197.183:443, method=chacha20-poly1305, password=4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, tls13=false, obfs=wss, obfs-host=sj1.ratzsuck.tk, obfs-uri=/, fast-open=false, udp-relay=true, tag=优选第二 chacha20
-vmess = 104.25.192.0:443, method=none, password=4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, tls13=false, obfs=wss, obfs-host=sj1.ratzsuck.tk, obfs-uri=/, fast-open=false, udp-relay=true, tag=优选网页 none
-vmess = 104.17.124.30:443, method=none, password=4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, tls13=false, obfs=wss, obfs-host=sj1.ratzsuck.tk, obfs-uri=/, fast-open=false, udp-relay=true, tag=104 1M不到 none
