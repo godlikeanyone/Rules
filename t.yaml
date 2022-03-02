@@ -15,7 +15,6 @@ proxies:
   - {name: "🇺🇸 [Lv.1] 美国A | 直连", server: 173.255.215.146, port: 11443, type: vmess, uuid: 41297c23-c3e3-4e17-9ec4-f3a6cb6d2e68, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/common, ws-headers: {Host: usav2.ddns.tjiasu.xyz}}
   - {name: "🇺🇸 [Lv.1] 美国B | 中转", server: v2.369855.xyz, port: 11443, type: vmess, uuid: 41297c23-c3e3-4e17-9ec4-f3a6cb6d2e68, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/rn, ws-headers: {Host: usbv2.ddns.tjiasu.xyz}}
 proxy-groups:
-proxy-groups:
   - name: Proxies
     type: select
     proxies:
