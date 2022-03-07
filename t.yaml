@@ -14,12 +14,14 @@ proxies:
   - {name: "🇸🇬 [Lv.1] 新加坡A | 直连", server: v1.369855.xyz, port: 11443, type: vmess, uuid: 41297c23-c3e3-4e17-9ec4-f3a6cb6d2e68, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/sg, ws-headers: {Host: sgav2.ddns.tjiasu.xyz}}
   - {name: "🇺🇸 [Lv.1] 美国A | 直连", server: 173.255.215.146, port: 11443, type: vmess, uuid: 41297c23-c3e3-4e17-9ec4-f3a6cb6d2e68, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/common, ws-headers: {Host: usav2.ddns.tjiasu.xyz}}
   - {name: "🇺🇸 [Lv.1] 美国B | 中转", server: v2.369855.xyz, port: 11443, type: vmess, uuid: 41297c23-c3e3-4e17-9ec4-f3a6cb6d2e68, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/rn, ws-headers: {Host: usbv2.ddns.tjiasu.xyz}}
-  - {name: CloudFlare中转-Hax德国, server: hax.klee.ml, port: 2096, type: vmess, uuid: b0ff375d-87b8-4300-8741-83fe14f4c1c9, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: hax.klee.ml}}
+  - {name: 【推荐】CloudFlare中转-Hax德国, server: hax.klee.ml, port: 2096, type: vmess, uuid: b0ff375d-87b8-4300-8741-83fe14f4c1c9, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: hax.klee.ml}}
+  - {name: 【推荐】新加坡双栈直连, server: sg.ip6to4.com, port: 443, type: vmess, uuid: e715caca-c520-4388-bfc0-09707170867a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /fastssh/nicecloud/622631387c8ce/, headers: {Host: go.microsoft.com}}}
 proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - CloudFlare中转-Hax德国
+      - 【推荐】新加坡双栈直连
+      - 【推荐】CloudFlare中转-Hax德国
       - 新加坡A | 深港隧道
       - 美国A | 杭州联通1Gbps
       - 美国B | 杭州联通1Gbps
