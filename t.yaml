@@ -19,6 +19,7 @@ proxy-groups:
   - name: Proxies
     type: select
     proxies:
+      - CloudFlare中转-Hax德国
       - 新加坡A | 深港隧道
       - 美国A | 杭州联通1Gbps
       - 美国B | 杭州联通1Gbps
@@ -28,7 +29,6 @@ proxy-groups:
       - 🇸🇬 [Lv.1] 新加坡A | 直连
       - 🇺🇸 [Lv.1] 美国A | 直连
       - 🇺🇸 [Lv.1] 美国B | 中转
-      - CloudFlare中转-Hax德国
 rules:
  - GEOIP,CN,DIRECT
  - MATCH,Proxies
