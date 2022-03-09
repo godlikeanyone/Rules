@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 【推荐】流媒体解锁Hax德国, server: hax0.klee.ml, port: 443, type: vmess, uuid: 7349cfff-da6d-456d-b19d-70d73467808e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: ee8a69c2, headers: {Host: hax0.klee.ml}}}
+  - {name: 【推荐】流媒体解锁Hax德国, server: hax0.klee.ml, port: 2096, type: vmess, uuid: c4935296-a875-431f-8e5a-86f69cb09674, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hax0.klee.ml}}}
   - {name: 新加坡A | 深港隧道, server: 120.240.86.101, port: 45144, type: vmess, uuid: 22409413-b8bf-418a-bbdd-e87790b918dd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/sg, headers: {Host: sgav2.ddns.tjiasu.xyz}}, udp: true}
   - {name: 美国A | 杭州联通1Gbps, server: china-zj-hz-1.forwardserver.xyz, port: 30369, type: vmess, uuid: 22409413-b8bf-418a-bbdd-e87790b918dd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/common, headers: {Host: usav2.ddns.tjiasu.xyz}}, udp: true}
   - {name: 美国B | 杭州联通1Gbps, server: china-zj-hz-1.forwardserver.xyz, port: 41042, type: vmess, uuid: 22409413-b8bf-418a-bbdd-e87790b918dd, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/rn, headers: {Host: usbv2.ddns.tjiasu.xyz}}, udp: true}
