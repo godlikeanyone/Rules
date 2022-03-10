@@ -21,7 +21,7 @@ proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - 【推荐】流媒体解锁Hax德国
+      - 【推荐】流媒体解锁Hax
       - 【推荐】新加坡双栈直连
       - 【推荐】CloudFlare中转-Hax德国
       - 新加坡A | 深港隧道
