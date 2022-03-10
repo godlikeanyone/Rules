@@ -12,7 +12,7 @@ proxies:
   - {name: "🇸🇬 [备用] 新加坡A | 深港隧道", server: 120.240.86.101, port: 45144, type: vmess, uuid: e0a62e3a-1643-4c2d-8afb-9ed0c945ee37, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/sg, headers: {Host: sgav2.ddns.tjiasu.xyz}}}
   - {name: "🇺🇸 [备用] 美国A | 微软云加速", server: az.01.nkeo.top, port: 25078, type: vmess, uuid: e0a62e3a-1643-4c2d-8afb-9ed0c945ee37, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/common, headers: {Host: usav2.ddns.tjiasu.xyz}}}
   - {name: "🇺🇸 [备用] 美国B | 微软云加速", server: az.01.nkeo.top, port: 25079, type: vmess, uuid: e0a62e3a-1643-4c2d-8afb-9ed0c945ee37, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/rn, headers: {Host: usbv2.ddns.tjiasu.xyz}}}
-  - {name: "🇸🇬 [Lv.1] 新加坡A | 微软云加速", server: az.01.nkeo.top, port: 25077, type: vmess, uuid: 41297c23-c3e3-4e17-9ec4-f3a6cb6d2e68, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/sg, ws-headers: {Host: sgav2.ddns.tjiasu.xyz}}
+  - {name: "🇸🇬 [Lv.1] 新加坡A | 长沙联通", server: 116.162.33.210, port: 25049, type: vmess, uuid: 41297c23-c3e3-4e17-9ec4-f3a6cb6d2e68, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/sg, ws-headers: {Host: sgav2.ddns.tjiasu.xyz}}
   - {name: "🇺🇸 [Lv.1] 美国A | 微软云加速", server: az.01.nkeo.top, port: 25078, type: vmess, uuid: 41297c23-c3e3-4e17-9ec4-f3a6cb6d2e68, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/common, ws-headers: {Host: usav2.ddns.tjiasu.xyz}}
   - {name: "🇺🇸 [Lv.1] 美国B | 微软云加速", server: az.01.nkeo.top, port: 25079, type: vmess, uuid: 41297c23-c3e3-4e17-9ec4-f3a6cb6d2e68, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/rn, ws-headers: {Host: usbv2.ddns.tjiasu.xyz}}
   - {name: 【推荐】微软云加速-Hax, server: az.01.nkeo.top, port: 25081, type: vmess, uuid: 153b2844-2833-4002-fca6-d5ff0395f8af, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /godlike, ws-headers: {Host: hax0.klee.ml}}
@@ -28,7 +28,7 @@ proxy-groups:
       - 🇸🇬 [备用] 新加坡A | 深港隧道
       - 🇺🇸 [备用] 美国A | 微软云加速
       - 🇺🇸 [备用] 美国B | 微软云加速
-      - 🇸🇬 [Lv.1] 新加坡A | 微软云加速
+      - 🇸🇬 [Lv.1] 新加坡A | 长沙联通
       - 🇺🇸 [Lv.1] 美国A | 微软云加速
       - 🇺🇸 [Lv.1] 美国B | 微软云加速
 rules:
