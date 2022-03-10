@@ -1,18 +1,17 @@
 port: 7890
 socks-port: 7891
 mode: Rule
-mixin:
-  dns:
-    enable: true
-    enhanced-mode: fake-ip
-    nameserver:
-      #- https://i.233py.com/dns-query
-      - https://162.14.132.76/dns-query
-      - https://162.14.132.109/dns-query
-    fake-ip-filter:
-      - "dns.msftncsi.com"
-      - "www.msftncsi.com"
-      - "www.msftconnecttest.com"
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  nameserver:
+    - https://i.233py.com/dns-query
+    - https://162.14.132.76/dns-query
+    - https://162.14.132.109/dns-query
+  fake-ip-filter:
+    - "dns.msftncsi.com"
+    - "www.msftncsi.com"
+    - "www.msftconnecttest.com"
 proxies:
   - {name: 【推荐】更多稳定节点购买https://nicecloud.me, server: hax0.klee.ml, port: 2096, type: vmess, uuid: 153b2844-2833-4002-fca6-d5ff0395f8af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /godlike, headers: {Host: hax0.klee.ml}}}
   - {name: 【推荐】流媒体解锁-Hax, server: hax0.klee.ml, port: 2096, type: vmess, uuid: 153b2844-2833-4002-fca6-d5ff0395f8af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /godlike, headers: {Host: hax0.klee.ml}}}
