@@ -13,12 +13,14 @@ dns:
     - "www.msftncsi.com"
     - "www.msftconnecttest.com"
 proxies:
+  - {name: 🏳️‍🌈 香港阿里云, server: 47.244.38.92, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
   - {name: 🏳️‍🌈 华为云CC, server: 159.138.130.126, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
 proxy-groups:
   - name: Proxies
     type: select
     proxies:
       - 🏳️‍🌈 华为云CC
+      - 🏳️‍🌈 香港阿里云
 rules:
  - GEOIP,CN,DIRECT
  - MATCH,Proxies
