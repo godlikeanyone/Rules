@@ -5,9 +5,15 @@ dns:
   enable: true
   enhanced-mode: fake-ip
   nameserver:
-    - https://i.233py.com/dns-query
-    - https://162.14.132.76/dns-query
-    - https://162.14.132.109/dns-query
+    - tls://c.passcloud.xyz
+    - tls://x.passcloud.xyz
+    - tls://b.iqiq.io:853
+    - tls://h.iqiq.io:853
+    - tls://i.passcloud.xyz:5432
+    - tls://a.passcloud.xyz:5432
+    - tls://162.14.132.109:853
+    - tls://162.14.132.76:853
+    - tls://v.233py.com
   fake-ip-filter:
     - "dns.msftncsi.com"
     - "www.msftncsi.com"
