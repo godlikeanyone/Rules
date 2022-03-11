@@ -1,0 +1,24 @@
+port: 7890
+socks-port: 7891
+mode: Rule
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  nameserver:
+    - https://i.233py.com/dns-query
+    - https://162.14.132.76/dns-query
+    - https://162.14.132.109/dns-query
+  fake-ip-filter:
+    - "dns.msftncsi.com"
+    - "www.msftncsi.com"
+    - "www.msftconnecttest.com"
+proxies:
+  - {name: 🏳️‍🌈 香港阿里云高成本入口, server: 47.242.52.27, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
+proxy-groups:
+  - name: Proxies
+    type: select
+    proxies:
+      - 🏳️‍🌈 香港阿里云高成本入口
+rules:
+ - GEOIP,CN,DIRECT
+ - MATCH,Proxies
