@@ -24,12 +24,12 @@ proxies:
   - {name: 🏳️‍🌈 香港阿里云3, server: 47.91.144.17, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
   - {name: 🏳️‍🌈 香港阿里云4, server: 47.52.153.213, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
   - {name: 🏳️‍🌈 西安移动, server: 111.19.167.81, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
-  - {name: 🏳️‍🌈 华为云CC, server: 159.138.130.126, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
+  - {name: 🏳️‍🌈 湘港IPLC, server: 61.241.126.196, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
 proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - 🏳️‍🌈 华为云CC
+      - 🏳️‍🌈 湘港IPLC
       - 🏳️‍🌈 香港阿里云1
       - 🏳️‍🌈 香港阿里云2
       - 🏳️‍🌈 香港阿里云3
