@@ -37,6 +37,16 @@ proxies:
   - {name: 香港阿里云16, server: 47.243.205.204, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
   - {name: 香港阿里云17, server: 47.242.199.100, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
   - {name: 香港阿里云18, server: 47.242.146.209, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
+  - {name: 沪日IEPL游戏专线, server: 101.67.8.179, port: 45058, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
+  - {name: 香港阿里云18, server: 47.242.146.209, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
+  - {name: 香港阿里云18, server: 47.242.146.209, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
+  - {name: 香港阿里云18, server: 47.242.146.209, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
+  - {name: 香港阿里云18, server: 47.242.146.209, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
+  - {name: 香港阿里云18, server: 47.242.146.209, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
+  - {name: 香港阿里云18, server: 47.242.146.209, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
+  - {name: 香港阿里云18, server: 47.242.146.209, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
+  - {name: 香港阿里云18, server: 47.242.146.209, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
+  - {name: 香港阿里云18, server: 47.242.146.209, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
 proxy-groups:
   - name: Proxies
     type: select
@@ -73,6 +83,7 @@ proxy-groups:
       - 香港阿里云16
       - 香港阿里云17
       - 香港阿里云18
+      - 沪日IEPL游戏专线
       
 rules:
  - GEOIP,CN,DIRECT
