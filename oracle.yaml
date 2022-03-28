@@ -1,0 +1,16 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 腾讯云新加坡, server: 43.156.39.248, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
+proxy-groups:
+  - name: Proxies
+    type: select
+    proxies:
+      - 腾讯云新加坡
+rules:
+ - GEOIP,CN,DIRECT
+ - MATCH,Proxies
