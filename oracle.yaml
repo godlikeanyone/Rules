@@ -16,9 +16,9 @@ proxies:
   - {name: 腾讯云香港5-G口, server: 43.129.253.120, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
   - {name: 腾讯云香港6, server: 150.109.147.14, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
   - {name: 腾讯云香港7, server: 43.129.221.110, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
-  - {name: 腾讯云香港5-G口, server: 43.129.253.120, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
-  - {name: 腾讯云香港5-G口, server: 43.129.253.120, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
-  - {name: 腾讯云香港5-G口, server: 43.129.253.120, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
+  - {name: 上海移动1, server: 183.195.133.82, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
+  - {name: 上海移动2, server: 183.195.133.82, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
+  - {name: 广州移动, server: 120.232.150.110, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
   - {name: 腾讯云香港5-G口, server: 43.129.253.120, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
   - {name: 腾讯云香港5-G口, server: 43.129.253.120, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
 proxy-groups:
@@ -36,6 +36,9 @@ proxy-groups:
       - 腾讯云香港5-G口
       - 腾讯云香港6
       - 腾讯云香港7
+      - 上海移动1
+      - 上海移动2
+      - 广州移动
 rules:
  - GEOIP,CN,DIRECT
  - MATCH,Proxies
