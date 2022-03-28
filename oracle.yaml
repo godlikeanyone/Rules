@@ -13,7 +13,7 @@ proxies:
   - {name: 腾讯云香港2, server: 43.154.5.144, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
   - {name: 腾讯云香港3, server: 43.154.75.18, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
   - {name: 腾讯云香港4, server: 124.156.137.34, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
-  - {name: 腾讯云香港, server: 43.156.39.248, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
+  - {name: 腾讯云香港5-G口, server: 43.129.253.120, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.sayuri.cf}}, udp: true}
 proxy-groups:
   - name: Proxies
     type: select
@@ -26,6 +26,7 @@ proxy-groups:
       - 腾讯云香港2
       - 腾讯云香港3
       - 腾讯云香港4
+      - 腾讯云香港5-G口
 rules:
  - GEOIP,CN,DIRECT
  - MATCH,Proxies
