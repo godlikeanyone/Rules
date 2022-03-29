@@ -1,4 +1,0 @@
-vmess=free-1.joker007.top:443, method=aes-128-gcm, password=5b7492f4-3dfe-4ae3-9c97-62e7f55c1c66, obfs=wss, obfs-host=free-1.joker007.top, obfs-uri=/, tag=美国1
-vmess=free-2.joker007.top:443, method=aes-128-gcm, password=5b7492f4-3dfe-4ae3-9c97-62e7f55c1c66, obfs=wss, obfs-host=free-2.joker007.top, obfs-uri=/, tag=美国2
-vmess=free-3.joker007.top:443, method=aes-128-gcm, password=5b7492f4-3dfe-4ae3-9c97-62e7f55c1c66, obfs=wss, obfs-host=free-3.joker007.top, obfs-uri=/, tag=卢森堡
-vmess=free-5.joker007.top:443, method=aes-128-gcm, password=5b7492f4-3dfe-4ae3-9c97-62e7f55c1c66, obfs=wss, obfs-host=free-5.joker007.top, obfs-uri=/, tag=欧洲
