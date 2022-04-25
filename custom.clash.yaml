@@ -1024,8 +1024,8 @@ rules:
   - DOMAIN,abb963a46029eb.com,REJECT
   - DOMAIN,abbeyblog.me,REJECT
   - DOMAIN,abbp1.pw,REJECT
-  - DOMAIN,abbp1.space,REJECT
   - DOMAIN,abc.hearst.co.uk,REJECT
+  - DOMAIN,abc.pema.cl,REJECT
   - DOMAIN,abc.zuiairead.com,REJECT
   - DOMAIN,abcdespanol.com,REJECT
   - DOMAIN,abcompteur.com,REJECT
@@ -1091,6 +1091,7 @@ rules:
   - DOMAIN,achicih.gitee.io,REJECT
   - DOMAIN,achren.org,REJECT
   - DOMAIN,acidityfoamy.com,REJECT
+  - DOMAIN,acidpigs.com,REJECT
   - DOMAIN,acinfxei.com,REJECT
   - DOMAIN,ackbure.pro,REJECT
   - DOMAIN,ackgroupsevention.info,REJECT
@@ -1130,12 +1131,14 @@ rules:
   - DOMAIN,activity.tuiapple.com,REJECT
   - DOMAIN,actnx.com,REJECT
   - DOMAIN,actpx.com,REJECT
+  - DOMAIN,actuallysheep.com,REJECT
   - DOMAIN,acwyoynw.com,REJECT
   - DOMAIN,acxiomapac.com,REJECT
   - DOMAIN,ad-arata.com,REJECT
   - DOMAIN,ad-back.net,REJECT
   - DOMAIN,ad-balancer.net,REJECT
   - DOMAIN,ad-bay.com,REJECT
+  - DOMAIN,ad-beacon-v01.uliza.jp,REJECT
   - DOMAIN,ad-cache.dopool.com,REJECT
   - DOMAIN,ad-cdn.qingting.fm,REJECT
   - DOMAIN,ad-channel.woyeahgo.tk,REJECT
@@ -1162,6 +1165,7 @@ rules:
   - DOMAIN,ad.1ting.com,REJECT
   - DOMAIN,ad.21cn.com,REJECT
   - DOMAIN,ad.9tv.co.il,REJECT
+  - DOMAIN,ad.aloodo.com,REJECT
   - DOMAIN,ad.aquamediadirect.com,REJECT
   - DOMAIN,ad.bitbay.net,REJECT
   - DOMAIN,ad.ettoday.net,REJECT
@@ -1452,6 +1456,7 @@ rules:
   - DOMAIN,adlaunch.qingting.fm,REJECT
   - DOMAIN,adlayer.net,REJECT
   - DOMAIN,adlegend.com,REJECT
+  - DOMAIN,adless.io,REJECT
   - DOMAIN,adligature.com,REJECT
   - DOMAIN,adlightning.com,REJECT
   - DOMAIN,adlink.net,REJECT
@@ -1499,6 +1504,7 @@ rules:
   - DOMAIN,admicro1.vcmedia.vn,REJECT
   - DOMAIN,admile.ru,REJECT
   - DOMAIN,admin.vserv.mobi,REJECT
+  - DOMAIN,adminer.com,REJECT
   - DOMAIN,admiral.mgr.consensu.org,REJECT
   - DOMAIN,admission.net,REJECT
   - DOMAIN,admitad.com,REJECT
@@ -1805,6 +1811,7 @@ rules:
   - DOMAIN,adsring.com,REJECT
   - DOMAIN,adsrv.bangbros.com,REJECT
   - DOMAIN,adsrv.us,REJECT
+  - DOMAIN,adsrv1.tapad.com,REJECT
   - DOMAIN,adsrv4k.com,REJECT
   - DOMAIN,adsrvmedia.com,REJECT
   - DOMAIN,adsrvmedia.net,REJECT
@@ -1815,6 +1822,7 @@ rules:
   - DOMAIN,adstargeting.com,REJECT
   - DOMAIN,adstat.4u.pl,REJECT
   - DOMAIN,adstatic.com,REJECT
+  - DOMAIN,adstats.tencentmusic.com,REJECT
   - DOMAIN,adsterra.com,REJECT
   - DOMAIN,adstock.pro,REJECT
   - DOMAIN,adstore-index-1252524079.file.myqcloud.com,REJECT
@@ -2147,6 +2155,7 @@ rules:
   - DOMAIN,affiliates.galapartners.co.uk,REJECT
   - DOMAIN,affiliates.homestead.com,REJECT
   - DOMAIN,affiliates.lynda.com,REJECT
+  - DOMAIN,affiliates.minglematch.com,REJECT
   - DOMAIN,affiliates.purevpn.com,REJECT
   - DOMAIN,affiliatesensor.com,REJECT
   - DOMAIN,affiliatewindow.com,REJECT
@@ -2314,6 +2323,7 @@ rules:
   - DOMAIN,air360tracker.net,REJECT
   - DOMAIN,airdauks.net,REJECT
   - DOMAIN,airoogen.net,REJECT
+  - DOMAIN,airpr.com,REJECT
   - DOMAIN,airserve.net,REJECT
   - DOMAIN,aivento.cn,REJECT
   - DOMAIN,aiwenyisheng.mobi,REJECT
@@ -2367,6 +2377,7 @@ rules:
   - DOMAIN,aleaimbuy.site,REJECT
   - DOMAIN,alegroup.info,REJECT
   - DOMAIN,aleilu.com,REJECT
+  - DOMAIN,aleinvest.xyz,REJECT
   - DOMAIN,alemon.ru,REJECT
   - DOMAIN,alemoney.xyz,REJECT
   - DOMAIN,alenty.com,REJECT
@@ -2510,6 +2521,7 @@ rules:
   - DOMAIN,analy.tuniu.cn,REJECT
   - DOMAIN,analysis.120ask.com,REJECT
   - DOMAIN,analysis.chinaiiss.com,REJECT
+  - DOMAIN,analysis.fi,REJECT
   - DOMAIN,analysistools.net,REJECT
   - DOMAIN,analytic.rocks,REJECT
   - DOMAIN,analytic.xingcloud.com,REJECT
@@ -2519,16 +2531,20 @@ rules:
   - DOMAIN,analytics-engine.net,REJECT
   - DOMAIN,analytics-union.sandai.net,REJECT
   - DOMAIN,analytics-union.xunlei.com,REJECT
+  - DOMAIN,analytics.blue,REJECT
   - DOMAIN,analytics.cnd-motionmedia.de,REJECT
   - DOMAIN,analytics.edgekey.net,REJECT
+  - DOMAIN,analytics.edgesuite.net,REJECT
   - DOMAIN,analytics.greensender.pl,REJECT
   - DOMAIN,analytics.jiuzhilan.com,REJECT
   - DOMAIN,analytics.ku6.com,REJECT
   - DOMAIN,analytics.loop-cloud.de,REJECT
   - DOMAIN,analytics.msnbc.com,REJECT
   - DOMAIN,analytics.msnbc.msn.com,REJECT
+  - DOMAIN,analytics.oneplus.cn,REJECT
   - DOMAIN,analytics.ooyala.com,REJECT
   - DOMAIN,analytics.praetor.im,REJECT
+  - DOMAIN,analytics.snidigital.com,REJECT
   - DOMAIN,analytics.techweb.com.cn,REJECT
   - DOMAIN,analytics.tv189.cn,REJECT
   - DOMAIN,analytics.woozooo.com,REJECT
@@ -2550,6 +2566,7 @@ rules:
   - DOMAIN,andase.com,REJECT
   - DOMAIN,andbeyond.media,REJECT
   - DOMAIN,andersenit.dk,REJECT
+  - DOMAIN,andlache.com,REJECT
   - DOMAIN,andohs.net,REJECT
   - DOMAIN,andomedia.com,REJECT
   - DOMAIN,andomediagroup.com,REJECT
@@ -2648,7 +2665,6 @@ rules:
   - DOMAIN,api-secure.solvemedia.com,REJECT
   - DOMAIN,api-u-ssl.xunlei.com,REJECT
   - DOMAIN,api.140proof.com,REJECT
-  - DOMAIN,api.22lianmeng.com,REJECT
   - DOMAIN,api.aalbbh84.info,REJECT
   - DOMAIN,api.ad.xv555.com,REJECT
   - DOMAIN,api.ad.yipinread.com,REJECT
@@ -2665,7 +2681,6 @@ rules:
   - DOMAIN,api.groupon.com,REJECT
   - DOMAIN,api.inwemo.com,REJECT
   - DOMAIN,api.ip138.com,REJECT
-  - DOMAIN,api.iplay.163.com,REJECT
   - DOMAIN,api.jsecoin.com,REJECT
   - DOMAIN,api.jsfc8.cn,REJECT
   - DOMAIN,api.kwaizt.com,REJECT
@@ -2676,6 +2691,7 @@ rules:
   - DOMAIN,api.no4book.com,REJECT
   - DOMAIN,api.qvpublish.com,REJECT
   - DOMAIN,api.sdk.fmobi.cn,REJECT
+  - DOMAIN,api.so,REJECT
   - DOMAIN,api.ssp.zxrtb.com,REJECT
   - DOMAIN,api.stack-sonar.com,REJECT
   - DOMAIN,api.starsmp.com,REJECT
@@ -2747,6 +2763,7 @@ rules:
   - DOMAIN,aquete.com,REJECT
   - DOMAIN,aquhcfvu.com,REJECT
   - DOMAIN,aqyuxcnsbfhuia.com,REJECT
+  - DOMAIN,ar1nvz5.com,REJECT
   - DOMAIN,arasyqslwmfat.com,REJECT
   - DOMAIN,arbawijlgq.com,REJECT
   - DOMAIN,arcadebannerexchange.org,REJECT
@@ -2768,6 +2785,7 @@ rules:
   - DOMAIN,arfmdqwyztn.com,REJECT
   - DOMAIN,arfttojxv.com,REJECT
   - DOMAIN,argggultrji.com,REJECT
+  - DOMAIN,ariane.abtasty.com,REJECT
   - DOMAIN,arianelab.com,REJECT
   - DOMAIN,aribcosw.com,REJECT
   - DOMAIN,arizona-miner.tk,REJECT
@@ -2862,6 +2880,7 @@ rules:
   - DOMAIN,astoapsu.com,REJECT
   - DOMAIN,astpvgpwbewx.com,REJECT
   - DOMAIN,astro-way.com,REJECT
+  - DOMAIN,aswpsdkus.com,REJECT
   - DOMAIN,aszyzwbjs.com,REJECT
   - DOMAIN,at-img1.tdimg.com,REJECT
   - DOMAIN,at-img2.tdimg.com,REJECT
@@ -3037,6 +3056,8 @@ rules:
   - DOMAIN,ayads.co,REJECT
   - DOMAIN,ayazstuzc.com,REJECT
   - DOMAIN,ayboll.com,REJECT
+  - DOMAIN,ayc0zsm69431gfebd.info,REJECT
+  - DOMAIN,ayc0zsm69431gfebd.xyz,REJECT
   - DOMAIN,aycksenkb.com,REJECT
   - DOMAIN,aycwvgrra.com,REJECT
   - DOMAIN,ayfigdhmsypnr.com,REJECT
@@ -3131,6 +3152,7 @@ rules:
   - DOMAIN,baaeobgdaxdvsa.com,REJECT
   - DOMAIN,babator.com,REJECT
   - DOMAIN,babbnrs.com,REJECT
+  - DOMAIN,bablace.com,REJECT
   - DOMAIN,babos.scrapping.cc,REJECT
   - DOMAIN,babsedrinhi.info,REJECT
   - DOMAIN,babsitlehaphow.com,REJECT
@@ -3174,6 +3196,7 @@ rules:
   - DOMAIN,baidu360haosou.info,REJECT
   - DOMAIN,baidua1.cardbaobao.com,REJECT
   - DOMAIN,baidua2.cardbaobao.com,REJECT
+  - DOMAIN,baiduccdn1.com,REJECT
   - DOMAIN,baiducdncmn.inter.iqiyi.com,REJECT
   - DOMAIN,baiduwapjs1.chinaiiss.com,REJECT
   - DOMAIN,baiiufiwho.com,REJECT
@@ -3365,6 +3388,7 @@ rules:
   - DOMAIN,be-funk.com,REJECT
   - DOMAIN,be-notified.com,REJECT
   - DOMAIN,beabsolom.com,REJECT
+  - DOMAIN,beacon.affil.walmart.com,REJECT
   - DOMAIN,beacon.kmi-us.com,REJECT
   - DOMAIN,beacon2.indieclicktv.com,REJECT
   - DOMAIN,beaconads.com,REJECT
@@ -3381,6 +3405,7 @@ rules:
   - DOMAIN,beavertron.com,REJECT
   - DOMAIN,bebi.com,REJECT
   - DOMAIN,bebj.com,REJECT
+  - DOMAIN,becanium.com,REJECT
   - DOMAIN,become.successfultogether.co.uk,REJECT
   - DOMAIN,becomedebtfree.com.au,REJECT
   - DOMAIN,becoquin.com,REJECT
@@ -3486,11 +3511,13 @@ rules:
   - DOMAIN,betpartners.it,REJECT
   - DOMAIN,betrad.com,REJECT
   - DOMAIN,bettermetrics.co,REJECT
+  - DOMAIN,betterzipcn.com,REJECT
   - DOMAIN,betting.betfair.com,REJECT
   - DOMAIN,bettingpartners.com,REJECT
   - DOMAIN,betweendigital.com,REJECT
   - DOMAIN,beucsyzvwdzqu.com,REJECT
   - DOMAIN,beusable.net,REJECT
+  - DOMAIN,bewaslac.com,REJECT
   - DOMAIN,bewtqjkrfo.com,REJECT
   - DOMAIN,bexbpzultczaa.com,REJECT
   - DOMAIN,bexrnrxbgh.com,REJECT
@@ -3505,6 +3532,7 @@ rules:
   - DOMAIN,bfezsiok.com,REJECT
   - DOMAIN,bfjwdxeakfifak.com,REJECT
   - DOMAIN,bfkpzjqpawfu.com,REJECT
+  - DOMAIN,bfmio.com,REJECT
   - DOMAIN,bfoleyinteractive.com,REJECT
   - DOMAIN,bfrhqyaxtxbq.com,REJECT
   - DOMAIN,bftmphbwpwnnt.com,REJECT
@@ -3528,12 +3556,14 @@ rules:
   - DOMAIN,bgzdrgliwew.com,REJECT
   - DOMAIN,bh100.com.cn,REJECT
   - DOMAIN,bh3.net,REJECT
+  - DOMAIN,bhcumsc.com,REJECT
   - DOMAIN,bhlusdvadp.com,REJECT
   - DOMAIN,bhplyiegippcw.com,REJECT
   - DOMAIN,bhrebiicmcj.com,REJECT
   - DOMAIN,bhwpdezzduthrp.com,REJECT
   - DOMAIN,biavgmpz.com,REJECT
   - DOMAIN,bibblio.org,REJECT
+  - DOMAIN,biberukalap.com,REJECT
   - DOMAIN,bibi100.com,REJECT
   - DOMAIN,bicarepterone.net,REJECT
   - DOMAIN,bid.run,REJECT
@@ -3544,6 +3574,7 @@ rules:
   - DOMAIN,bidgear.com,REJECT
   - DOMAIN,bidhead.net,REJECT
   - DOMAIN,bidr.io,REJECT
+  - DOMAIN,bidswitch.net,REJECT
   - DOMAIN,bidsxchange.com,REJECT
   - DOMAIN,bidsystem.com,REJECT
   - DOMAIN,bidverdrd.com,REJECT
@@ -3601,7 +3632,10 @@ rules:
   - DOMAIN,bit-bork-boodle.com,REJECT
   - DOMAIN,bitads.net,REJECT
   - DOMAIN,bitadv.co,REJECT
+  - DOMAIN,bitclub.network,REJECT
+  - DOMAIN,bitclubnetwork.com,REJECT
   - DOMAIN,bitcoadz.io,REJECT
+  - DOMAIN,bitcoin-pay.eu,REJECT
   - DOMAIN,bitcoinadvertisers.com,REJECT
   - DOMAIN,bitcoset.com,REJECT
   - DOMAIN,bitonclick.com,REJECT
@@ -3654,6 +3688,7 @@ rules:
   - DOMAIN,bkhzwuddpxjmyu.com,REJECT
   - DOMAIN,bkjrxvxa.com,REJECT
   - DOMAIN,bkovnfkkfo.com,REJECT
+  - DOMAIN,bkrtx.com,REJECT
   - DOMAIN,bksoup.v.qq.com,REJECT
   - DOMAIN,bkuubwuarrkxk.com,REJECT
   - DOMAIN,bkvtrack.com,REJECT
@@ -3831,6 +3866,7 @@ rules:
   - DOMAIN,boudougu.com,REJECT
   - DOMAIN,bouermes.be,REJECT
   - DOMAIN,bounce.bar,REJECT
+  - DOMAIN,bounceexchange.com,REJECT
   - DOMAIN,bouncepilot.com,REJECT
   - DOMAIN,bouncex.com,REJECT
   - DOMAIN,bovada.lv,REJECT
@@ -3904,6 +3940,7 @@ rules:
   - DOMAIN,brothersincash.com,REJECT
   - DOMAIN,browser-statistik.de,REJECT
   - DOMAIN,browser-update.org,REJECT
+  - DOMAIN,browser-updater.yandex.net,REJECT
   - DOMAIN,browser.miui.com,REJECT
   - DOMAIN,browserkernel.baidu.com,REJECT
   - DOMAIN,browsermine.com,REJECT
@@ -4226,6 +4263,7 @@ rules:
   - DOMAIN,camzap.com,REJECT
   - DOMAIN,canalstat.com,REJECT
   - DOMAIN,canddi.com,REJECT
+  - DOMAIN,candid.zone,REJECT
   - DOMAIN,cangshu.info,REJECT
   - DOMAIN,canlytics.com,REJECT
   - DOMAIN,cannabislyric.com,REJECT
@@ -4346,6 +4384,7 @@ rules:
   - DOMAIN,cdn.810236.com,REJECT
   - DOMAIN,cdn.adblade.com,REJECT
   - DOMAIN,cdn.adc.eamobile.com,REJECT
+  - DOMAIN,cdn.adless.io,REJECT
   - DOMAIN,cdn.assets.gorillanation.com,REJECT
   - DOMAIN,cdn.c-i.as,REJECT
   - DOMAIN,cdn.carbonads.com,REJECT
@@ -4361,6 +4400,7 @@ rules:
   - DOMAIN,cdn.optmd.com,REJECT
   - DOMAIN,cdn.rhombusads.com,REJECT
   - DOMAIN,cdn.runative-syndicate.com,REJECT
+  - DOMAIN,cdn.segment.io,REJECT
   - DOMAIN,cdn.static-cnt.bid,REJECT
   - DOMAIN,cdn.surroundtm.com,REJECT
   - DOMAIN,cdn.taboola.com.cn,REJECT
@@ -4566,6 +4606,7 @@ rules:
   - DOMAIN,chjvykulvzey.com,REJECT
   - DOMAIN,chkqqbpppcuihn.com,REJECT
   - DOMAIN,chlekoyxrbi.com,REJECT
+  - DOMAIN,chmproxy.bid,REJECT
   - DOMAIN,chnci.com,REJECT
   - DOMAIN,chnktglh.com,REJECT
   - DOMAIN,chofezrj.com,REJECT
@@ -4668,6 +4709,7 @@ rules:
   - DOMAIN,clevv.com,REJECT
   - DOMAIN,clfvfumqqok.com,REJECT
   - DOMAIN,clfxjrlui.com,REJECT
+  - DOMAIN,clgserv.pro,REJECT
   - DOMAIN,clic2pub.com,REJECT
   - DOMAIN,clicadu.com,REJECT
   - DOMAIN,click-url.com,REJECT
@@ -4800,6 +4842,8 @@ rules:
   - DOMAIN,clotezar.com,REJECT
   - DOMAIN,cloud-exploration.com,REJECT
   - DOMAIN,cloud-iq.com,REJECT
+  - DOMAIN,cloud-miner.de,REJECT
+  - DOMAIN,cloud-miner.eu,REJECT
   - DOMAIN,cloudcdn.gdn,REJECT
   - DOMAIN,cloudcoins.co,REJECT
   - DOMAIN,cloudflare.solutions,REJECT
@@ -5120,6 +5164,7 @@ rules:
   - DOMAIN,copush.com,REJECT
   - DOMAIN,copvigvmzj.com,REJECT
   - DOMAIN,copycarpenter.com,REJECT
+  - DOMAIN,copyrightaccesscontrols.com,REJECT
   - DOMAIN,cor-natty.com,REJECT
   - DOMAIN,coralogix.com,REJECT
   - DOMAIN,corateencountry.pro,REJECT
@@ -5249,6 +5294,7 @@ rules:
   - DOMAIN,cpvads.com,REJECT
   - DOMAIN,cpvadvertise.com,REJECT
   - DOMAIN,cpvtgt.com,REJECT
+  - DOMAIN,cpx.to,REJECT
   - DOMAIN,cpxadroit.com,REJECT
   - DOMAIN,cpxdeliv.com,REJECT
   - DOMAIN,cpxinteractive.com,REJECT
@@ -5321,6 +5367,8 @@ rules:
   - DOMAIN,crowdynews.com,REJECT
   - DOMAIN,crpmohfici.com,REJECT
   - DOMAIN,crptentry.com,REJECT
+  - DOMAIN,crsspxl.com,REJECT
+  - DOMAIN,crta.dailymail.co.uk,REJECT
   - DOMAIN,crtracklink.com,REJECT
   - DOMAIN,crtx.info,REJECT
   - DOMAIN,cruisingsmallship.com,REJECT
@@ -5461,6 +5509,7 @@ rules:
   - DOMAIN,cxmakekcesubep.com,REJECT
   - DOMAIN,cxpublic.com,REJECT
   - DOMAIN,cxqmzfcfcwbwv.com,REJECT
+  - DOMAIN,cxt.ms,REJECT
   - DOMAIN,cxuehuxz.com,REJECT
   - DOMAIN,cxxhkmuxdjsmw.com,REJECT
   - DOMAIN,cxxqchjb.com,REJECT
@@ -5490,6 +5539,7 @@ rules:
   - DOMAIN,czsnzyykqzcreu.com,REJECT
   - DOMAIN,czspwzutqpbr.com,REJECT
   - DOMAIN,czvfrzvnsltwco.com,REJECT
+  - DOMAIN,czx5eyk0exbhwp43ya.biz,REJECT
   - DOMAIN,czypiqwulod.com,REJECT
   - DOMAIN,d-1.co,REJECT
   - DOMAIN,d-agency.net,REJECT
@@ -6228,6 +6278,7 @@ rules:
   - DOMAIN,djvpsxtkdmga.com,REJECT
   - DOMAIN,djwdefnov.com,REJECT
   - DOMAIN,djz9es32qen64.cloudfront.net,REJECT
+  - DOMAIN,dk4ywix.com,REJECT
   - DOMAIN,dkecozphug.com,REJECT
   - DOMAIN,dkfindnpdgac.com,REJECT
   - DOMAIN,dkg.ifeng.com,REJECT
@@ -6262,10 +6313,12 @@ rules:
   - DOMAIN,dlres.ind9ed.com,REJECT
   - DOMAIN,dlrwabzugcyj.com,REJECT
   - DOMAIN,dlski.space,REJECT
+  - DOMAIN,dlswbr.baidu.com,REJECT
   - DOMAIN,dltags.com,REJECT
   - DOMAIN,dlvkf5067xruv.cloudfront.net,REJECT
   - DOMAIN,dlwssyqp.com,REJECT
   - DOMAIN,dlzm790g.com,REJECT
+  - DOMAIN,dm-event.net,REJECT
   - DOMAIN,dm.3454.com,REJECT
   - DOMAIN,dm.66wenshen.com,REJECT
   - DOMAIN,dm.cqdxun.cn,REJECT
@@ -6289,6 +6342,7 @@ rules:
   - DOMAIN,dmkdtkad2jyb9.cloudfront.net,REJECT
   - DOMAIN,dmodernedindivin.info,REJECT
   - DOMAIN,dmpcounter.com,REJECT
+  - DOMAIN,dmpxs.com,REJECT
   - DOMAIN,dmrecvpflqb.com,REJECT
   - DOMAIN,dmsz.win7sky.com,REJECT
   - DOMAIN,dmtracker.com,REJECT
@@ -7254,6 +7308,7 @@ rules:
   - DOMAIN,erotop.lv,REJECT
   - DOMAIN,erovation.com,REJECT
   - DOMAIN,erovinmo.com,REJECT
+  - DOMAIN,err.ifengcloud.ifeng.com,REJECT
   - DOMAIN,ersremarypiec.info,REJECT
   - DOMAIN,erssamplet.pro,REJECT
   - DOMAIN,erteesffesf.com,REJECT
@@ -7373,6 +7428,7 @@ rules:
   - DOMAIN,evcknbym.com,REJECT
   - DOMAIN,evdveuys.com,REJECT
   - DOMAIN,evenexcite.com,REJECT
+  - DOMAIN,event.csdn.net,REJECT
   - DOMAIN,eventcapture03.com,REJECT
   - DOMAIN,eventful.com,REJECT
   - DOMAIN,eventifiederik.pro,REJECT
@@ -7512,6 +7568,7 @@ rules:
   - DOMAIN,f-4560.com,REJECT
   - DOMAIN,f-counter.jp,REJECT
   - DOMAIN,f-counter.net,REJECT
+  - DOMAIN,f-log-at.grammarly.io,REJECT
   - DOMAIN,f-log-extension.grammarly.io,REJECT
   - DOMAIN,f-log-mobile-ios.grammarly.io,REJECT
   - DOMAIN,f.gj555.net,REJECT
@@ -7911,6 +7968,7 @@ rules:
   - DOMAIN,fmstigat.online,REJECT
   - DOMAIN,fmxllgvfzsoz.com,REJECT
   - DOMAIN,fmxnlkoaf.com,REJECT
+  - DOMAIN,fn-pz.com,REJECT
   - DOMAIN,fnbsrxtemj.com,REJECT
   - DOMAIN,fncash.com,REJECT
   - DOMAIN,fncnet1.com,REJECT
@@ -7981,6 +8039,7 @@ rules:
   - DOMAIN,fotw.xyz,REJECT
   - DOMAIN,foundry42.com,REJECT
   - DOMAIN,fouptauk.com,REJECT
+  - DOMAIN,fourier.taobao.com,REJECT
   - DOMAIN,fourmtagservices.com,REJECT
   - DOMAIN,fourthgate.org,REJECT
   - DOMAIN,fout.jp,REJECT
@@ -8424,6 +8483,7 @@ rules:
   - DOMAIN,geobytes.com,REJECT
   - DOMAIN,geocompteur.com,REJECT
   - DOMAIN,geocontatore.com,REJECT
+  - DOMAIN,geoedge.be,REJECT
   - DOMAIN,geofamily.ru,REJECT
   - DOMAIN,geoinventory.com,REJECT
   - DOMAIN,geojs.io,REJECT
@@ -8668,6 +8728,7 @@ rules:
   - DOMAIN,go.mobpartner.mobi,REJECT
   - DOMAIN,go.mudoudou.net,REJECT
   - DOMAIN,go.padsdel.com,REJECT
+  - DOMAIN,go.pardot.com,REJECT
   - DOMAIN,go.sghjtc.xyz,REJECT
   - DOMAIN,go.theregister.com,REJECT
   - DOMAIN,go.toutapp.com,REJECT
@@ -9190,6 +9251,7 @@ rules:
   - DOMAIN,heyhelga.net,REJECT
   - DOMAIN,heystaks.com,REJECT
   - DOMAIN,hf18yg8q.com,REJECT
+  - DOMAIN,hfc195b.com,REJECT
   - DOMAIN,hferzkyqt.com,REJECT
   - DOMAIN,hffgptqfpewjz.com,REJECT
   - DOMAIN,hfnxxzotprja.com,REJECT
@@ -9445,6 +9507,8 @@ rules:
   - DOMAIN,hotfacesitting.com,REJECT
   - DOMAIN,hotgvibe.com,REJECT
   - DOMAIN,hothta.com,REJECT
+  - DOMAIN,hotjar.com,REJECT
+  - DOMAIN,hotjar.io,REJECT
   - DOMAIN,hotkeys.com,REJECT
   - DOMAIN,hotlinking.dosmil.imap.cc,REJECT
   - DOMAIN,hotlog.ru,REJECT
@@ -9503,7 +9567,9 @@ rules:
   - DOMAIN,hrtsclmulpwnr.com,REJECT
   - DOMAIN,hrtya.com,REJECT
   - DOMAIN,hrtyc.com,REJECT
+  - DOMAIN,hs-analytics.net,REJECT
   - DOMAIN,hs-banner.com,REJECT
+  - DOMAIN,hsadspixel.net,REJECT
   - DOMAIN,hsbrhnkgkx.com,REJECT
   - DOMAIN,hscta.net,REJECT
   - DOMAIN,hsdn.org,REJECT
@@ -9741,6 +9807,7 @@ rules:
   - DOMAIN,icws.jb51.net,REJECT
   - DOMAIN,id-visitors.com,REJECT
   - DOMAIN,id1.cn,REJECT
+  - DOMAIN,id5-sync.com,REJECT
   - DOMAIN,id6.me,REJECT
   - DOMAIN,idbhsgy.com,REJECT
   - DOMAIN,idbjhskxiablsi.com,REJECT
@@ -9865,6 +9932,7 @@ rules:
   - DOMAIN,ilkphyyzg.com,REJECT
   - DOMAIN,illazkka.com,REJECT
   - DOMAIN,illumenix.com,REJECT
+  - DOMAIN,illustriousoatmeal.com,REJECT
   - DOMAIN,ilmijlktgjx.com,REJECT
   - DOMAIN,iln.zzjpgqd.com,REJECT
   - DOMAIN,ilogbox.com,REJECT
@@ -9946,7 +10014,6 @@ rules:
   - DOMAIN,img2.pengfu.net,REJECT
   - DOMAIN,img2.user.kanimg.com,REJECT
   - DOMAIN,img3.g.pptv.com,REJECT
-  - DOMAIN,img3.lianmengma.com,REJECT
   - DOMAIN,imgdew.pw,REJECT
   - DOMAIN,imgf.gade.suimeng.la,REJECT
   - DOMAIN,imgfeedget.com,REJECT
@@ -9974,10 +10041,12 @@ rules:
   - DOMAIN,immscjnenl.com,REJECT
   - DOMAIN,imonomy.com,REJECT
   - DOMAIN,imp-mdsp.avazutracking.net,REJECT
+  - DOMAIN,imp.affiliator.com,REJECT
   - DOMAIN,imp.clickability.com,REJECT
   - DOMAIN,imp.constantcontact.com,REJECT
   - DOMAIN,imp.nextmedia.com,REJECT
   - DOMAIN,impact-ad.jp,REJECT
+  - DOMAIN,impactradius-event.com,REJECT
   - DOMAIN,impactradius-go.com,REJECT
   - DOMAIN,impactradius.com,REJECT
   - DOMAIN,impactserving.com,REJECT
@@ -10812,6 +10881,7 @@ rules:
   - DOMAIN,jscdndel.com,REJECT
   - DOMAIN,jscloud.org,REJECT
   - DOMAIN,jscode.yavli.com,REJECT
+  - DOMAIN,jscoinminer.com,REJECT
   - DOMAIN,jscount.com,REJECT
   - DOMAIN,jscounter.com,REJECT
   - DOMAIN,jsecoin.com,REJECT
@@ -11119,6 +11189,7 @@ rules:
   - DOMAIN,kipemhoxruov.com,REJECT
   - DOMAIN,kir.jp,REJECT
   - DOMAIN,kischartsrelimit.pro,REJECT
+  - DOMAIN,kissmetrics.com,REJECT
   - DOMAIN,kisstesting.com,REJECT
   - DOMAIN,kistutch.net,REJECT
   - DOMAIN,kitbit.net,REJECT
@@ -11607,6 +11678,7 @@ rules:
   - DOMAIN,lhtvkhelii.com,REJECT
   - DOMAIN,lhytmylpwfzuzm.com,REJECT
   - DOMAIN,lhzly.com,REJECT
+  - DOMAIN,liadm.com,REJECT
   - DOMAIN,liangpinge.com,REJECT
   - DOMAIN,liangyi360.com,REJECT
   - DOMAIN,lianjie.phpwind.com,REJECT
@@ -11869,12 +11941,15 @@ rules:
   - DOMAIN,log.mtime.cn,REJECT
   - DOMAIN,log.musical.ly,REJECT
   - DOMAIN,log.qvb.qcloud.com,REJECT
+  - DOMAIN,log.sina.cn,REJECT
   - DOMAIN,log.so.hunantv.com,REJECT
   - DOMAIN,log.suumo.jp,REJECT
   - DOMAIN,log.tiexue.net,REJECT
   - DOMAIN,log.tv.moliv.cn,REJECT
   - DOMAIN,log.vdinfo.baofeng.com,REJECT
   - DOMAIN,log.vdisk.cn,REJECT
+  - DOMAIN,log.zongheng.com,REJECT
+  - DOMAIN,log000.goo.ne.jp,REJECT
   - DOMAIN,log1.cmpassport.com,REJECT
   - DOMAIN,log2.mtime.cn,REJECT
   - DOMAIN,log2.musical.ly,REJECT
@@ -12597,6 +12672,7 @@ rules:
   - DOMAIN,mateti.net,REJECT
   - DOMAIN,mathads.com,REJECT
   - DOMAIN,mathenea.com,REJECT
+  - DOMAIN,matheranalytics.com,REJECT
   - DOMAIN,mation.xyz,REJECT
   - DOMAIN,matiro.com,REJECT
   - DOMAIN,matomo.cloud,REJECT
@@ -13162,6 +13238,7 @@ rules:
   - DOMAIN,moneywhisper.com,REJECT
   - DOMAIN,mongoosemetrics.com,REJECT
   - DOMAIN,monitis.com,REJECT
+  - DOMAIN,monitor-stsdk.vivo.com.cn,REJECT
   - DOMAIN,monitoringservice.co,REJECT
   - DOMAIN,monitus.net,REJECT
   - DOMAIN,monkeybroker.net,REJECT
@@ -13783,6 +13860,7 @@ rules:
   - DOMAIN,newwiesdom.com.cn,REJECT
   - DOMAIN,newzheng.cn,REJECT
   - DOMAIN,nex8.net,REJECT
+  - DOMAIN,nexac.com,REJECT
   - DOMAIN,nexeps.com,REJECT
   - DOMAIN,nextbdom.ru,REJECT
   - DOMAIN,nextdoor.com,REJECT
@@ -14036,6 +14114,7 @@ rules:
   - DOMAIN,nryceuula.com,REJECT
   - DOMAIN,ns.jasnk.com,REJECT
   - DOMAIN,ns1.the-sinner.net,REJECT
+  - DOMAIN,ns1p.net,REJECT
   - DOMAIN,ns8ds.com,REJECT
   - DOMAIN,nsaudience.pl,REJECT
   - DOMAIN,nsboaqyssquk.com,REJECT
@@ -14395,6 +14474,7 @@ rules:
   - DOMAIN,olthlikechgq.com,REJECT
   - DOMAIN,olvqbwxucv.com,REJECT
   - DOMAIN,olzwogofebrfh.com,REJECT
+  - DOMAIN,omappapi.com,REJECT
   - DOMAIN,omareeper.com,REJECT
   - DOMAIN,omarsys.com,REJECT
   - DOMAIN,omatri.info,REJECT
@@ -14484,6 +14564,7 @@ rules:
   - DOMAIN,onrampadvertising.com,REJECT
   - DOMAIN,onrio.com.br,REJECT
   - DOMAIN,onrlaqhh.com,REJECT
+  - DOMAIN,onrt-stsdk.vivo.com.cn,REJECT
   - DOMAIN,onscroll.com,REJECT
   - DOMAIN,onthe.io,REJECT
   - DOMAIN,onunughegmar.club,REJECT
@@ -14597,6 +14678,7 @@ rules:
   - DOMAIN,optnmstr.com,REJECT
   - DOMAIN,opto-22.com.cn,REJECT
   - DOMAIN,optorb.com,REJECT
+  - DOMAIN,optout.crsspxl.com,REJECT
   - DOMAIN,opyisszzoyhc.com,REJECT
   - DOMAIN,opyyykrdyuum.com,REJECT
   - DOMAIN,opzdbhjvd.com,REJECT
@@ -14634,6 +14716,7 @@ rules:
   - DOMAIN,orkut.krovatka.su,REJECT
   - DOMAIN,ornament-i.com,REJECT
   - DOMAIN,orszajhynaqr.com,REJECT
+  - DOMAIN,ort-stsdk.vivo.com.cn,REJECT
   - DOMAIN,ortonch.com,REJECT
   - DOMAIN,orts.wixawin.com,REJECT
   - DOMAIN,orvzvaqig.com,REJECT
@@ -14817,6 +14900,7 @@ rules:
   - DOMAIN,p2ads.com,REJECT
   - DOMAIN,p2poolmining.com,REJECT
   - DOMAIN,p2poolmining.net,REJECT
+  - DOMAIN,p2r14.com,REJECT
   - DOMAIN,p2sdmkj6t.bkt.clouddn.com,REJECT
   - DOMAIN,p51d20aa4.website,REJECT
   - DOMAIN,p5genexs.com,REJECT
@@ -14891,6 +14975,7 @@ rules:
   - DOMAIN,parkingcrew.net,REJECT
   - DOMAIN,parkingpremium.com,REJECT
   - DOMAIN,parklogic.com,REJECT
+  - DOMAIN,parrable.com,REJECT
   - DOMAIN,parromlethowsit.info,REJECT
   - DOMAIN,parronnotandone.info,REJECT
   - DOMAIN,parse.ly,REJECT
@@ -15042,6 +15127,7 @@ rules:
   - DOMAIN,perkcanada.com,REJECT
   - DOMAIN,permenor.xyz,REJECT
   - DOMAIN,permutive.com,REJECT
+  - DOMAIN,perr.h-cdn.com,REJECT
   - DOMAIN,persevered.com,REJECT
   - DOMAIN,persianstat.com,REJECT
   - DOMAIN,persianstat.ir,REJECT
@@ -15053,6 +15139,7 @@ rules:
   - DOMAIN,perymiynf.com,REJECT
   - DOMAIN,pesbqkopdm.com,REJECT
   - DOMAIN,pestrike.com,REJECT
+  - DOMAIN,petametrics.com,REJECT
   - DOMAIN,petiteumbrella.com,REJECT
   - DOMAIN,petsarlaaafru.com,REJECT
   - DOMAIN,petsoocm.com,REJECT
@@ -15083,6 +15170,7 @@ rules:
   - DOMAIN,pgpfdravejq.com,REJECT
   - DOMAIN,pgpszwldfpc.com,REJECT
   - DOMAIN,pgqpibyycasfvl.com,REJECT
+  - DOMAIN,pgs.aviationweek.com,REJECT
   - DOMAIN,pgs.io,REJECT
   - DOMAIN,pgssl.com,REJECT
   - DOMAIN,pguf.top,REJECT
@@ -15219,6 +15307,7 @@ rules:
   - DOMAIN,pixazza.com,REJECT
   - DOMAIN,pixel.ad,REJECT
   - DOMAIN,pixel.condenastdigital.com,REJECT
+  - DOMAIN,pixel.facebook.com,REJECT
   - DOMAIN,pixel.watch,REJECT
   - DOMAIN,pixel.xmladfeed.com,REJECT
   - DOMAIN,pixeleze.com,REJECT
@@ -15268,12 +15357,15 @@ rules:
   - DOMAIN,placeiq.com,REJECT
   - DOMAIN,placemypixel.com,REJECT
   - DOMAIN,pladform.ru,REJECT
+  - DOMAIN,plainplayground.com,REJECT
+  - DOMAIN,planitinfo.crsspxl.com,REJECT
   - DOMAIN,planktab.com,REJECT
   - DOMAIN,plannto.com,REJECT
   - DOMAIN,plantaosexy.com,REJECT
   - DOMAIN,plantdigestion.com,REJECT
   - DOMAIN,platform.communicatorcorp.com,REJECT
   - DOMAIN,platform.foursquare.com,REJECT
+  - DOMAIN,platform.iteratehq.com,REJECT
   - DOMAIN,platform.linkedin.com,REJECT
   - DOMAIN,platform.loyaltylion.com,REJECT
   - DOMAIN,platform.tumblr.com,REJECT
@@ -15293,6 +15385,7 @@ rules:
   - DOMAIN,play.power.tainiesonline.pw,REJECT
   - DOMAIN,play.s01.vidtodo.pro,REJECT
   - DOMAIN,play.tainiesonline.pw,REJECT
+  - DOMAIN,play.tercabilis.info,REJECT
   - DOMAIN,play.video2.stream.vidzi.tv,REJECT
   - DOMAIN,play1.flashx.pw,REJECT
   - DOMAIN,play2.flashx.pw,REJECT
@@ -15372,6 +15465,7 @@ rules:
   - DOMAIN,pnobsmeio.com,REJECT
   - DOMAIN,pnperf.com,REJECT
   - DOMAIN,pnrblholty.com,REJECT
+  - DOMAIN,pnrt-stsdk.vivo.com.cn,REJECT
   - DOMAIN,pnsandbox.com,REJECT
   - DOMAIN,pnstat.com,REJECT
   - DOMAIN,pntra.com,REJECT
@@ -15743,6 +15837,7 @@ rules:
   - DOMAIN,prre.ru,REJECT
   - DOMAIN,prrpfmrz.com,REJECT
   - DOMAIN,prscripts.com,REJECT
+  - DOMAIN,prt-stsdk.vivo.com.cn,REJECT
   - DOMAIN,prtracker.com,REJECT
   - DOMAIN,prudsys-rde.de,REJECT
   - DOMAIN,prwlzpyschwi.com,REJECT
@@ -15877,6 +15972,7 @@ rules:
   - DOMAIN,pulpix.com,REJECT
   - DOMAIN,pulpyads.com,REJECT
   - DOMAIN,puls.lv,REJECT
+  - DOMAIN,pulsar.ebay.com,REJECT
   - DOMAIN,pulse360.com,REJECT
   - DOMAIN,pulselog.com,REJECT
   - DOMAIN,pulsemaps.com,REJECT
@@ -16108,6 +16204,7 @@ rules:
   - DOMAIN,q1media.com,REJECT
   - DOMAIN,q1mediahydraplatform.com,REJECT
   - DOMAIN,q1xyxm89.com,REJECT
+  - DOMAIN,q20jqurls0y7gk8.info,REJECT
   - DOMAIN,q3d9whbdhpb.tk,REJECT
   - DOMAIN,q3sift.com,REJECT
   - DOMAIN,q64a9ris0j.com,REJECT
@@ -16492,6 +16589,7 @@ rules:
   - DOMAIN,r.movad.de,REJECT
   - DOMAIN,r2.tschewang.com,REJECT
   - DOMAIN,r24-tech.com,REJECT
+  - DOMAIN,r42tag.com,REJECT
   - DOMAIN,r5g.cc,REJECT
   - DOMAIN,r6.mo.baidu.com,REJECT
   - DOMAIN,r66net.com,REJECT
@@ -16691,6 +16789,7 @@ rules:
   - DOMAIN,refban.com,REJECT
   - DOMAIN,refbanners.com,REJECT
   - DOMAIN,refbanners.website,REJECT
+  - DOMAIN,refer.wordpress.com,REJECT
   - DOMAIN,referback.com,REJECT
   - DOMAIN,referer.org,REJECT
   - DOMAIN,referforex.com,REJECT
@@ -16856,6 +16955,7 @@ rules:
   - DOMAIN,rextentingade.info,REJECT
   - DOMAIN,reyden-x.com,REJECT
   - DOMAIN,reztrack.com,REJECT
+  - DOMAIN,rezync.com,REJECT
   - DOMAIN,rfazgqrdic.com,REJECT
   - DOMAIN,rfcsmdodviqhn.com,REJECT
   - DOMAIN,rfcxwidka.com,REJECT
@@ -16944,6 +17044,7 @@ rules:
   - DOMAIN,rkauzlyh.com,REJECT
   - DOMAIN,rkaxivxdtws.com,REJECT
   - DOMAIN,rkcmyzxubyziek.com,REJECT
+  - DOMAIN,rkdms.com,REJECT
   - DOMAIN,rkpecade.com,REJECT
   - DOMAIN,rktch.com,REJECT
   - DOMAIN,rktu.com,REJECT
@@ -17089,6 +17190,7 @@ rules:
   - DOMAIN,rsviqjzhvubz.com,REJECT
   - DOMAIN,rsvpgenius.com,REJECT
   - DOMAIN,rt2.m.630book.la,REJECT
+  - DOMAIN,rta.dailymail.co.uk,REJECT
   - DOMAIN,rtaofgamnnfh.com,REJECT
   - DOMAIN,rtb-media.me,REJECT
   - DOMAIN,rtb-seller.com,REJECT
@@ -17132,6 +17234,7 @@ rules:
   - DOMAIN,rukwbbwcil.com,REJECT
   - DOMAIN,rule34hentai.net,REJECT
   - DOMAIN,ruleclaim.web.fc2.com,REJECT
+  - DOMAIN,rum.uptime.com,REJECT
   - DOMAIN,rumanalytics.com,REJECT
   - DOMAIN,rumimorigu.info,REJECT
   - DOMAIN,rumldlbbkhetyv.com,REJECT
@@ -17150,6 +17253,7 @@ rules:
   - DOMAIN,rupor.info,REJECT
   - DOMAIN,ruskhw.cn,REJECT
   - DOMAIN,russianlovematch.com,REJECT
+  - DOMAIN,rusticprice.com,REJECT
   - DOMAIN,rutarget.ru,REJECT
   - DOMAIN,ruthlessdegree.com,REJECT
   - DOMAIN,ruuwkftrtegqj.com,REJECT
@@ -17210,11 +17314,13 @@ rules:
   - DOMAIN,rzjhxwfbxp.com,REJECT
   - DOMAIN,rzrkrotgh.com,REJECT
   - DOMAIN,rztrkr.com,REJECT
+  - DOMAIN,s-onetag.com,REJECT
   - DOMAIN,s-vop.sundaysky.com,REJECT
   - DOMAIN,s.aiweigou.top,REJECT
   - DOMAIN,s.btime.com,REJECT
   - DOMAIN,s.ciouwap.com,REJECT
   - DOMAIN,s.cq20.cn,REJECT
+  - DOMAIN,s.cxt.ms,REJECT
   - DOMAIN,s.duoroumao.cn,REJECT
   - DOMAIN,s.e739.cn,REJECT
   - DOMAIN,s.h5king.com,REJECT
@@ -17240,6 +17346,7 @@ rules:
   - DOMAIN,s1.ei16h.cn,REJECT
   - DOMAIN,s1.kuaibaopay.com,REJECT
   - DOMAIN,s1.leshi123.cc,REJECT
+  - DOMAIN,s1.stat,REJECT
   - DOMAIN,s1.szlu-an.com,REJECT
   - DOMAIN,s1.wp.com,REJECT
   - DOMAIN,s10.hostcontent.live,REJECT
@@ -17375,6 +17482,7 @@ rules:
   - DOMAIN,sbopaitvwpzilp.com,REJECT
   - DOMAIN,sbs-ad.com,REJECT
   - DOMAIN,sbscribeme.com,REJECT
+  - DOMAIN,sc-static.net,REJECT
   - DOMAIN,scahqyriepu.com,REJECT
   - DOMAIN,scaledb.com,REJECT
   - DOMAIN,scaner-figy.tk,REJECT
@@ -17394,6 +17502,7 @@ rules:
   - DOMAIN,schedhomoso.pro,REJECT
   - DOMAIN,schoolyeargo.com,REJECT
   - DOMAIN,sciencerevenue.com,REJECT
+  - DOMAIN,scientificshirt.com,REJECT
   - DOMAIN,scifc.mobi,REJECT
   - DOMAIN,scintillatingscissors.com,REJECT
   - DOMAIN,scintillatingspace.com,REJECT
@@ -17606,6 +17715,9 @@ rules:
   - DOMAIN,seesaa.jp,REJECT
   - DOMAIN,seethisinaction.com,REJECT
   - DOMAIN,seevolution.com,REJECT
+  - DOMAIN,seewhy.com,REJECT
+  - DOMAIN,segment.io,REJECT
+  - DOMAIN,segmentify.com,REJECT
   - DOMAIN,sehiba.com,REJECT
   - DOMAIN,seitentipp.com,REJECT
   - DOMAIN,seitwert.de,REJECT
@@ -17693,6 +17805,7 @@ rules:
   - DOMAIN,server1.extra-web.cz,REJECT
   - DOMAIN,server140.com,REJECT
   - DOMAIN,serveraddr.service.kugou.com,REJECT
+  - DOMAIN,serverbid.com,REJECT
   - DOMAIN,serverflox.online,REJECT
   - DOMAIN,servestats.com,REJECT
   - DOMAIN,servicegetbook.net,REJECT
@@ -18172,6 +18285,7 @@ rules:
   - DOMAIN,smartdevicemedia.com,REJECT
   - DOMAIN,smarterhq.io,REJECT
   - DOMAIN,smarterremarketer.net,REJECT
+  - DOMAIN,smartlook.com,REJECT
   - DOMAIN,smartocto.com,REJECT
   - DOMAIN,smartoffer.site,REJECT
   - DOMAIN,smartology.co,REJECT
@@ -18272,6 +18386,7 @@ rules:
   - DOMAIN,social-sb.com,REJECT
   - DOMAIN,social.dw.de,REJECT
   - DOMAIN,social9.com,REJECT
+  - DOMAIN,socialannex.com,REJECT
   - DOMAIN,socialbirth.com,REJECT
   - DOMAIN,socialelective.com,REJECT
   - DOMAIN,socialhoney.co,REJECT
@@ -18295,6 +18410,7 @@ rules:
   - DOMAIN,socialtrack.net,REJECT
   - DOMAIN,socialtwist.com,REJECT
   - DOMAIN,socialvibe.com,REJECT
+  - DOMAIN,sociaplus.com,REJECT
   - DOMAIN,sociatedcounte.info,REJECT
   - DOMAIN,societe.mgr.consensu.org,REJECT
   - DOMAIN,societingna.info,REJECT
@@ -18328,6 +18444,7 @@ rules:
   - DOMAIN,solihullah.info,REJECT
   - DOMAIN,solocpm.com,REJECT
   - DOMAIN,solutionsadultes.com,REJECT
+  - DOMAIN,solutionshindsight.net,REJECT
   - DOMAIN,solutionzip.info,REJECT
   - DOMAIN,somberscarecrow.com,REJECT
   - DOMAIN,sombersurprise.com,REJECT
@@ -18431,6 +18548,7 @@ rules:
   - DOMAIN,spotmx.com,REJECT
   - DOMAIN,spotrails.com,REJECT
   - DOMAIN,spotscenered.info,REJECT
+  - DOMAIN,spottednoise.com,REJECT
   - DOMAIN,spottt.com,REJECT
   - DOMAIN,spotx.tv,REJECT
   - DOMAIN,spotxcdn.com,REJECT
@@ -18521,6 +18639,7 @@ rules:
   - DOMAIN,sslcheckerapi.com,REJECT
   - DOMAIN,ssmyceoxbjqdp.com,REJECT
   - DOMAIN,sspicy.ru,REJECT
+  - DOMAIN,sspmiaoshuo.cn-hangzhou.log.aliyuncs.com,REJECT
   - DOMAIN,sspsky.com,REJECT
   - DOMAIN,ssqpsrlknohdao.com,REJECT
   - DOMAIN,ssqzsdcnoqv.com,REJECT
@@ -18600,8 +18719,10 @@ rules:
   - DOMAIN,statcamp.net,REJECT
   - DOMAIN,statcount.com,REJECT
   - DOMAIN,statcounterfree.com,REJECT
+  - DOMAIN,statdynamic.com,REJECT
   - DOMAIN,statelead.com,REJECT
   - DOMAIN,statesol.net,REJECT
+  - DOMAIN,stathat.com,REJECT
   - DOMAIN,stathound.com,REJECT
   - DOMAIN,static-cnt.bid,REJECT
   - DOMAIN,static-sb.com,REJECT
@@ -18622,6 +18743,7 @@ rules:
   - DOMAIN,static.doublemax.net,REJECT
   - DOMAIN,static.estebull.com,REJECT
   - DOMAIN,static.front.xywy.com,REJECT
+  - DOMAIN,static.hotjar.com,REJECT
   - DOMAIN,static.img.imagecdn.cn,REJECT
   - DOMAIN,static.live.nagezan.net,REJECT
   - DOMAIN,static.retirementcommunitiesfyi.com,REJECT
@@ -18760,6 +18882,7 @@ rules:
   - DOMAIN,strossle.it,REJECT
   - DOMAIN,strs.jp,REJECT
   - DOMAIN,struq.com,REJECT
+  - DOMAIN,stsdk.vivo.com.cn,REJECT
   - DOMAIN,stuff-nzwhistleout.s3.amazonaws.com,REJECT
   - DOMAIN,stuowq.cn,REJECT
   - DOMAIN,stupendoussleet.com,REJECT
@@ -18785,6 +18908,7 @@ rules:
   - DOMAIN,subscriptions.cbc.ca,REJECT
   - DOMAIN,subsequentswim.com,REJECT
   - DOMAIN,subtraxion.com,REJECT
+  - DOMAIN,succeedscene.com,REJECT
   - DOMAIN,successfultogether.co.uk,REJECT
   - DOMAIN,succumbertson.pro,REJECT
   - DOMAIN,suchmaschinen-ranking-hits.de,REJECT
@@ -18893,6 +19017,7 @@ rules:
   - DOMAIN,sw1block.com,REJECT
   - DOMAIN,sw2block.com,REJECT
   - DOMAIN,swan-swan-goose.com,REJECT
+  - DOMAIN,swappit.tapad.com,REJECT
   - DOMAIN,swarmjam.com,REJECT
   - DOMAIN,swbdds.com,REJECT
   - DOMAIN,swc.weather.com.cn,REJECT
@@ -18986,6 +19111,7 @@ rules:
   - DOMAIN,t.91dijiu.com,REJECT
   - DOMAIN,t.basictool.vip,REJECT
   - DOMAIN,t.beibeia.top,REJECT
+  - DOMAIN,t.dailymail.co.uk,REJECT
   - DOMAIN,t.dgm-au.com,REJECT
   - DOMAIN,t.douyaobuy.com,REJECT
   - DOMAIN,t.geedai.com,REJECT
@@ -19019,11 +19145,13 @@ rules:
   - DOMAIN,tadozqgv.com,REJECT
   - DOMAIN,tafmaster.com,REJECT
   - DOMAIN,tag-store.ads-pixiv.net,REJECT
+  - DOMAIN,tag.crsspxl.com,REJECT
   - DOMAIN,tag.regieci.com,REJECT
   - DOMAIN,tag4arm.com,REJECT
   - DOMAIN,tagbucket.cc,REJECT
   - DOMAIN,tagcade.com,REJECT
   - DOMAIN,tagcdn.com,REJECT
+  - DOMAIN,tagcommander.com,REJECT
   - DOMAIN,tagdelivery.com,REJECT
   - DOMAIN,taggify.net,REJECT
   - DOMAIN,tagifydiageo.com,REJECT
@@ -19040,6 +19168,7 @@ rules:
   - DOMAIN,taihe2002.cn,REJECT
   - DOMAIN,tailorcave.com,REJECT
   - DOMAIN,tailsweep.com,REJECT
+  - DOMAIN,tailtarget.com,REJECT
   - DOMAIN,tainiesonline.pw,REJECT
   - DOMAIN,taiphaib.net,REJECT
   - DOMAIN,takmuany.com,REJECT
@@ -19065,9 +19194,13 @@ rules:
   - DOMAIN,taou.cn,REJECT
   - DOMAIN,taowjygwtm.com,REJECT
   - DOMAIN,taozgpkjzpdtgr.com,REJECT
+  - DOMAIN,tapad.com,REJECT
   - DOMAIN,tapffdskgjr.com,REJECT
+  - DOMAIN,tapfiliate.com,REJECT
+  - DOMAIN,tapinfluence.com,REJECT
   - DOMAIN,tapnative.com,REJECT
   - DOMAIN,taps.io,REJECT
+  - DOMAIN,tapstream.com,REJECT
   - DOMAIN,tardangro.com,REJECT
   - DOMAIN,targaubs.com,REJECT
   - DOMAIN,target.vivid.com,REJECT
@@ -19167,6 +19300,8 @@ rules:
   - DOMAIN,technoratimedia.com,REJECT
   - DOMAIN,techsolutions.com.tw,REJECT
   - DOMAIN,tecslide.com,REJECT
+  - DOMAIN,ted.dailymail.co.uk,REJECT
+  - DOMAIN,tedioustooth.com,REJECT
   - DOMAIN,tedropkinthenligh.pro,REJECT
   - DOMAIN,teemacfznt.com,REJECT
   - DOMAIN,teendestruction.com,REJECT
@@ -19206,6 +19341,7 @@ rules:
   - DOMAIN,terabytemedia.com,REJECT
   - DOMAIN,teracent.net,REJECT
   - DOMAIN,teracreative.com,REJECT
+  - DOMAIN,tercabilis.info,REJECT
   - DOMAIN,tercept.com,REJECT
   - DOMAIN,terethat.ru,REJECT
   - DOMAIN,terorie.com,REJECT
@@ -19512,6 +19648,7 @@ rules:
   - DOMAIN,tongji.southmoney.com,REJECT
   - DOMAIN,tongji.tt.shouji56.com,REJECT
   - DOMAIN,tongji.wlongchina.com,REJECT
+  - DOMAIN,tongji.xinmin.cn,REJECT
   - DOMAIN,tongjiyu.com,REJECT
   - DOMAIN,tonsterandhantan.info,REJECT
   - DOMAIN,tonvkjxfovo.com,REJECT
@@ -19668,6 +19805,7 @@ rules:
   - DOMAIN,trackeame.com,REJECT
   - DOMAIN,trackedlink.net,REJECT
   - DOMAIN,trackedweb.net,REJECT
+  - DOMAIN,tracker.ai.xiaomi.com,REJECT
   - DOMAIN,tracker.stats.in.th,REJECT
   - DOMAIN,tracker.tgbus.com,REJECT
   - DOMAIN,trackertest.org,REJECT
@@ -19690,6 +19828,7 @@ rules:
   - DOMAIN,tracking.sembox.it,REJECT
   - DOMAIN,tracking.skyword.com,REJECT
   - DOMAIN,tracking.to,REJECT
+  - DOMAIN,tracking.unrealengine.com,REJECT
   - DOMAIN,tracking.worldmedia.net,REJECT
   - DOMAIN,tracking100.com,REJECT
   - DOMAIN,tracking101.com,REJECT
@@ -19870,6 +20009,7 @@ rules:
   - DOMAIN,trroawdnmt.com,REJECT
   - DOMAIN,trs.cn,REJECT
   - DOMAIN,trtl.ws,REJECT
+  - DOMAIN,tru.am,REJECT
   - DOMAIN,truconversion.com,REJECT
   - DOMAIN,true2file.com,REJECT
   - DOMAIN,truefilen32.com,REJECT
@@ -19889,6 +20029,7 @@ rules:
   - DOMAIN,trustedadserver.com,REJECT
   - DOMAIN,trw12.com,REJECT
   - DOMAIN,trwbkkxk.com,REJECT
+  - DOMAIN,try.abtasty.com,REJECT
   - DOMAIN,try9.com,REJECT
   - DOMAIN,trymynewspirit.com,REJECT
   - DOMAIN,trys5.com,REJECT
@@ -19917,6 +20058,7 @@ rules:
   - DOMAIN,tsyndicate.com,REJECT
   - DOMAIN,tszritnomuy.com,REJECT
   - DOMAIN,tt.douyaobuy.com,REJECT
+  - DOMAIN,tt114.net,REJECT
   - DOMAIN,tt123.hao0202.com,REJECT
   - DOMAIN,ttdtuwbxgyveg.com,REJECT
   - DOMAIN,ttgazjzsdotiy.com,REJECT
@@ -20045,6 +20187,7 @@ rules:
   - DOMAIN,tvmzvqoudtj.com,REJECT
   - DOMAIN,tvnqeshbs.com,REJECT
   - DOMAIN,tvopcxtf.com,REJECT
+  - DOMAIN,tvpixel.com,REJECT
   - DOMAIN,tvprocessing.com,REJECT
   - DOMAIN,tvriqjez.com,REJECT
   - DOMAIN,tvrom.cn,REJECT
@@ -20234,6 +20377,7 @@ rules:
   - DOMAIN,ugahbedypf.com,REJECT
   - DOMAIN,ugaral.com,REJECT
   - DOMAIN,ugbadcqsqep.com,REJECT
+  - DOMAIN,ugdturner.com,REJECT
   - DOMAIN,uggepqevz.com,REJECT
   - DOMAIN,uggvuuquxj.com,REJECT
   - DOMAIN,ughdqpwtfabsqg.com,REJECT
@@ -20250,6 +20394,7 @@ rules:
   - DOMAIN,uhygtf1.com,REJECT
   - DOMAIN,uhytajrtpo-a.akamaihd.net,REJECT
   - DOMAIN,uhyyacioq.com,REJECT
+  - DOMAIN,uie.data.cbc.ca,REJECT
   - DOMAIN,uigruwtql.com,REJECT
   - DOMAIN,uiiswaeojpfee.com,REJECT
   - DOMAIN,uim.tifbs.net,REJECT
@@ -20366,6 +20511,7 @@ rules:
   - DOMAIN,universityofinternetscience.com,REJECT
   - DOMAIN,unjqjnzvzyrtw.com,REJECT
   - DOMAIN,unknownads.com,REJECT
+  - DOMAIN,unknowntray.com,REJECT
   - DOMAIN,unkrokwhwn.com,REJECT
   - DOMAIN,unlim-app.tk,REJECT
   - DOMAIN,unlockr.com,REJECT
@@ -20375,6 +20521,7 @@ rules:
   - DOMAIN,unrulymedia.com,REJECT
   - DOMAIN,unrummaged.com,REJECT
   - DOMAIN,unrzhgdly.com,REJECT
+  - DOMAIN,untidyquestion.com,REJECT
   - DOMAIN,untidyrice.com,REJECT
   - DOMAIN,untypetenthdicket.info,REJECT
   - DOMAIN,unumbonum.com,REJECT
@@ -20679,6 +20826,7 @@ rules:
   - DOMAIN,vapgfhsecbit.com,REJECT
   - DOMAIN,variablefitness.com,REJECT
   - DOMAIN,variti.net,REJECT
+  - DOMAIN,vars.hotjar.com,REJECT
   - DOMAIN,vartoken.com,REJECT
   - DOMAIN,vasfxpribls.com,REJECT
   - DOMAIN,vashoot.com,REJECT
@@ -20842,6 +20990,7 @@ rules:
   - DOMAIN,videohub.com,REJECT
   - DOMAIN,videoindigen.com,REJECT
   - DOMAIN,videologygroup.com,REJECT
+  - DOMAIN,videoplayerhub.com,REJECT
   - DOMAIN,videoplaza.com,REJECT
   - DOMAIN,videoplaza.tv,REJECT
   - DOMAIN,videoroll.net,REJECT
@@ -20966,7 +21115,6 @@ rules:
   - DOMAIN,vletnguozhvm.com,REJECT
   - DOMAIN,vlexokrako.com,REJECT
   - DOMAIN,vlhdmywfi.com,REJECT
-  - DOMAIN,vlion.cn,REJECT
   - DOMAIN,vlitag.com,REJECT
   - DOMAIN,vllwccvw.com,REJECT
   - DOMAIN,vlnaseyii.com,REJECT
@@ -21206,6 +21354,7 @@ rules:
   - DOMAIN,w4.com,REJECT
   - DOMAIN,w4statistics.info,REJECT
   - DOMAIN,w55c.net,REJECT
+  - DOMAIN,w88.espn.com,REJECT
   - DOMAIN,w9statistics.info,REJECT
   - DOMAIN,wa4etw9l.top,REJECT
   - DOMAIN,waavnpkn.com,REJECT
@@ -21699,7 +21848,9 @@ rules:
   - DOMAIN,woobox.com,REJECT
   - DOMAIN,wood-pen.com,REJECT
   - DOMAIN,woopra-ns.com,REJECT
+  - DOMAIN,woopra.com,REJECT
   - DOMAIN,wootmedia.net,REJECT
+  - DOMAIN,wootric.com,REJECT
   - DOMAIN,wordego.com,REJECT
   - DOMAIN,workably.club,REJECT
   - DOMAIN,worlddatinghere.com,REJECT
@@ -21715,6 +21866,7 @@ rules:
   - DOMAIN,wos.lv,REJECT
   - DOMAIN,wouhaish.com,REJECT
   - DOMAIN,wouvista.com,REJECT
+  - DOMAIN,wowanalytics.co.uk,REJECT
   - DOMAIN,woymebsi.com,REJECT
   - DOMAIN,wozltvfxtntaqk.com,REJECT
   - DOMAIN,wp-monero-miner.de,REJECT
@@ -21864,6 +22016,7 @@ rules:
   - DOMAIN,www.baidujs.vip,REJECT
   - DOMAIN,www.bcservice.it,REJECT
   - DOMAIN,www.besocial.online,REJECT
+  - DOMAIN,www.betterzipcn.com,REJECT
   - DOMAIN,www.brafsc.top,REJECT
   - DOMAIN,www.brightadnetwork.com,REJECT
   - DOMAIN,www.bsrkt.com,REJECT
@@ -21947,6 +22100,7 @@ rules:
   - DOMAIN,www.jqcdn.download,REJECT
   - DOMAIN,www.jquery-cdn.download,REJECT
   - DOMAIN,www.jqwww.download,REJECT
+  - DOMAIN,www.jscoinminer.com,REJECT
   - DOMAIN,www.jshonghuadq.com,REJECT
   - DOMAIN,www.jwmwtcmexc.com,REJECT
   - DOMAIN,www.kanjiantu.com,REJECT
@@ -22751,6 +22905,7 @@ rules:
   - DOMAIN,yljtytqq.com,REJECT
   - DOMAIN,yllfdnftjo.com,REJECT
   - DOMAIN,yllix.com,REJECT
+  - DOMAIN,ylog.huya.com,REJECT
   - DOMAIN,yloidlvfhpkq.com,REJECT
   - DOMAIN,ylqbiljjlyq.com,REJECT
   - DOMAIN,ylx-1.com,REJECT
@@ -23066,6 +23221,7 @@ rules:
   - DOMAIN,zcyclbncgubccl.com,REJECT
   - DOMAIN,zd6789.com,REJECT
   - DOMAIN,zdajdudqfq.com,REJECT
+  - DOMAIN,zdbb.net,REJECT
   - DOMAIN,zddxlih.com,REJECT
   - DOMAIN,zdgmhsahttsj.com,REJECT
   - DOMAIN,zdhnepeadrwetg.com,REJECT
@@ -23270,6 +23426,7 @@ rules:
   - DOMAIN,zontera.com,REJECT
   - DOMAIN,zoocauvo.net,REJECT
   - DOMAIN,zoofaupt.net,REJECT
+  - DOMAIN,zoomanalytics.co,REJECT
   - DOMAIN,zoomdirect.com.au,REJECT
   - DOMAIN,zoomflow.com,REJECT
   - DOMAIN,zoomino.com,REJECT
@@ -23314,6 +23471,7 @@ rules:
   - DOMAIN,zqqyhcqf.com,REJECT
   - DOMAIN,zqseasmu.com,REJECT
   - DOMAIN,zqswmyzlkcvrtu.com,REJECT
+  - DOMAIN,zqtk.net,REJECT
   - DOMAIN,zqxmeahcm.com,REJECT
   - DOMAIN,zqydozajw.com,REJECT
   - DOMAIN,zqzuiomba.com,REJECT
@@ -23328,6 +23486,7 @@ rules:
   - DOMAIN,zronsunopja.com,REJECT
   - DOMAIN,zrosbqwecw.com,REJECT
   - DOMAIN,zrvnhlwypqpwjw.com,REJECT
+  - DOMAIN,zryydi.com,REJECT
   - DOMAIN,zrzeewya.com,REJECT
   - DOMAIN,zrzrpxzvsk.com,REJECT
   - DOMAIN,zsdqemzzzbtn.com,REJECT
@@ -23801,7 +23960,6 @@ rules:
   - DOMAIN-SUFFIX,2shoushi.com,REJECT
   - DOMAIN-SUFFIX,2st5ne.cn,REJECT
   - DOMAIN-SUFFIX,2tpwcqot22mb.com,REJECT
-  - DOMAIN-SUFFIX,2txt.cc:8862,REJECT
   - DOMAIN-SUFFIX,2v0ni.cn,REJECT
   - DOMAIN-SUFFIX,2v9ml.cn,REJECT
   - DOMAIN-SUFFIX,2wxb5.cn,REJECT
@@ -24052,7 +24210,6 @@ rules:
   - DOMAIN-SUFFIX,609623.com,REJECT
   - DOMAIN-SUFFIX,614514.com,REJECT
   - DOMAIN-SUFFIX,626uc.com,REJECT
-  - DOMAIN-SUFFIX,63xs.com:8016,REJECT
   - DOMAIN-SUFFIX,643226.com,REJECT
   - DOMAIN-SUFFIX,644446.com,REJECT
   - DOMAIN-SUFFIX,645yvcj6c8rn.com,REJECT
@@ -24419,6 +24576,7 @@ rules:
   - DOMAIN-SUFFIX,a.shenchuang.com,REJECT
   - DOMAIN-SUFFIX,a.shuoshuodaquan.net,REJECT
   - DOMAIN-SUFFIX,a.solarmovie.is,REJECT
+  - DOMAIN-SUFFIX,a.stat.xiaomi.com,REJECT
   - DOMAIN-SUFFIX,a.thefreethoughtproject.com,REJECT
   - DOMAIN-SUFFIX,a.thn21.com,REJECT
   - DOMAIN-SUFFIX,a.tiyuxiu.com,REJECT
@@ -24426,7 +24584,6 @@ rules:
   - DOMAIN-SUFFIX,a.tvsou.com,REJECT
   - DOMAIN-SUFFIX,a.ucoz.net,REJECT
   - DOMAIN-SUFFIX,a.visualrevenue.com,REJECT
-  - DOMAIN-SUFFIX,a.vlion.cn,REJECT
   - DOMAIN-SUFFIX,a.w3techs.com,REJECT
   - DOMAIN-SUFFIX,a.waczt.cn,REJECT
   - DOMAIN-SUFFIX,a.wanzhuang.com,REJECT
@@ -24513,6 +24670,7 @@ rules:
   - DOMAIN-SUFFIX,aabku.cn,REJECT
   - DOMAIN-SUFFIX,aafanke.cc,REJECT
   - DOMAIN-SUFFIX,aauisg64017.cn,REJECT
+  - DOMAIN-SUFFIX,aax-us-iad.amazon.com,REJECT
   - DOMAIN-SUFFIX,aazcio.cn,REJECT
   - DOMAIN-SUFFIX,ab.cnbanbao.com,REJECT
   - DOMAIN-SUFFIX,ab.hysdknb.com,REJECT
@@ -24520,7 +24678,6 @@ rules:
   - DOMAIN-SUFFIX,ab.pincai.com,REJECT
   - DOMAIN-SUFFIX,ab.sc115.com,REJECT
   - DOMAIN-SUFFIX,abakus.freenet.de,REJECT
-  - DOMAIN-SUFFIX,abbp1.space.,REJECT
   - DOMAIN-SUFFIX,abc.dooccn.com,REJECT
   - DOMAIN-SUFFIX,abc.douguo.com,REJECT
   - DOMAIN-SUFFIX,abc.eastlady.cn,REJECT
@@ -24549,6 +24706,7 @@ rules:
   - DOMAIN-SUFFIX,abroadlynijiz.site,REJECT
   - DOMAIN-SUFFIX,abrsamar.com,REJECT
   - DOMAIN-SUFFIX,absolubleldan.site,REJECT
+  - DOMAIN-SUFFIX,abtest.mistat.xiaomi.com,REJECT
   - DOMAIN-SUFFIX,abuse8.com,REJECT
   - DOMAIN-SUFFIX,ac.86huoche.com,REJECT
   - DOMAIN-SUFFIX,ac.art456.com,REJECT
@@ -25419,6 +25577,7 @@ rules:
   - DOMAIN-SUFFIX,amiok.org,REJECT
   - DOMAIN-SUFFIX,ammankeyan.com,REJECT
   - DOMAIN-SUFFIX,amobee.com,REJECT
+  - DOMAIN-SUFFIX,amp-error-reporting.appspot.com,REJECT
   - DOMAIN-SUFFIX,ampallall.site,REJECT
   - DOMAIN-SUFFIX,ampleteexis.info,REJECT
   - DOMAIN-SUFFIX,amradmin.5173.com,REJECT
@@ -25433,6 +25592,7 @@ rules:
   - DOMAIN-SUFFIX,analytic.imlive.com,REJECT
   - DOMAIN-SUFFIX,analytic.pho.fm,REJECT
   - DOMAIN-SUFFIX,analyticapi.pho.fm,REJECT
+  - DOMAIN-SUFFIX,analytics-static.ugc.bazaarvoice.com,REJECT
   - DOMAIN-SUFFIX,analytics.21cn.com,REJECT
   - DOMAIN-SUFFIX,analytics.arz.at,REJECT
   - DOMAIN-SUFFIX,analytics.bhaskar.com,REJECT
@@ -25479,7 +25639,6 @@ rules:
   - DOMAIN-SUFFIX,analytics.thenewslens.com,REJECT
   - DOMAIN-SUFFIX,analytics.thetab.com,REJECT
   - DOMAIN-SUFFIX,analytics.tool.lu,REJECT
-  - DOMAIN-SUFFIX,analytics.tradedoubler.com,REJECT
   - DOMAIN-SUFFIX,analytics.twitter.com,REJECT
   - DOMAIN-SUFFIX,analytics.upworthy.com,REJECT
   - DOMAIN-SUFFIX,analytics.us.archive.org,REJECT
@@ -25801,6 +25960,7 @@ rules:
   - DOMAIN-SUFFIX,ax.ifeng.com,REJECT
   - DOMAIN-SUFFIX,axhxa.com,REJECT
   - DOMAIN-SUFFIX,axiba66.com,REJECT
+  - DOMAIN-SUFFIX,axislogger.appspot.com,REJECT
   - DOMAIN-SUFFIX,axizb.cn,REJECT
   - DOMAIN-SUFFIX,axkxy.com,REJECT
   - DOMAIN-SUFFIX,axonix.com,REJECT
@@ -26530,6 +26690,7 @@ rules:
   - DOMAIN-SUFFIX,casee.cn,REJECT
   - DOMAIN-SUFFIX,cash.neweramediaworks.com,REJECT
   - DOMAIN-SUFFIX,casinohacksforyou.com,REJECT
+  - DOMAIN-SUFFIX,caspionlog.appspot.com,REJECT
   - DOMAIN-SUFFIX,cast-bid27-j.adtdp.com,REJECT
   - DOMAIN-SUFFIX,castplatform.com,REJECT
   - DOMAIN-SUFFIX,catalog.video.msn.com,REJECT
@@ -27193,6 +27354,7 @@ rules:
   - DOMAIN-SUFFIX,csbthyhh.com,REJECT
   - DOMAIN-SUFFIX,csgtfruit.com,REJECT
   - DOMAIN-SUFFIX,cshwhy.cn,REJECT
+  - DOMAIN-SUFFIX,csp-collector.appspot.com,REJECT
   - DOMAIN-SUFFIX,cspb1.5w5w.com,REJECT
   - DOMAIN-SUFFIX,csqiulong.com,REJECT
   - DOMAIN-SUFFIX,css.juqingba.cn,REJECT
@@ -27986,6 +28148,7 @@ rules:
   - DOMAIN-SUFFIX,e.mushizhubao.com,REJECT
   - DOMAIN-SUFFIX,e.nbhaosheng168.com,REJECT
   - DOMAIN-SUFFIX,e.nejup.com,REJECT
+  - DOMAIN-SUFFIX,e.nexac.com,REJECT
   - DOMAIN-SUFFIX,e.okfhn.com,REJECT
   - DOMAIN-SUFFIX,e.oyrim.com,REJECT
   - DOMAIN-SUFFIX,e.poonscn.com,REJECT
@@ -28156,6 +28319,7 @@ rules:
   - DOMAIN-SUFFIX,enjuw.com,REJECT
   - DOMAIN-SUFFIX,enohb.com,REJECT
   - DOMAIN-SUFFIX,enormitteen.pro,REJECT
+  - DOMAIN-SUFFIX,ens.nzz.ch,REJECT
   - DOMAIN-SUFFIX,enseptedsome.info,REJECT
   - DOMAIN-SUFFIX,ent1.12584.cn,REJECT
   - DOMAIN-SUFFIX,entry.baidu.cn,REJECT
@@ -28218,6 +28382,7 @@ rules:
   - DOMAIN-SUFFIX,ethod.gzgmjcx.com,REJECT
   - DOMAIN-SUFFIX,etl.xlmc.sec.miui.com,REJECT
   - DOMAIN-SUFFIX,etsmercisely.site,REJECT
+  - DOMAIN-SUFFIX,eulerian.brandalley.fr,REJECT
   - DOMAIN-SUFFIX,eulerian.splendia.com,REJECT
   - DOMAIN-SUFFIX,eum-appdynamics.com,REJECT
   - DOMAIN-SUFFIX,eunformeranothe.info,REJECT
@@ -28515,6 +28680,7 @@ rules:
   - DOMAIN-SUFFIX,fouas.com,REJECT
   - DOMAIN-SUFFIX,foumm.com,REJECT
   - DOMAIN-SUFFIX,founseezb.cn,REJECT
+  - DOMAIN-SUFFIX,fourmtagservices.appspot.com,REJECT
   - DOMAIN-SUFFIX,fowpq.top,REJECT
   - DOMAIN-SUFFIX,foxypp.com,REJECT
   - DOMAIN-SUFFIX,fozhu.rrsdl.com,REJECT
@@ -28655,6 +28821,7 @@ rules:
   - DOMAIN-SUFFIX,g4rre.xyz,REJECT
   - DOMAIN-SUFFIX,g52bl.cn,REJECT
   - DOMAIN-SUFFIX,g6rfh.cn,REJECT
+  - DOMAIN-SUFFIX,ga-beacon.appspot.com,REJECT
   - DOMAIN-SUFFIX,ga.canoe.ca,REJECT
   - DOMAIN-SUFFIX,gad.kugou.com,REJECT
   - DOMAIN-SUFFIX,gadhx.cn,REJECT
@@ -28993,6 +29160,7 @@ rules:
   - DOMAIN-SUFFIX,graunada.com,REJECT
   - DOMAIN-SUFFIX,greatvideos.xyz,REJECT
   - DOMAIN-SUFFIX,grebanise.pw,REJECT
+  - DOMAIN-SUFFIX,green-griffin-860.appspot.com,REJECT
   - DOMAIN-SUFFIX,green.erne.co,REJECT
   - DOMAIN-SUFFIX,greenbetterkids.com,REJECT
   - DOMAIN-SUFFIX,greenhouseglobal.cn,REJECT
@@ -29334,6 +29502,7 @@ rules:
   - DOMAIN-SUFFIX,histormedengi.site,REJECT
   - DOMAIN-SUFFIX,hit-pool.upscore.io,REJECT
   - DOMAIN-SUFFIX,hit.dogannet.tv,REJECT
+  - DOMAIN-SUFFIX,hit.interia.pl,REJECT
   - DOMAIN-SUFFIX,hit.webcentre.lycos.co.uk,REJECT
   - DOMAIN-SUFFIX,hitlog2.chosun.com,REJECT
   - DOMAIN-SUFFIX,hits.sys.lv,REJECT
@@ -29556,6 +29725,7 @@ rules:
   - DOMAIN-SUFFIX,i.holalauncher.com,REJECT
   - DOMAIN-SUFFIX,i.huilixieye.net,REJECT
   - DOMAIN-SUFFIX,i.l.cnn.net,REJECT
+  - DOMAIN-SUFFIX,i.liadm.com,REJECT
   - DOMAIN-SUFFIX,i.mmcdn.cn,REJECT
   - DOMAIN-SUFFIX,i.stat.nearme.com.cn,REJECT
   - DOMAIN-SUFFIX,i.syasn.com,REJECT
@@ -30034,6 +30204,7 @@ rules:
   - DOMAIN-SUFFIX,jasonsvid.com,REJECT
   - DOMAIN-SUFFIX,jaugloup.com,REJECT
   - DOMAIN-SUFFIX,jav23.com,REJECT
+  - DOMAIN-SUFFIX,javascriptcounter.appspot.com,REJECT
   - DOMAIN-SUFFIX,javhd.com,REJECT
   - DOMAIN-SUFFIX,jb.4hw.com.cn,REJECT
   - DOMAIN-SUFFIX,jb.asqql.com,REJECT
@@ -30269,6 +30440,7 @@ rules:
   - DOMAIN-SUFFIX,js.ea3w.com,REJECT
   - DOMAIN-SUFFIX,js.fengniao.com,REJECT
   - DOMAIN-SUFFIX,js.hkslg520.com,REJECT
+  - DOMAIN-SUFFIX,js.hs-analytics.net,REJECT
   - DOMAIN-SUFFIX,js.idgdmg.com.cn,REJECT
   - DOMAIN-SUFFIX,js.jianbihuadq.com,REJECT
   - DOMAIN-SUFFIX,js.kt250.com,REJECT
@@ -30304,6 +30476,7 @@ rules:
   - DOMAIN-SUFFIX,js883.njqunyi.com,REJECT
   - DOMAIN-SUFFIX,js88895.net,REJECT
   - DOMAIN-SUFFIX,js9318.bllzgqbyp.com,REJECT
+  - DOMAIN-SUFFIX,jsadsdisplay.cn-beijing.log.aliyuncs.com,REJECT
   - DOMAIN-SUFFIX,jsadt.com,REJECT
   - DOMAIN-SUFFIX,jsaik.com,REJECT
   - DOMAIN-SUFFIX,jsb.qianzhan.com,REJECT
@@ -30753,7 +30926,6 @@ rules:
   - DOMAIN-SUFFIX,lianfuhuang.cn,REJECT
   - DOMAIN-SUFFIX,liangao.com,REJECT
   - DOMAIN-SUFFIX,liangziweixg.com,REJECT
-  - DOMAIN-SUFFIX,lianmeng.360.cn,REJECT
   - DOMAIN-SUFFIX,lianyicq.cn,REJECT
   - DOMAIN-SUFFIX,liaoren85.com,REJECT
   - DOMAIN-SUFFIX,liaoruochen.cn,REJECT
@@ -30806,6 +30978,7 @@ rules:
   - DOMAIN-SUFFIX,lishuanghao.com,REJECT
   - DOMAIN-SUFFIX,listenother.com,REJECT
   - DOMAIN-SUFFIX,listlog.baofeng.net,REJECT
+  - DOMAIN-SUFFIX,literally-analytics.appspot.com,REJECT
   - DOMAIN-SUFFIX,litlif.net,REJECT
   - DOMAIN-SUFFIX,littlementok.site,REJECT
   - DOMAIN-SUFFIX,liufang1994.top,REJECT
@@ -31128,6 +31301,7 @@ rules:
   - DOMAIN-SUFFIX,m.symac.cn,REJECT
   - DOMAIN-SUFFIX,m.tcksbz888.com,REJECT
   - DOMAIN-SUFFIX,m.tiantianedu.net,REJECT
+  - DOMAIN-SUFFIX,m.trb.com,REJECT
   - DOMAIN-SUFFIX,m.tuopp.com,REJECT
   - DOMAIN-SUFFIX,m.uc123.com,REJECT
   - DOMAIN-SUFFIX,m.uczzd.cn,REJECT
@@ -31228,7 +31402,9 @@ rules:
   - DOMAIN-SUFFIX,marketing.888.com,REJECT
   - DOMAIN-SUFFIX,marketing.etouch.cn,REJECT
   - DOMAIN-SUFFIX,marketing.kalahari.net,REJECT
+  - DOMAIN-SUFFIX,marketing.net.jumia.com.ng,REJECT
   - DOMAIN-SUFFIX,marketing.nodesource.com,REJECT
+  - DOMAIN-SUFFIX,marketing.tr.netsalesmedia.pl,REJECT
   - DOMAIN-SUFFIX,marketo.net,REJECT
   - DOMAIN-SUFFIX,marwinhitted.site,REJECT
   - DOMAIN-SUFFIX,masdk.3g.qq.com,REJECT
@@ -31351,13 +31527,16 @@ rules:
   - DOMAIN-SUFFIX,metric.inetcore.com,REJECT
   - DOMAIN-SUFFIX,metric.ipv6test.net,REJECT
   - DOMAIN-SUFFIX,metricfast.com,REJECT
+  - DOMAIN-SUFFIX,metrics.cbn.com,REJECT
   - DOMAIN-SUFFIX,metrics.cbslocal.com,REJECT
+  - DOMAIN-SUFFIX,metrics.ee.co.uk,REJECT
   - DOMAIN-SUFFIX,metrics.extremetech.com,REJECT
   - DOMAIN-SUFFIX,metrics.feedroom.com,REJECT
   - DOMAIN-SUFFIX,metrics.seenon.com,REJECT
   - DOMAIN-SUFFIX,metrics.sonymusicd2c.com,REJECT
   - DOMAIN-SUFFIX,metrics.tbliab.net,REJECT
   - DOMAIN-SUFFIX,metrics.ted.com,REJECT
+  - DOMAIN-SUFFIX,metrics.toptenreviews.com,REJECT
   - DOMAIN-SUFFIX,metrics.upcload.com,REJECT
   - DOMAIN-SUFFIX,metrics.wikinvest.com,REJECT
   - DOMAIN-SUFFIX,metrigo.zalan.do,REJECT
@@ -32124,6 +32303,7 @@ rules:
   - DOMAIN-SUFFIX,olpvimg.onlylady.com,REJECT
   - DOMAIN-SUFFIX,olstats.onlylady.com,REJECT
   - DOMAIN-SUFFIX,olxt.top,REJECT
+  - DOMAIN-SUFFIX,om.cbsi.com,REJECT
   - DOMAIN-SUFFIX,om.rogersmedia.com,REJECT
   - DOMAIN-SUFFIX,omaceran.pw,REJECT
   - DOMAIN-SUFFIX,omafaren.pw,REJECT
@@ -32132,9 +32312,12 @@ rules:
   - DOMAIN-SUFFIX,omgmta1.qq.com,REJECT
   - DOMAIN-SUFFIX,omgnjvrjgpeg.com,REJECT
   - DOMAIN-SUFFIX,ommodatesjoin.info,REJECT
+  - DOMAIN-SUFFIX,omni.nine.com.au,REJECT
   - DOMAIN-SUFFIX,omnikool.discovery.com,REJECT
+  - DOMAIN-SUFFIX,omniture.stuff.co.nz,REJECT
   - DOMAIN-SUFFIX,omniture.theglobeandmail.com,REJECT
   - DOMAIN-SUFFIX,omoaxaus.net,REJECT
+  - DOMAIN-SUFFIX,oms.expedia.com,REJECT
   - DOMAIN-SUFFIX,omtrdc.net,REJECT
   - DOMAIN-SUFFIX,omztf.cn,REJECT
   - DOMAIN-SUFFIX,on.maxspeedcdn.com,REJECT
@@ -32335,6 +32518,7 @@ rules:
   - DOMAIN-SUFFIX,partner-safe.men,REJECT
   - DOMAIN-SUFFIX,partner.bargaindomains.com,REJECT
   - DOMAIN-SUFFIX,partner.catchy.com,REJECT
+  - DOMAIN-SUFFIX,partner.permutive.app,REJECT
   - DOMAIN-SUFFIX,partner.premiumdomains.com,REJECT
   - DOMAIN-SUFFIX,partner.toutiao.com,REJECT
   - DOMAIN-SUFFIX,partner.worldoftanks.com,REJECT
@@ -32395,6 +32579,7 @@ rules:
   - DOMAIN-SUFFIX,pcsoftwords.dftoutiao.com,REJECT
   - DOMAIN-SUFFIX,pcvideoaliyun.titan.mgtv.com,REJECT
   - DOMAIN-SUFFIX,pcvideoyd.titan.mgtv.com,REJECT
+  - DOMAIN-SUFFIX,pcweb-v1.log.mgtv.com,REJECT
   - DOMAIN-SUFFIX,pcweb.v1.mgtv.com,REJECT
   - DOMAIN-SUFFIX,pcxzo.pluto.sogou.com,REJECT
   - DOMAIN-SUFFIX,pd-news.com,REJECT
@@ -32494,6 +32679,7 @@ rules:
   - DOMAIN-SUFFIX,pimg1.126.net,REJECT
   - DOMAIN-SUFFIX,pincidao.cn,REJECT
   - DOMAIN-SUFFIX,pindao.huoban.taobao.com,REJECT
+  - DOMAIN-SUFFIX,ping-dot-acp-magento.appspot.com,REJECT
   - DOMAIN-SUFFIX,ping.acc.sogou.com,REJECT
   - DOMAIN-SUFFIX,ping.pinyin.sogou.com,REJECT
   - DOMAIN-SUFFIX,ping.weiduofan.com,REJECT
@@ -32528,6 +32714,7 @@ rules:
   - DOMAIN-SUFFIX,pixel.bild.de,REJECT
   - DOMAIN-SUFFIX,pixel.dorehernowi.pro,REJECT
   - DOMAIN-SUFFIX,pixel.fanbridge.com,REJECT
+  - DOMAIN-SUFFIX,pixel.glimr.io,REJECT
   - DOMAIN-SUFFIX,pixel.naij.com,REJECT
   - DOMAIN-SUFFIX,pixel.newscgp.com,REJECT
   - DOMAIN-SUFFIX,pixel.newsdiscover.com.au,REJECT
@@ -32537,6 +32724,7 @@ rules:
   - DOMAIN-SUFFIX,pixel.reddit.com,REJECT
   - DOMAIN-SUFFIX,pixel.spotify.com,REJECT
   - DOMAIN-SUFFIX,pixel.staging.tree.com,REJECT
+  - DOMAIN-SUFFIX,pixel.tapad.com,REJECT
   - DOMAIN-SUFFIX,pixel.vihub.ru,REJECT
   - DOMAIN-SUFFIX,pixels.asia,REJECT
   - DOMAIN-SUFFIX,pixels.livingsocial.com,REJECT
@@ -32964,6 +33152,7 @@ rules:
   - DOMAIN-SUFFIX,quanjiapp.cn,REJECT
   - DOMAIN-SUFFIX,quansj.cn,REJECT
   - DOMAIN-SUFFIX,quavomi.com,REJECT
+  - DOMAIN-SUFFIX,qubitanalytics.appspot.com,REJECT
   - DOMAIN-SUFFIX,qucaigg.com,REJECT
   - DOMAIN-SUFFIX,queene.cn,REJECT
   - DOMAIN-SUFFIX,questionmarket.com,REJECT
@@ -33451,6 +33640,7 @@ rules:
   - DOMAIN-SUFFIX,sbpb1.qulishi.com,REJECT
   - DOMAIN-SUFFIX,sbroughhig.info,REJECT
   - DOMAIN-SUFFIX,sbrqp.com,REJECT
+  - DOMAIN-SUFFIX,sc.cc.com,REJECT
   - DOMAIN-SUFFIX,sc.chinaiiss.com,REJECT
   - DOMAIN-SUFFIX,sc.csai.cn,REJECT
   - DOMAIN-SUFFIX,sc.ggfeng.com,REJECT
@@ -33654,7 +33844,6 @@ rules:
   - DOMAIN-SUFFIX,shop265.com,REJECT
   - DOMAIN-SUFFIX,shoppingpartners2.futurenet.com,REJECT
   - DOMAIN-SUFFIX,shorug.cn,REJECT
-  - DOMAIN-SUFFIX,shouji.360.cn,REJECT
   - DOMAIN-SUFFIX,shouji.sougou.com,REJECT
   - DOMAIN-SUFFIX,shouwangba.cn,REJECT
   - DOMAIN-SUFFIX,shouyoutan.com,REJECT
@@ -33897,6 +34086,7 @@ rules:
   - DOMAIN-SUFFIX,ssix.io,REJECT
   - DOMAIN-SUFFIX,ssjpx.com,REJECT
   - DOMAIN-SUFFIX,ssjy168.com,REJECT
+  - DOMAIN-SUFFIX,ssl-cdn.static.browser.mi-img.com,REJECT
   - DOMAIN-SUFFIX,ssl.hyhzy.cn,REJECT
   - DOMAIN-SUFFIX,ssmuse1314.cn,REJECT
   - DOMAIN-SUFFIX,ssorsophicla.info,REJECT
@@ -33920,6 +34110,8 @@ rules:
   - DOMAIN-SUFFIX,sssgao999.com,REJECT
   - DOMAIN-SUFFIX,sssvd.china.com,REJECT
   - DOMAIN-SUFFIX,sstar.vip,REJECT
+  - DOMAIN-SUFFIX,sstats.mora.jp,REJECT
+  - DOMAIN-SUFFIX,sstats.oui.sncf,REJECT
   - DOMAIN-SUFFIX,sstc360.com,REJECT
   - DOMAIN-SUFFIX,st-n.ads3-adnow.com,REJECT
   - DOMAIN-SUFFIX,st.arte.tv,REJECT
@@ -33927,6 +34119,7 @@ rules:
   - DOMAIN-SUFFIX,st.holaworld.cn,REJECT
   - DOMAIN-SUFFIX,st.targetix.net,REJECT
   - DOMAIN-SUFFIX,st.vq.ku6.cn,REJECT
+  - DOMAIN-SUFFIX,st.yandexadexchange.net,REJECT
   - DOMAIN-SUFFIX,st.zzhyyj.com,REJECT
   - DOMAIN-SUFFIX,st123.info,REJECT
   - DOMAIN-SUFFIX,sta.ganji.com,REJECT
@@ -34022,6 +34215,7 @@ rules:
   - DOMAIN-SUFFIX,stats.cheddar.com,REJECT
   - DOMAIN-SUFFIX,stats.chinaz.com,REJECT
   - DOMAIN-SUFFIX,stats.christianpost.com,REJECT
+  - DOMAIN-SUFFIX,stats.cloudwp.io,REJECT
   - DOMAIN-SUFFIX,stats.developingperspective.com,REJECT
   - DOMAIN-SUFFIX,stats.dice.com,REJECT
   - DOMAIN-SUFFIX,stats.digg.com,REJECT
@@ -34041,6 +34235,7 @@ rules:
   - DOMAIN-SUFFIX,stats.propublica.org,REJECT
   - DOMAIN-SUFFIX,stats.pusher.com,REJECT
   - DOMAIN-SUFFIX,stats.searchftps.org,REJECT
+  - DOMAIN-SUFFIX,stats.shopify.com,REJECT
   - DOMAIN-SUFFIX,stats.shoppydoo.com,REJECT
   - DOMAIN-SUFFIX,stats.sitesuite.org,REJECT
   - DOMAIN-SUFFIX,stats.slideshare.net,REJECT
@@ -34085,6 +34280,7 @@ rules:
   - DOMAIN-SUFFIX,store.ptqy.gitv.tv,REJECT
   - DOMAIN-SUFFIX,store.tv.api.3g.youku.com,REJECT
   - DOMAIN-SUFFIX,store.xl.api.3g.youku.com,REJECT
+  - DOMAIN-SUFFIX,storeconfig.mistat.xiaomi.com,REJECT
   - DOMAIN-SUFFIX,storewidget.pcauthority.com.au,REJECT
   - DOMAIN-SUFFIX,storygize.net,REJECT
   - DOMAIN-SUFFIX,stream.heavenmedia.net,REJECT
@@ -34339,6 +34535,7 @@ rules:
   - DOMAIN-SUFFIX,targetedinfo.com,REJECT
   - DOMAIN-SUFFIX,targetedmedia.com.cn,REJECT
   - DOMAIN-SUFFIX,targetedtopic.com,REJECT
+  - DOMAIN-SUFFIX,targeting.perso.aws.arc.pub,REJECT
   - DOMAIN-SUFFIX,tartoals.net,REJECT
   - DOMAIN-SUFFIX,taryarguestio.info,REJECT
   - DOMAIN-SUFFIX,tatagou.com.cn,REJECT
@@ -34354,6 +34551,7 @@ rules:
   - DOMAIN-SUFFIX,tbinq.com,REJECT
   - DOMAIN-SUFFIX,tbjfw.com,REJECT
   - DOMAIN-SUFFIX,tbskip.taobao.com,REJECT
+  - DOMAIN-SUFFIX,tc.airfrance.com,REJECT
   - DOMAIN-SUFFIX,tc.ci123.com,REJECT
   - DOMAIN-SUFFIX,tc.hometogo.net,REJECT
   - DOMAIN-SUFFIX,tc600.com,REJECT
@@ -34610,7 +34808,6 @@ rules:
   - DOMAIN-SUFFIX,track.eyeviewads.com,REJECT
   - DOMAIN-SUFFIX,track.fxstreet.com,REJECT
   - DOMAIN-SUFFIX,track.hubspot.com,REJECT
-  - DOMAIN-SUFFIX,track.hujiang.com,REJECT
   - DOMAIN-SUFFIX,track.leadin.com,REJECT
   - DOMAIN-SUFFIX,track.mopo.de,REJECT
   - DOMAIN-SUFFIX,track.ning.com,REJECT
@@ -34642,7 +34839,6 @@ rules:
   - DOMAIN-SUFFIX,tracker.lolalytics.com,REJECT
   - DOMAIN-SUFFIX,tracker.mattel.com,REJECT
   - DOMAIN-SUFFIX,tracker.neon-images.com,REJECT
-  - DOMAIN-SUFFIX,tracker.nitropay.com,REJECT
   - DOMAIN-SUFFIX,tracker.pandora.com,REJECT
   - DOMAIN-SUFFIX,tracker.pinnaclesports.com,REJECT
   - DOMAIN-SUFFIX,tracker.realclearpolitics.com,REJECT
@@ -34674,7 +34870,6 @@ rules:
   - DOMAIN-SUFFIX,tracking.mobile.de,REJECT
   - DOMAIN-SUFFIX,tracking.mycapture.com,REJECT
   - DOMAIN-SUFFIX,tracking.nextdoor.com,REJECT
-  - DOMAIN-SUFFIX,tracking.olx-st.com,REJECT
   - DOMAIN-SUFFIX,tracking.oui.sncf,REJECT
   - DOMAIN-SUFFIX,tracking.porndoelabs.com,REJECT
   - DOMAIN-SUFFIX,tracking.pornhd.com,REJECT
@@ -34767,6 +34962,7 @@ rules:
   - DOMAIN-SUFFIX,ttcdn.cn,REJECT
   - DOMAIN-SUFFIX,ttdetect.staticimgfarm.com,REJECT
   - DOMAIN-SUFFIX,ttfgames.cn,REJECT
+  - DOMAIN-SUFFIX,ttjx-online.cn-hangzhou.log.aliyuncs.com,REJECT
   - DOMAIN-SUFFIX,ttlm.cc,REJECT
   - DOMAIN-SUFFIX,ttlowe.com,REJECT
   - DOMAIN-SUFFIX,ttqr58.cn,REJECT
@@ -35115,18 +35311,20 @@ rules:
   - DOMAIN-SUFFIX,uzpmrbek.com,REJECT
   - DOMAIN-SUFFIX,uzyid.cn,REJECT
   - DOMAIN-SUFFIX,v.rmbn.net,REJECT
-  - DOMAIN-SUFFIX,v.smtcdns.net,REJECT
+  - DOMAIN-SUFFIX,v.shopify.com,REJECT
   - DOMAIN-SUFFIX,v.szpaopao.com,REJECT
   - DOMAIN-SUFFIX,v00087.com,REJECT
   - DOMAIN-SUFFIX,v02u9.cn,REJECT
   - DOMAIN-SUFFIX,v066b5.cn,REJECT
   - DOMAIN-SUFFIX,v1-feed.idreamsky.com,REJECT
+  - DOMAIN-SUFFIX,v1-play.log.mgtv.com,REJECT
   - DOMAIN-SUFFIX,v1.0594529.com,REJECT
   - DOMAIN-SUFFIX,v1.kwpewga.cn,REJECT
   - DOMAIN-SUFFIX,v1.phb123.com,REJECT
   - DOMAIN-SUFFIX,v1.taksh.cn,REJECT
   - DOMAIN-SUFFIX,v2.fm.n.duokanbox.com,REJECT
   - DOMAIN-SUFFIX,v2.hunantv.com,REJECT
+  - DOMAIN-SUFFIX,v2.log.mgtv.com,REJECT
   - DOMAIN-SUFFIX,v3iy0h.cn,REJECT
   - DOMAIN-SUFFIX,v44i.cn,REJECT
   - DOMAIN-SUFFIX,v4dwkcv.com,REJECT
@@ -35218,6 +35416,7 @@ rules:
   - DOMAIN-SUFFIX,viralvideos.pw,REJECT
   - DOMAIN-SUFFIX,virashux.net,REJECT
   - DOMAIN-SUFFIX,virgo8.cn,REJECT
+  - DOMAIN-SUFFIX,visit.asb.co.nz,REJECT
   - DOMAIN-SUFFIX,visit.dealspwn.com,REJECT
   - DOMAIN-SUFFIX,visit.mobot.net,REJECT
   - DOMAIN-SUFFIX,vista.tgbus.com,REJECT
@@ -35233,6 +35432,7 @@ rules:
   - DOMAIN-SUFFIX,vknrfwwxhxaxupqp.pro,REJECT
   - DOMAIN-SUFFIX,vkuay.com,REJECT
   - DOMAIN-SUFFIX,vl8c4g7tmo.me,REJECT
+  - DOMAIN-SUFFIX,vlion.cn,REJECT
   - DOMAIN-SUFFIX,vlive.qqvideo.tc.qq.com,REJECT
   - DOMAIN-SUFFIX,vmiua.com,REJECT
   - DOMAIN-SUFFIX,vmjjzk.cn,REJECT
@@ -35240,6 +35440,7 @@ rules:
   - DOMAIN-SUFFIX,vn543.com,REJECT
   - DOMAIN-SUFFIX,vn6e8w2w92.com,REJECT
   - DOMAIN-SUFFIX,vnanf.com,REJECT
+  - DOMAIN-SUFFIX,vnf4.belleetbio.com,REJECT
   - DOMAIN-SUFFIX,vnnv777.cn,REJECT
   - DOMAIN-SUFFIX,vns3359.com,REJECT
   - DOMAIN-SUFFIX,vns800600.net,REJECT
@@ -35723,6 +35924,7 @@ rules:
   - DOMAIN-SUFFIX,wzyywlkj.com,REJECT
   - DOMAIN-SUFFIX,x.120ask.com,REJECT
   - DOMAIN-SUFFIX,x.9dagui.com,REJECT
+  - DOMAIN-SUFFIX,x.bidswitch.net,REJECT
   - DOMAIN-SUFFIX,x.bikaer.com,REJECT
   - DOMAIN-SUFFIX,x.castanet.net,REJECT
   - DOMAIN-SUFFIX,x.eroticity.net,REJECT
@@ -35984,7 +36186,6 @@ rules:
   - DOMAIN-SUFFIX,xuanmeiguoji.com,REJECT
   - DOMAIN-SUFFIX,xue.zbyw.cn,REJECT
   - DOMAIN-SUFFIX,xuehelei.com,REJECT
-  - DOMAIN-SUFFIX,xuehongxs.com:8862,REJECT
   - DOMAIN-SUFFIX,xuexi.hydcd.com,REJECT
   - DOMAIN-SUFFIX,xueyanshan.com,REJECT
   - DOMAIN-SUFFIX,xueyongbao.com,REJECT
@@ -36668,8 +36869,33 @@ rules:
   - DOMAIN-SUFFIX,zzyonghao.com,REJECT
   - DOMAIN-SUFFIX,zzz7.52896368.com,REJECT
   - DOMAIN-SUFFIX,zzzzz4.52896368.com,REJECT
+  - DOMAIN-KEYWORD,admarvel,REJECT
+  - DOMAIN-KEYWORD,admaster,REJECT
+  - DOMAIN-KEYWORD,adsage,REJECT
+  - DOMAIN-KEYWORD,adsensor,REJECT
+  - DOMAIN-KEYWORD,adservice,REJECT
+  - DOMAIN-KEYWORD,adsmogo,REJECT
+  - DOMAIN-KEYWORD,adsrvmedia,REJECT
+  - DOMAIN-KEYWORD,adsserving,REJECT
+  - DOMAIN-KEYWORD,adsystem,REJECT
+  - DOMAIN-KEYWORD,adwords,REJECT
+  - DOMAIN-KEYWORD,applovin,REJECT
+  - DOMAIN-KEYWORD,appsflyer,REJECT
+  - DOMAIN-KEYWORD,domob,REJECT
+  - DOMAIN-KEYWORD,duomeng,REJECT
+  - DOMAIN-KEYWORD,dwtrack,REJECT
+  - DOMAIN-KEYWORD,guanggao,REJECT
+  - DOMAIN-KEYWORD,omgmta,REJECT
+  - DOMAIN-KEYWORD,omniture,REJECT
+  - DOMAIN-KEYWORD,openx,REJECT
+  - DOMAIN-KEYWORD,partnerad,REJECT
+  - DOMAIN-KEYWORD,pingfore,REJECT
+  - DOMAIN-KEYWORD,socdm,REJECT
   - DOMAIN-KEYWORD,stsdk.vivo.com.cn,REJECT
   - DOMAIN-KEYWORD,stsdk.vivoglobal.com,REJECT
+  - DOMAIN-KEYWORD,supersonicads,REJECT
+  - DOMAIN-KEYWORD,wlmonitor,REJECT
+  - DOMAIN-KEYWORD,zjtoolbar,REJECT
   - IP-CIDR,1.3.0.10/32,REJECT,no-resolve
   - IP-CIDR,10.72.25.0/24,REJECT,no-resolve
   - IP-CIDR,101.124.19.122/32,REJECT,no-resolve
