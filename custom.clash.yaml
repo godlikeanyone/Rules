@@ -14,6 +14,7 @@ dns:
     - tls://x.passcloud.xyz
     - tls://b.iqiq.io:853
     - tls://h.iqiq.io:853
+    - tls://j.iqiq.io:853
     - tls://i.passcloud.xyz:5432
     - tls://a.passcloud.xyz:5432
     - tls://162.14.132.109:853
