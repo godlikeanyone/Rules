@@ -1,2 +1,6 @@
+# WeChat网络状态检测
 ip-cidr, 101.32.0.0/16, direct
-domain-suffix, wechat.com, direct
+# WeChat
+host-suffix, wechat.com, direct
+# 微博IP变更
+host, api.weibo.cn, proxy
