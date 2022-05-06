@@ -1,0 +1,37 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - tls://c.passcloud.xyz
+    - tls://x.passcloud.xyz
+    - tls://b.iqiq.io:853
+    - tls://h.iqiq.io:853
+    - tls://j.iqiq.io:853
+    - tls://i.passcloud.xyz:5432
+    - tls://a.passcloud.xyz:5432
+    - tls://162.14.132.109:853
+    - tls://162.14.132.76:853
+    - tls://v.233py.com
+    - https://worldwide.passcloud.xyz/dns-query
+  fake-ip-filter:
+    - "dns.msftncsi.com"
+    - "www.msftncsi.com"
+    - "www.msftconnecttest.com"
+
+proxies:
+
+proxy-groups:
+  - { name: "$app_name", type: select, proxies: ["自动选择"] }
+  - { name: "自动选择", type: url-test, proxies: [], url: "https://www.v2ex.com/generate_204", interval: 6400 }
+
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,$app_name
