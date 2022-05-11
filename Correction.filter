@@ -3,7 +3,7 @@ ip-cidr, 101.32.0.0/16, direct
 # WeChat
 host-suffix, wechat.com, direct
 # 微博IP变更
-#host, api.weibo.cn, proxy
+host, api.weibo.cn, proxy
 host, mapi.weibo.com, proxy
 # WeChat IP
 host, mp.weixin.qq.com, proxy
