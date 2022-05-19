@@ -19,9 +19,9 @@ dns:
     - "www.msftncsi.com"
     - "www.msftconnecttest.com"
 proxies:
-  - {name: 🏳️‍🌈 香港阿里云1, server: 8.216.12.34, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
-  - {name: 🏳️‍🌈 香港阿里云2, server: 37.120.154.103, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
-  - {name: 🏳️‍🌈 香港阿里云3, server: 47.91.144.17, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
+  - {name: 🏳️‍🌈 香港阿里云1, server: 47.52.78.112, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
+  - {name: 🏳️‍🌈 香港阿里云2, server: 47.57.245.232, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
+  - {name: 🏳️‍🌈 香港阿里云3, server: 47.57.182.4, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
   - {name: 陕西移动, server: 111.19.167.81, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
 proxy-groups:
   - name: Proxies
