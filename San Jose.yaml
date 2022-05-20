@@ -1,6 +1,11 @@
+# Free Clash Nodes v5.21
+# Powered by Sayuri with Love❤
 port: 7890
 socks-port: 7891
+allow-lan: true
 mode: Rule
+log-level: info
+external-controller: :9090
 dns:
   enable: true
   enhanced-mode: fake-ip
@@ -19,28 +24,91 @@ dns:
     - "www.msftncsi.com"
     - "www.msftconnecttest.com"
 proxies:
-  - {name: 🏳️‍🌈 香港阿里云1, server: 47.52.78.112, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
-  - {name: 🏳️‍🌈 香港阿里云2, server: 47.57.245.232, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
-  - {name: 🏳️‍🌈 香港阿里云3, server: 47.57.182.4, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
-  - {name: 🏳️‍🌈 香港阿里云4, server: 47.52.50.183, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
-  - {name: 🏳️‍🌈 香港阿里云5, server: 47.242.247.238, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
-  - {name: 🏳️‍🌈 香港阿里云6, server: 47.243.245.195, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
-  - {name: 🏳️‍🌈 香港阿里云7, server: 8.210.202.122, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
-  - {name: 🏳️‍🌈 香港阿里云8, server: 47.243.22.153, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
-  - {name: 🏳️‍🌈 香港阿里云9, server: 47.242.146.209, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}}
+  - {name: CF, server: 47.52.50.183, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 腾讯云新加坡1, server: 43.156.39.248, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 腾讯云新加坡2, server: 43.156.7.182, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 腾讯云新加坡3, server: 43.134.91.212, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 腾讯云香港1, server: 43.154.55.155, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 腾讯云香港2, server: 43.154.5.144, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 腾讯云香港3, server: 43.154.75.18, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 腾讯云香港4, server: 124.156.137.34, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 腾讯云香港6, server: 150.109.147.14, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 腾讯云香港7, server: 43.129.221.110, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 北京电信, server: 36.110.215.68, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 上海移动1, server: 183.195.133.82, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 上海移动2, server: 183.195.133.82, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}  
+  - {name: 阿里云香港-G口, server: 8.210.83.33, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云香港2, server: 47.52.50.183, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云香港4, server: 8.210.51.190, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云香港6, server: 47.91.153.45, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云香港9, server: 47.243.206.0, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云香港10, server: 47.243.6.109, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云香港11-G口, server: 47.56.143.21, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云香港12, server: 47.243.115.162, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云香港13, server: 47.243.22.153, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云香港15, server: 47.52.57.57, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云香港16, server: 47.243.205.204, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云香港17, server: 47.242.199.100, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云香港18, server: 47.242.146.209, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云新加坡1, server: 47.241.13.35, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云新加坡2, server: 47.241.187.250, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云新加坡3, server: 47.241.222.60, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云新加坡4, server: 47.241.253.205, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云新加坡6, server: 47.241.214.155, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云新加坡7, server: 8.219.0.50, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云新加坡8, server: 161.117.177.211, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云新加坡10, server: 47.241.187.248, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云新加坡11, server: 47.241.233.124, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云新加坡14, server: 161.117.231.89, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云新加坡16, server: 47.241.188.84, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 合肥移动3, server: 112.29.7.89, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 沈阳电信, server: 59.44.17.230, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
+  - {name: 阿里云深圳G口, server: 47.241.188.84, port: 443, type: vmess, uuid: 4ae9ca2c-c7b9-4ed5-9564-9a2265de2e80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.ratzsuck.tk}}, udp: true}
 proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - 🏳️‍🌈 香港阿里云1
-      - 🏳️‍🌈 香港阿里云2
-      - 🏳️‍🌈 香港阿里云3
-      - 🏳️‍🌈 香港阿里云4
-      - 🏳️‍🌈 香港阿里云5
-      - 🏳️‍🌈 香港阿里云6
-      - 🏳️‍🌈 香港阿里云7
-      - 🏳️‍🌈 香港阿里云8
-      - 🏳️‍🌈 香港阿里云9
+      - CF
+      - 阿里云深圳G口
+      - 腾讯云新加坡1
+      - 腾讯云新加坡2
+      - 腾讯云新加坡3
+      - 腾讯云香港1
+      - 腾讯云香港2
+      - 腾讯云香港3
+      - 腾讯云香港4
+      - 腾讯云香港6
+      - 腾讯云香港7
+      - 北京电信
+      - 上海移动1
+      - 上海移动2
+      - 阿里云香港-G口
+      - 阿里云香港2
+      - 阿里云香港4
+      - 阿里云香港6
+      - 阿里云香港9
+      - 阿里云香港10
+      - 阿里云香港11-G口
+      - 阿里云香港12
+      - 阿里云香港13
+      - 阿里云香港15
+      - 阿里云香港16
+      - 阿里云香港17
+      - 阿里云香港18
+      - 阿里云新加坡1
+      - 阿里云新加坡2
+      - 阿里云新加坡3
+      - 阿里云新加坡4
+      - 阿里云新加坡6
+      - 阿里云新加坡7
+      - 阿里云新加坡8
+      - 阿里云新加坡10
+      - 阿里云新加坡11
+      - 阿里云新加坡14
+      - 阿里云新加坡16
+      - 合肥移动3
+      - 沈阳电信
+
 rules:
  - GEOIP,CN,DIRECT
  - MATCH,Proxies
