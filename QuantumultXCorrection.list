@@ -1,3 +1,5 @@
+# WeChat连接检测
+ip-cidr, 101.32.118.25/32, direct
 # WeChat
 host-suffix, wechat.com, direct
 # 微博IP变更
