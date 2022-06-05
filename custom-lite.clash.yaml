@@ -12,7 +12,6 @@ dns:
   nameserver:
     - tls://i.passcloud.xyz:5432
     - tls://a.passcloud.xyz:5432
-    - tls://162.14.132.76:853
     - tls://1.1.1.1
     - tls://1.0.0.1
   fake-ip-filter:
