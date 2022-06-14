@@ -8,3 +8,5 @@ host, api.weibo.cn, proxy
 host, mapi.weibo.com, proxy
 # WeChat IP
 host, mp.weixin.qq.com, proxy
+# 测速
+host, speedtest.im, direct
