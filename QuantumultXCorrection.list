@@ -7,3 +7,5 @@ host, mapi.weibo.com, proxy
 host, mp.weixin.qq.com, proxy
 # 测速
 host, speedtest.im, direct
+# 网盘
+host, invictusgod-my.sharepoint.com, direct
