@@ -5,7 +5,9 @@ host, api.weibo.cn, proxy
 host, mapi.weibo.com, proxy
 # WeChat IP
 host, mp.weixin.qq.com, proxy
-# 测速
+# 测速直连
 host, speedtest.im, direct
-# 网盘
+# 网盘直连
 host, invictusgod-my.sharepoint.com, direct
+# time.is 直连
+host, time.is, direct
