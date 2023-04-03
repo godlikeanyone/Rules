@@ -2,4 +2,4 @@ DOMAIN, api.weibo.cn
 DOMAIN-SUFFIX, weibo.com
 DOMAIN, mp.weixin.qq.com
 DOMAIN, api.bilibili.com
-DOMAIN-KEYWORD,bing
+DOMAIN-KEYWORD, bing
