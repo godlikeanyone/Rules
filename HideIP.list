@@ -2,6 +2,7 @@ DOMAIN, api.weibo.cn
 DOMAIN-SUFFIX, weibo.com
 DOMAIN, mp.weixin.qq.com
 DOMAIN, api.bilibili.com
+DOMAIN, api.vc.bilibili.com
 DOMAIN, c.tieba.baidu.com
 DOMAIN-KEYWORD, bing
 DOMAIN-SUFFIX, xiaohongshu.com
