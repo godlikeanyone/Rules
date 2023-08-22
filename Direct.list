@@ -4,3 +4,6 @@ DOMAIN, time.is
 DOMAIN, alist.sayuri.cf
 IP-CIDR, 101.32.104.4/32
 DOMAIN-SUFFIX, wechat.com
+DOMAIN, dns.msftncsi.com
+DOMAIN, www.msftncsi.com
+DOMAIN, www.msftconnecttest.com
