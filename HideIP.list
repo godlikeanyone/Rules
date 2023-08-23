@@ -5,6 +5,6 @@ DOMAIN, api.bilibili.com
 DOMAIN, api.vc.bilibili.com
 DOMAIN-KEYWORD, bing
 DOMAIN-SUFFIX, xiaohongshu.com
-DOMAIN,tieba.baidu.com
-DOMAIN,tiebac.baidu.com
+DOMAIN, tieba.baidu.com
+DOMAIN, tiebac.baidu.com
 DOMAIN, c.tieba.baidu.com
