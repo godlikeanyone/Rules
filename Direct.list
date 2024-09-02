@@ -2,7 +2,7 @@ DOMAIN, invictusgod-my.sharepoint.com
 DOMAIN, speedtest.im
 DOMAIN, time.is
 DOMAIN-SUFFIX, wechat.com
-IP-CIDR, 43.153.0.0/20
-IP-CIDR, 101.32.0.0/20
+IP-CIDR, 43.153.0.0/18
 IP-CIDR, 43.155.0.0/18
 IP-CIDR, 43.160.0.0/18
+IP-CIDR, 101.32.0.0/20
