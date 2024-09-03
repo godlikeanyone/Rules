@@ -5,4 +5,4 @@ DOMAIN, time.is
 DOMAIN-SUFFIX, wechat.com
 IP-ASN, 132203
 # Taobao
-IP-CIDR, 47.246.96.0/22
+IP-ASN, 45102
