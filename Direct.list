@@ -1,8 +1,8 @@
-DOMAIN, invictusgod-my.sharepoint.com
-DOMAIN, speedtest.im
-DOMAIN, time.is
+DOMAIN,invictusgod-my.sharepoint.com
+DOMAIN,speedtest.im
+DOMAIN,time.is
 # WeChat
-DOMAIN-SUFFIX, wechat.com
-IP-ASN, 132203
+DOMAIN-SUFFIX,wechat.com
+IP-ASN,132203
 # Taobao
-IP-ASN, 45102
+IP-ASN,45102
