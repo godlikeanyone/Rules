@@ -1,7 +1,5 @@
 DOMAIN,api.weibo.cn
 DOMAIN-SUFFIX,weibo.com
-DOMAIN,api.bilibili.com
-DOMAIN,api.vc.bilibili.com
 DOMAIN,tieba.baidu.com
 DOMAIN,tiebac.baidu.com
 DOMAIN,c.tieba.baidu.com
